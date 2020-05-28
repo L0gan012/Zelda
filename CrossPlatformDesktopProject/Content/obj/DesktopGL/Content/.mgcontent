@@ -4,8 +4,8 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/logan/OneDrive - The Ohio State University/Second Year/3902/Sprint 0/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</File>
-    <File>C:/Users/logan/OneDrive - The Ohio State University/Second Year/3902/Sprint 0/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</File>
+    <File>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</File>
+    <File>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

@@ -48,8 +48,12 @@
     <Compile Include="AnimatedSpriteCommand.cs" />
     <Compile Include="ExitCommand.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="IBlock.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="IController.cs" />
+    <Compile Include="IEnemy.cs" />
+    <Compile Include="IItem.cs" />
+    <Compile Include="IPlayer.cs" />
     <Compile Include="ISprite.cs" />
     <Compile Include="KeyboardController.cs" />
     <Compile Include="MouseController.cs" />

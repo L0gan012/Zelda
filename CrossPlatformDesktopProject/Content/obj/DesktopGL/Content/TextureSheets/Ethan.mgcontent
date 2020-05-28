@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/logan/OneDrive - The Ohio State University/Second Year/3902/Sprint 0/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</SourceFile>
-  <SourceTime>2020-05-16T16:27:22.9570928-04:00</SourceTime>
-  <DestFile>C:/Users/logan/OneDrive - The Ohio State University/Second Year/3902/Sprint 0/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/Ethan.xnb</DestFile>
-  <DestTime>2020-05-17T21:00:19.1928027-04:00</DestTime>
+  <SourceFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</SourceFile>
+  <SourceTime>2020-05-28T16:45:49.2501029-04:00</SourceTime>
+  <DestFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/Ethan.xnb</DestFile>
+  <DestTime>2020-05-28T16:46:25.3126446-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
