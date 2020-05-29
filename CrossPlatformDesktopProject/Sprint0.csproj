@@ -55,6 +55,7 @@
     <Compile Include="IItem.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="ISprite.cs" />
+    <Compile Include="IState.cs" />
     <Compile Include="KeyboardController.cs" />
     <Compile Include="MouseController.cs" />
     <Compile Include="MovingSprite.cs" />
