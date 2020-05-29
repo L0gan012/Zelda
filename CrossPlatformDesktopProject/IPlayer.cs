@@ -28,16 +28,16 @@ namespace Sprint0
         //Idle down
         void IdlePlayerDown();
 
-        //Moves the player left
+        //Sets the player left state
         void MovePlayerLeft();
 
-        //Moves the player right
+        //Sets the player right state
         void MovePlayerRight();
 
-        //Moves the player up
+        //Sets the player up state
         void MovePlayerUp();
 
-        //Moves the player down
+        //Sets the player down state
         void MovePlayerDown();
 
         //Player attacks left
@@ -51,5 +51,17 @@ namespace Sprint0
 
         //Player attacks down
         void AttackDown();
+
+        //Moves the player left
+        void MoveLeft();
+
+        //Moves the player right
+        void MoveRight();
+
+        //Moves the player up
+        void MoveUp();
+
+        //Moves the player down
+        void MoveDown();
     }
 }
