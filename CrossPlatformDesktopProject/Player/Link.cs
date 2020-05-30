@@ -1,8 +1,10 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Sprint2.LinkState;
+using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint0
+namespace Sprint2.Player
+
 {
-    class Link : IPlayer
+   class Link : IPlayer
     {
         //Instance variables
         private ILinkState state;
@@ -106,7 +108,7 @@ namespace Sprint0
         //Moves Link left
         void MoveLeft()
         {
-            if(xPos > 0)
+            if (xPos > 0)
             {
                 xPos--;
             }
@@ -115,7 +117,7 @@ namespace Sprint0
         //Moves Link right
         void MoveRight()
         {
-            if(xPos < screenWidth)
+            if (xPos < screenWidth)
             {
                 xPos++;
             }
@@ -124,7 +126,7 @@ namespace Sprint0
         //Moves Link up
         void MoveUp()
         {
-            if(yPos > 0)
+            if (yPos > 0)
             {
                 yPos--;
             }
@@ -133,7 +135,7 @@ namespace Sprint0
         //Moves Link down
         void MoveDown()
         {
-            if(yPos < screenHeight)
+            if (yPos < screenHeight)
             {
                 yPos++;
             }

@@ -4,6 +4,8 @@ using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using Sprint2.Controller;
 using Sprint2.Factory;
+using Sprint2.LinkState;
+using Sprint2.Player;
 
 namespace Sprint2
 {

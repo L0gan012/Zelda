@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint0
+namespace Sprint2.LinkState
 {
     interface ILinkState
     {
