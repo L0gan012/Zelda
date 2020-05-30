@@ -5,9 +5,16 @@ namespace Sprint0
     class Link : IPlayer
     {
         //Instance variables
-        public ILinkState state;
+        private ILinkState state;
         private static int xPos;
         private static int yPos;
+
+        //Properties
+        public ILinkState State
+        {
+            get { return state; }
+            set { state = value; }
+        }
 
         //No parameter constructor, initializes Link to the down idle state
         public Link()
