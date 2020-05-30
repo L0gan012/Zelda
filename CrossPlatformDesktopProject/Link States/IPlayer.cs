@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2.LinkState
+namespace Sprint2
 {
     public interface IPlayer
     {
