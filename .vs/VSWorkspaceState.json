@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CrossPlatformDesktopProject",
+    "\\CrossPlatformDesktopProject\\bin",
+    "\\CrossPlatformDesktopProject\\bin\\DesktopGL",
+    "\\CrossPlatformDesktopProject\\bin\\DesktopGL\\AnyCPU\\Debug\\x64",
+    "\\CrossPlatformDesktopProject\\bin\\DesktopGL\\AnyCPU\\Debug\\x86",
+    "\\CrossPlatformDesktopProject\\bin\\DesktopGL\\AnyCPU\\Release"
   ],
-  "SelectedNode": "\\Sprint_0.sln",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Game1.cs",
   "PreviewInSolutionExplorer": false
 }
