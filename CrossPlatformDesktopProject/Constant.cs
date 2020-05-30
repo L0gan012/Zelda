@@ -4,6 +4,7 @@ namespace Sprint0
 {
     public class Class1
     {
+        //TODO: (Barry)  These are temporary fixed values for testing only.  
         public static readonly int ScreenWidth = 800;
         public static readonly int ScreenHeight = 480;
         public static readonly Vector2 LinkStartPosition = new Vector2(200, 200);

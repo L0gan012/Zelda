@@ -56,7 +56,7 @@ namespace Sprint0
 
             //Load Sprite Sheet and Sprite font from the content file
             spriteFont = Content.Load<SpriteFont>("Fonts/Font");
-            texture = Content.Load<Texture2D>("TextureSheets/Ethan");
+            texture = Content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 
             //Initialize the starting sprite to the stationary sprite
             sprite = new StationarySprite(this.GraphicsDevice.Viewport.Width, this.GraphicsDevice.Viewport.Height);
@@ -65,7 +65,7 @@ namespace Sprint0
         //Unloads content
         protected override void UnloadContent()
         {
-
+            Content.Unload();
         }
 
         //Update
