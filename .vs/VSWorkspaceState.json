@@ -3,11 +3,7 @@
     "",
     "\\CrossPlatformDesktopProject",
     "\\CrossPlatformDesktopProject\\bin",
-    "\\CrossPlatformDesktopProject\\bin\\DesktopGL",
-    "\\CrossPlatformDesktopProject\\bin\\DesktopGL\\AnyCPU\\Debug\\x64",
-    "\\CrossPlatformDesktopProject\\bin\\DesktopGL\\AnyCPU\\Debug\\x86",
-    "\\CrossPlatformDesktopProject\\bin\\DesktopGL\\AnyCPU\\Release"
+    "\\CrossPlatformDesktopProject\\bin\\DesktopGL"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Game1.cs",
   "PreviewInSolutionExplorer": false
 }
