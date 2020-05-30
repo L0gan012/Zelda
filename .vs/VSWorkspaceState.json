@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Content",
-    "\\CrossPlatformDesktopProject\\Content\\TextureAtlas",
-    "\\CrossPlatformDesktopProject\\Content\\TextureSheets"
+    "\\CrossPlatformDesktopProject"
   ],
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprint0.csproj",
   "PreviewInSolutionExplorer": false
 }
