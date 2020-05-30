@@ -2,7 +2,7 @@
 
 namespace Sprint0
 {
-    public class Class1
+    public class Constant
     {
         //TODO: (Barry)  These are temporary fixed values for testing only.  
         public static readonly int ScreenWidth = 800;

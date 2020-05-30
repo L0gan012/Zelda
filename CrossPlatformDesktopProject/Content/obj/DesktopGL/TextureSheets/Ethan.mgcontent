@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</SourceFile>
-  <SourceTime>2020-05-28T16:50:33.0209937-04:00</SourceTime>
+  <SourceTime>2020-05-30T02:19:59.409565-04:00</SourceTime>
   <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/Ethan.xnb</DestFile>
-  <DestTime>2020-05-29T23:22:57.4549938-04:00</DestTime>
+  <DestTime>2020-05-30T02:20:42.158308-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
