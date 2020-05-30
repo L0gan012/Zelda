@@ -1,7 +1,7 @@
-﻿namespace Sprint0
+﻿namespace Sprint2
 {
     //Command Interface
-    interface ICommand
+   public interface ICommand
     {
         //Exectues a command
         void Execute();

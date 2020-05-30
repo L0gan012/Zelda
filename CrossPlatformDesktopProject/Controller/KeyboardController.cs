@@ -1,17 +1,29 @@
-﻿using Microsoft.Xna.Framework.Input;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Input;
+using Sprint2.Command;
 using System.Collections.Generic;
 
-namespace Sprint0
+namespace Sprint2.Controller
 {
     class KeyboardController : IController
     {
         //Instance variables
-        private Dictionary<Keys, ICommand> commandDictionary;
+        public Dictionary<Keys, ICommand> commandDictionary;
+        public Game1 game;
 
         //Constructor with game instance parameter
-        public KeyboardController(Dictionary<Keys, ICommand> keyboardCommands)
+        public KeyboardController(Game1 game)
         {
-            commandDictionary = keyboardCommands;
+            commandDictionary = new Dictionary<Keys, ICommand>();
+            this.game = game;
+        }
+
+        //Registers commands for corresponding command
+        public void RegisterCommand()
+        {
+            commandDictionary.Add(Keys.Q, new ExitCommand(game));
+            commandDictionary.Add(Keys.Up, new MoveUpCommand(game));
+            commandDictionary.Add(Keys.E, new DamageCommand(game));
         }
 
         //Executes a command based on keyboard presses

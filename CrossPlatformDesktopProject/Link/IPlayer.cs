@@ -1,8 +1,8 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint0
+namespace Sprint2
 {
-    interface IPlayer
+    public interface IPlayer
     {
         //Updates the player
         void Update();

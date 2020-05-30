@@ -1,0 +1,2 @@
+C:\Users\Terryls PC\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\Terryls PC\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache

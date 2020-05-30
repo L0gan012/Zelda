@@ -1,4 +1,4 @@
-﻿namespace Sprint0
+﻿namespace Sprint2.Command
 {
     class ExitCommand : ICommand
     {

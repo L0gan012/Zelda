@@ -2,22 +2,20 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
+using Sprint2.Controller;
+using Sprint2.Factory;
 
-namespace Sprint0
+namespace Sprint2
 {
     public class Game1 : Game
     {
         //Instance variables
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
-        private SpriteFont spriteFont;
-        private Texture2D texture;
+        public IController controller;
+        public IPlayer link;
 
-        private List<IController> controllers;
-        private Dictionary<Keys, ICommand> keyboardCommands;
 
-        private ISprite sprite;
-        
         //Game constructor
         public Game1()
         {
@@ -31,19 +29,11 @@ namespace Sprint0
             //Make the mouse visible
             this.IsMouseVisible = true;
 
-            //Make a dictionary of the keys and commands
-            keyboardCommands = new Dictionary<Keys, ICommand>();
-            keyboardCommands.Add(Keys.D0, new ExitCommand(this));
-            keyboardCommands.Add(Keys.D1, new StationarySpriteCommand(this));
-            keyboardCommands.Add(Keys.D2, new AnimatedSpriteCommand(this));
-            keyboardCommands.Add(Keys.D3, new MovingSpriteCommand(this));
-            keyboardCommands.Add(Keys.D4, new AnimatedMovingSpriteCommand(this));
+            //Initializes controller object
+            controller = new KeyboardController(this);
 
-            //Make a list of controllers used
-            controllers = new List<IController>();
-
-            //Add a keyboard and a mouse controller
-            controllers.Add(new KeyboardController(keyboardCommands));
+            //Initializes player object
+            link = new Link();
 
             base.Initialize();
         }
@@ -53,13 +43,12 @@ namespace Sprint0
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            
+            //Loads sprite content for link
+            LinkSpriteFactory.Instance.LoadAllTextures(Content);
 
-            //Load Sprite Sheet and Sprite font from the content file
-            spriteFont = Content.Load<SpriteFont>("Fonts/Font");
-            texture = Content.Load<Texture2D>("TextureSheets/Ethan");
-
-            //Initialize the starting sprite to the stationary sprite
-            sprite = new StationarySprite(this.GraphicsDevice.Viewport.Width, this.GraphicsDevice.Viewport.Height);
+            //Registers Commands for controls
+            controller.RegisterCommand();
         }
 
         //Unloads content
@@ -71,16 +60,12 @@ namespace Sprint0
         //Update
         protected override void Update(GameTime gameTime)
         {
-            //Loops through all the controllers and updates each of them
-            foreach(IController controller in controllers)
-            {
-                controller.Update();
-            }
-
-            //Updates the sprite
-            sprite.Update();
-
+            //Updates contols
+             controller.Update();
+            //Updates link object
+            link.Update();
             base.Update(gameTime);
+         
         }
 
         //Draw
@@ -88,18 +73,9 @@ namespace Sprint0
         {
             //Set background color
             GraphicsDevice.Clear(Color.White);
-
-            //Draw the current sprite and text to the screen
-            sprite.Draw(spriteBatch, texture);
-            textSprite.Draw(spriteBatch, texture);
-
+            //link.Draw();
             base.Draw(gameTime);
         }
 
-        //Sets the current sprite
-        public void setSprite(ISprite sprite)
-        {
-            this.sprite = sprite;
-        }
     }
 }

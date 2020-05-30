@@ -19,3 +19,7 @@ C:\Users\Logan\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint0.
 C:\Users\Logan\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint0.csproj.CopyComplete
 C:\Users\Logan\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\CrossPlatformDesktopProject.exe
 C:\Users\Logan\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\CrossPlatformDesktopProject.pdb
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint0.csprojAssemblyReference.cache
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint0.csproj.CoreCompileInputs.cache
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\CrossPlatformDesktopProject.exe
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\CrossPlatformDesktopProject.pdb
