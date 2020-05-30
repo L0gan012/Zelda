@@ -10,6 +10,8 @@ namespace Sprint0
         public static readonly Vector2 LinkStartPosition = new Vector2(200, 200);
         public static readonly Vector2 EnemyStartPosition = new Vector2(600, 200);
 
+        public static readonly int FramesPerSecond = 60;
+
         //Animation Speed setting
         public static readonly int TicksPerFrame = 8;
 
