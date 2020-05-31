@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2
+namespace Sprint2.Sprite
 {
     class StationarySprite : ISprite
     {
