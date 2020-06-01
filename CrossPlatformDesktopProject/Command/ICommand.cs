@@ -3,7 +3,9 @@
     //Command Interface
    public interface ICommand
     {
-        //Exectues a command
+        /// <summary>
+        /// Execute this command
+        /// </summary>
         void Execute();
     }
 }

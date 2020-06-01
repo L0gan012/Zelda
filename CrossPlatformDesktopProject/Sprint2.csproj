@@ -63,6 +63,9 @@
     <Compile Include="Sprite\ISprite.cs" />
     <Compile Include="Sprite\MovingSprite.cs" />
     <Compile Include="Sprite\StationarySprite.cs" />
+    <Compile Include="Command\MoveLeftCommand.cs" />
+    <Compile Include="Command\MoveRightCommand.cs" />
+    <Compile Include="Command\MoveDownCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
