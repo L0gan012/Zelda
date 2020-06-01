@@ -46,12 +46,14 @@
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\DamageCommand.cs" />
     <Compile Include="Command\MoveUpCommand.cs" />
+    <Compile Include="Constant.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
     <Compile Include="Enemy\IEnemy.cs" />
     <Compile Include="Factory\LinkSpriteFactory.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Item\IItem.cs" />
+    <Compile Include="Link States\IdleLinkDownState.cs" />
     <Compile Include="Link States\ILinkState.cs" />
     <Compile Include="Player\IPlayer.cs" />
     <Compile Include="Player\Link.cs" />
@@ -61,6 +63,10 @@
     <Compile Include="Sprite\AnimatedSprite.cs" />
     <Compile Include="Sprite\ISprite.cs" />
     <Compile Include="Sprite\MovingSprite.cs" />
+    <Compile Include="Sprite\SpriteLinkIdleDownGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkIdleLeftGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkIdleRightGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkIdleUpGreen.cs" />
     <Compile Include="Sprite\StationarySprite.cs" />
     <Compile Include="Command\MoveLeftCommand.cs" />
     <Compile Include="Command\MoveRightCommand.cs" />
