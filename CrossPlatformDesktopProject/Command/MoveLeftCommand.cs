@@ -7,21 +7,22 @@ using System.Threading.Tasks;
 
 namespace Sprint2.Command
 {
-    class MoveUpCommand : ICommand
+    /// <summary>
+    /// Command to move player left
+    /// </summary>
+    class MoveLeftCommand : ICommand
     {
         //Instance variables
         private Game1 game;
- 
-        public MoveUpCommand(Game1 game)
+
+        public MoveLeftCommand(Game1 game)
         {
             this.game = game;
         }
         public void Execute()
-        { 
-            this.game.link.MovePlayerUp();
-            //TODO I don't think this should be here -Izzy
-            //this.game.link.IdlePlayerUp(); 
-            this.game.link.MoveUp();
+        {
+            this.game.link.MovePlayerLeft();
+            this.game.link.MoveLeft();
         }
     }
 }
