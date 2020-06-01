@@ -53,7 +53,7 @@
     <Compile Include="Game1.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Link States\ILinkState.cs" />
-    <Compile Include="Link States\IPlayer.cs" />
+    <Compile Include="Player\IPlayer.cs" />
     <Compile Include="Player\Link.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
