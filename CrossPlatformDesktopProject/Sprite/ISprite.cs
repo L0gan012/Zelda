@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2.Sprite
+namespace Sprint2
 {
     //Sprite Interface
     public interface ISprite

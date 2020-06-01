@@ -6,8 +6,11 @@ namespace Sprint2.Player
     {
         //Instance variables
         private ILinkState state;
-        private static int xPos;
-        private static int yPos;
+
+        private IItem item;
+
+        private static float xPos;
+        private static float yPos;
 
         //Properties
         public ILinkState State
@@ -19,10 +22,11 @@ namespace Sprint2.Player
         //No parameter constructor, initializes Link to the down idle state
         public Link()
         {
-            state = new IdleLinkDown(this);
+            state = new IdleLinkDownState(this, xPos, yPos);
+
             //Can change starting position later
-            xPos = 0;
-            yPos = 0;
+            xPos = Constant.LinkStartPosition.X;
+            yPos = Constant.LinkStartPosition.Y;
         }
 
         //Updates the player
@@ -34,11 +38,13 @@ namespace Sprint2.Player
         //Draws the player
         public void Draw(SpriteBatch spriteBatch, Texture2D texture)
         {
-            state.Draw(spriteBatch, texture, xPos, yPos);
+            state.Draw(spriteBatch, texture);
         }
 
-        //Damage player
-        public void DamagePlayer() { }
+        //Damage Link
+        public void DamagePlayer() {
+            state.DamageLink(xPos, yPos, item);
+        }
 
         //Use item
         public void UseItem() { }
@@ -92,16 +98,18 @@ namespace Sprint2.Player
         }
 
         //Player attacks left
-        public void AttackLeft();
+        public void AttackLeft() {
+            
+        }
 
         //Player attacks right
-        public void AttackRight();
+        public void AttackRight() { }
 
         //Player attacks up
-        public void AttackUp();
+        public void AttackUp() { }
 
         //Player attacks down
-        public void AttackDown();
+        public void AttackDown() { }
 
         //Moves Link left
         public void MoveLeft()
