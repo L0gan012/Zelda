@@ -2,7 +2,7 @@
 
 namespace Sprint2
 {
-    interface ILinkState
+    public interface ILinkState
     {
         //Updates the State
         void Update();

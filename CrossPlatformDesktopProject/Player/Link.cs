@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2
+namespace Sprint2.Player
 {
     class Link : IPlayer
     {

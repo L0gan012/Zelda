@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\bin",
-    "\\CrossPlatformDesktopProject\\bin\\DesktopGL"
+    "\\CrossPlatformDesktopProject\\Link States",
+    "\\CrossPlatformDesktopProject\\Player"
   ],
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Player\\Link.cs",
   "PreviewInSolutionExplorer": false
 }
