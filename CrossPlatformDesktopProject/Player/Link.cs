@@ -26,85 +26,85 @@ namespace Sprint2.Player
         }
 
         //Updates the player
-        void Update()
+        public void Update()
         {
             state.Update();
         }
 
         //Draws the player
-        void Draw(SpriteBatch spriteBatch, Texture2D texture)
+        public void Draw(SpriteBatch spriteBatch, Texture2D texture)
         {
             state.Draw(spriteBatch, texture, xPos, yPos);
         }
 
         //Damage player
-        void DamagePlayer();
+        public void DamagePlayer() { }
 
         //Use item
-        void UseItem();
+        public void UseItem() { }
 
         //Sets link to the left idle state
-        void IdlePlayerLeft()
+        public void IdlePlayerLeft()
         {
             state.IdleLinkLeft(this);
         }
 
         //Sets link to the right idle state
-        void IdlePlayerRight()
+        public void IdlePlayerRight()
         {
             state.IdleLinkRight(this);
         }
 
         //Sets link to the up idle state
-        void IdlePlayerUp()
+        public void IdlePlayerUp()
         {
             state.IdleLinkUp(this);
         }
 
         //Sets link to the down idle state
-        void IdlePlayerDown()
+        public void IdlePlayerDown()
         {
             state.IdleLinkDown(this);
         }
 
         //Sets link to the moving left state
-        void MovePlayerLeft()
+        public void MovePlayerLeft()
         {
             state.MoveLinkLeft(this);
         }
 
         //Sets link to the moving right state
-        void MovePlayerRight()
+        public void MovePlayerRight()
         {
             state.MoveLinkRight(this);
         }
 
         //Sets link to the moving up state
-        void MovePlayerUp()
+        public void MovePlayerUp()
         {
             state.MoveLinkUp(this);
         }
 
         //Sets link to the moving down state
-        void MovePlayerDown()
+        public void MovePlayerDown()
         {
             state.MoveLinkDown(this);
         }
 
         //Player attacks left
-        void AttackLeft();
+        public void AttackLeft();
 
         //Player attacks right
-        void AttackRight();
+        public void AttackRight();
 
         //Player attacks up
-        void AttackUp();
+        public void AttackUp();
 
         //Player attacks down
-        void AttackDown();
+        public void AttackDown();
 
         //Moves Link left
-        void MoveLeft()
+        public void MoveLeft()
         {
             if(xPos > 0)
             {
@@ -113,16 +113,16 @@ namespace Sprint2.Player
         }
 
         //Moves Link right
-        void MoveRight()
+        public void MoveRight()
         {
-            if(xPos < screenWidth)
+            if(xPos < Constant.ScreenWidth)
             {
                 xPos++;
             }
         }
 
         //Moves Link up
-        void MoveUp()
+        public void MoveUp()
         {
             if(yPos > 0)
             {
@@ -131,9 +131,9 @@ namespace Sprint2.Player
         }
 
         //Moves Link down
-        void MoveDown()
+        public void MoveDown()
         {
-            if(yPos < screenHeight)
+            if(yPos < Constant.ScreenHeight)
             {
                 yPos++;
             }

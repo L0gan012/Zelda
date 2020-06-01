@@ -46,6 +46,7 @@
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\DamageCommand.cs" />
     <Compile Include="Command\MoveUpCommand.cs" />
+    <Compile Include="Constant.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
     <Compile Include="Enemy\IEnemy.cs" />
