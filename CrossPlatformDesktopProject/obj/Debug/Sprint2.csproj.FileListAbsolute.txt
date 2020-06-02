@@ -6,3 +6,5 @@ C:\Users\YU\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyRe
 C:\Users\YU\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache
 C:\Users\Logan\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
 C:\Users\Logan\Source\Repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache
+C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache

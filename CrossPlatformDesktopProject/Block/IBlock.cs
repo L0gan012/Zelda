@@ -6,5 +6,10 @@ namespace Sprint2
     {
         //Draws the sprite
         void Draw(SpriteBatch spriteBatch, Texture2D texture);
+
+
+        //Updates the sprite
+        void Update();
     }
+
 }

@@ -33,24 +33,44 @@ namespace Sprint2.Factory
 		}
 
 
-		public ISprite CreateMovingLeftLinkSprite()
+		public ISprite CreateLinkIdleLeftGreenSprite()
 		{
 			return new SpriteLinkIdleLeftGreen();
 		}
 
-		public ISprite CreateMovingRightLinkSprite()
+		public ISprite CreateLinkIdleRightGreenSprite()
 		{
 			return new SpriteLinkIdleRightGreen();
 		}
 
-		public ISprite CreateMovingUpLinkSprite()
+		public ISprite CreateLinkIdleUpGreenSprite()
 		{
 			return new SpriteLinkIdleUpGreen();
 		}
 
-		public ISprite CreateMovingDownLinkSprite()
+		public ISprite CreateLinkIdleDownGreenSprite()
 		{
 			return new SpriteLinkIdleDownGreen();
+		}
+
+		public ISprite CreateMovingLeftLinkSprite()
+		{
+			return new SpriteLinkWalkLeftGreen();
+		}
+
+		public ISprite CreateMovingRightLinkSprite()
+		{
+			return new SpriteLinkWalkRightGreen();
+		}
+
+		public ISprite CreateMovingUpLinkSprite()
+		{
+			return new SpriteLinkWalkUpGreen();
+		}
+
+		public ISprite CreateMovingDownLinkSprite()
+		{
+			return new SpriteLinkWalkDownGreen();
 		}
 
 		public ISprite CreateAttackingLeftLinkSprite()

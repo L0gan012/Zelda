@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont","C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Fonts/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21521,0.5449384
+"C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png","C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/Ethan.xnb","TextureProcessor","Texture2DContent",3126,114997,0.0319901
+"C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkSpriteSheet.png","C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/LinkSpriteSheet.xnb","TextureProcessor","Texture2DContent",32793,2513177,0.1089149
