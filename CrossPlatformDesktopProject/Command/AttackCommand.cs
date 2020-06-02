@@ -7,20 +7,22 @@ using System.Threading.Tasks;
 
 namespace Sprint2.Command
 {
-    class MoveUpCommand : ICommand
+    /// <summary>
+    /// Command to move player right
+    /// </summary>
+    class AttackCommand : ICommand
     {
         //Instance variables
         private Game1 game;
- 
-        public MoveUpCommand(Game1 game)
+
+        public AttackCommand(Game1 game)
         {
             this.game = game;
         }
 
         public void Execute()
-        { 
-            this.game.link.MovePlayerUp();
-            this.game.link.MoveUp();
+        {
+            this.game.link.Attack();
         }
     }
 }
