@@ -53,6 +53,9 @@
     <Compile Include="Factory\LinkSpriteFactory.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Item\IItem.cs" />
+    <Compile Include="Link States\IdleLinkRightState.cs" />
+    <Compile Include="Link States\IdleLinkLeftState.cs" />
+    <Compile Include="Link States\IdleLinkUpState.cs" />
     <Compile Include="Link States\IdleLinkDownState.cs" />
     <Compile Include="Link States\ILinkState.cs" />
     <Compile Include="Player\IPlayer.cs" />
