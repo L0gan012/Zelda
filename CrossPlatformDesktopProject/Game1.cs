@@ -13,8 +13,10 @@ namespace Sprint2
         //Instance variables
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
-        public IController controller;
+
+        //TODO: make properties instead -Izzy
         public IPlayer link;
+        public IController controller;
 
 
         //Game constructor
