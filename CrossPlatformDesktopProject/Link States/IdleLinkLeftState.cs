@@ -6,17 +6,17 @@ using Sprint2.Sprite;
 
 namespace Sprint2
 {
-    class IdleLinkDownState : ILinkState
+    class IdleLinkLeftState : ILinkState
     {
         //Instance variables
         private Link link;
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public IdleLinkDownState(Link link, Vector2 position)
+        public IdleLinkLeftState(Link link, Vector2 position)
         {
             this.link = link;
-            sprite = LinkSpriteFactory.Instance.CreateLinkIdleDownGreenSprite();
+            sprite = LinkSpriteFactory.Instance.CreateLinkIdleLeftGreenSprite();
         }
 
         //Updates the State
@@ -99,7 +99,7 @@ namespace Sprint2
 
         //Link attacks
         public void Attack() {
-            link.State = new AttackingLinkDownState(link);
+            link.State = new AttackingLinkLeftState(link);
         }
     }
 }
