@@ -50,9 +50,11 @@
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
     <Compile Include="Enemy\IEnemy.cs" />
+    <Compile Include="Factory\ItemsSpriteFactory.cs" />
     <Compile Include="Factory\LinkSpriteFactory.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Item\IItem.cs" />
+    <Compile Include="Item\Boomerang.cs" />
     <Compile Include="Link States\IdleLinkDownState.cs" />
     <Compile Include="Link States\ILinkState.cs" />
     <Compile Include="Player\IPlayer.cs" />

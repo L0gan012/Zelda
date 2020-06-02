@@ -32,12 +32,6 @@ namespace Sprint2.Factory
 			linkSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 		}
 
-		//Todo: Load Sprite
-		//Method is place holder for common factory methods
-		/*public ISprite CreateSmallEnemySprite()
-		{
-			return new EnemySprite(enemySpritesheet, 32, 32);
-		}*/
 
 		public ISprite CreateMovingLeftLinkSprite()
 		{
