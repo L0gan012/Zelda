@@ -8,8 +8,9 @@ namespace Sprint2.Controller
     class KeyboardController : IController
     {
         //Instance variables
-        public Dictionary<Keys, ICommand> commandDictionary;
-        public Game1 game;
+        private Dictionary<Keys, ICommand> commandDictionary;
+        private ICommand idle;
+        private Game1 game;
 
         //Constructor with game instance parameter
         public KeyboardController(Game1 game)
@@ -18,27 +19,59 @@ namespace Sprint2.Controller
             this.game = game;
         }
 
-        //Registers commands for corresponding command
+        /// <summary>
+        /// Registers commands for corresponding command
+        /// </summary>
         public void RegisterCommand()
         {
+            //quit and reset commands
             commandDictionary.Add(Keys.Q, new ExitCommand(game));
+
+
+            //directional commands, arrow keys
             commandDictionary.Add(Keys.Up, new MoveUpCommand(game));
-            commandDictionary.Add(Keys.E, new DamageCommand(game));
+            commandDictionary.Add(Keys.Down, new MoveDownCommand(game));
+            commandDictionary.Add(Keys.Left, new MoveLeftCommand(game));
+            commandDictionary.Add(Keys.Right, new MoveRightCommand(game));
+
+            //wasd keys
+            commandDictionary.Add(Keys.W, new MoveUpCommand(game));
+            commandDictionary.Add(Keys.S, new MoveDownCommand(game));
+            commandDictionary.Add(Keys.A, new MoveLeftCommand(game));
+            commandDictionary.Add(Keys.D, new MoveRightCommand(game));
+
+            //attack commands
+            commandDictionary.Add(Keys.Z, new AttackCommand(game));
+            commandDictionary.Add(Keys.N, new AttackCommand(game));
+
+            this.idle = new SetIdleCommand(game);
         }
 
-        //Executes a command based on keyboard presses
+        /// <summary>
+        /// Executes a command based on keyboard presses
+        /// </summary>
         public void Update()
         {
             //Gets the pressed keys
             Keys[] pressedKeys = Keyboard.GetState().GetPressedKeys();
 
-            //Loops through the pressed keys and if it is in the dictionary execute its given command
-            foreach (Keys key in pressedKeys)
+
+            //if nothing is pressed, set player to be in an idle state
+            if (pressedKeys.Length == 0)
             {
-                if (commandDictionary.ContainsKey(key))
+                idle.Execute();
+            }
+            else
+            {
+                //Loops through the pressed keys and if it is in the dictionary execute its given command
+                foreach (Keys key in pressedKeys)
                 {
-                    commandDictionary[key].Execute();
+                    if (commandDictionary.ContainsKey(key))
+                    {
+                        commandDictionary[key].Execute();
+                    }
                 }
+
             }
         }
     }

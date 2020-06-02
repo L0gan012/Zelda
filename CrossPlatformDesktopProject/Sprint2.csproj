@@ -71,6 +71,8 @@
     <Compile Include="Command\MoveLeftCommand.cs" />
     <Compile Include="Command\MoveRightCommand.cs" />
     <Compile Include="Command\MoveDownCommand.cs" />
+    <Compile Include="Command\SetIdleCommand.cs" />
+    <Compile Include="Command\AttackCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">

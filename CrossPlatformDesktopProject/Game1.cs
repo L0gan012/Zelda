@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 using Sprint2.Controller;
 using Sprint2.Factory;
+using Sprint2.Player;
 
 namespace Sprint2
 {
@@ -12,8 +13,10 @@ namespace Sprint2
         //Instance variables
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
-        public IController controller;
+
+        //TODO: make properties instead -Izzy
         public IPlayer link;
+        public IController controller;
 
 
         //Game constructor
