@@ -52,17 +52,8 @@ namespace Sprint2
         //Use clock item
         void UseClock();
 
-        //Idle Link left
-        void IdleLinkLeft();
-
-        //Idle Link right
-        void IdleLinkRight();
-
-        //Idle Link up
-        void IdleLinkUp();
-
-        //Idle Link down
-        void IdleLinkDown();
+        //Idle Link
+        void SetLinkIdle();
 
         //Moves Link left
         void MoveLinkLeft();
@@ -76,52 +67,7 @@ namespace Sprint2
         //Moves Link down
         void MoveLinkDown();
 
-        //Link attacks with wood sword left
-        void AttackWoodSwordLeft();
-
-        //Link attacks with wood sword right
-        void AttackWoodSwordRight();
-
-        //Link attacks with wood sword up
-        void AttackWoodSwordUp();
-
-        //Link attacks with wood sword down
-        void AttackWoodSwordDown();
-
-        //Link attacks with white sword left
-        void AttackWhiteSwordLeft();
-
-        //Link attacks with white sword right
-        void AttackWhiteSwordRight();
-
-        //Link attacks with white sword up
-        void AttackWhiteSwordUp();
-
-        //Link attacks with white sword down
-        void AttackWhiteSwordDown();
-
-        //Link attacks with magic sword left
-        void AttackMagicSwordLeft();
-
-        //Link attacks with magic sword right
-        void AttackMagicSwordRight();
-
-        //Link attacks with magic sword up
-        void AttackMagicSwordUp();
-
-        //Link attacks with magic sword down
-        void AttackMagicSwordDown();
-
-        //Link attacks with magic rod left
-        void AttackMagicRodLeft();
-
-        //Link attacks with magic rod right
-        void AttackMagicRodRight();
-
-        //Link attacks with magic rod up
-        void AttackMagicRodUp();
-
-        //Link attacks with magic rod down
-        void AttackMagicRodDown();
+        //Link attacks
+        void Attack();
     }
 }
