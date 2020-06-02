@@ -29,7 +29,7 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			linkSpritesheet = content.Load<Texture2D>("enemy");
+			linkSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 		}
 
 		//Todo: Load Sprite
@@ -38,5 +38,45 @@ namespace Sprint2.Factory
 		{
 			return new EnemySprite(enemySpritesheet, 32, 32);
 		}*/
+
+		public ISprite CreateMovingLeftLinkSprite()
+		{
+			return new SpriteLinkIdleLeftGreen();
+		}
+
+		public ISprite CreateMovingRightLinkSprite()
+		{
+			return new SpriteLinkIdleRightGreen();
+		}
+
+		public ISprite CreateMovingUpLinkSprite()
+		{
+			return new SpriteLinkIdleUpGreen();
+		}
+
+		public ISprite CreateMovingDownLinkSprite()
+		{
+			return new SpriteLinkIdleDownGreen();
+		}
+
+		public ISprite CreateAttackingLeftLinkSprite()
+		{
+			return;
+		}
+
+		public ISprite CreateAttackingRightLinkSprite()
+		{
+			return;
+		}
+
+		public ISprite CreateAttackingUpLinkSprite()
+		{
+			return;
+		}
+
+		public ISprite CreateAttackingDownLinkSprite()
+		{
+			return;
+		}
 	}
 }

@@ -1,4 +1,6 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Sprint2.Player
 {
@@ -9,8 +11,7 @@ namespace Sprint2.Player
 
         private IItem item;
 
-        private static float xPos;
-        private static float yPos;
+        private static Vector2 position;
 
         //Properties
         public ILinkState State
@@ -22,11 +23,10 @@ namespace Sprint2.Player
         //No parameter constructor, initializes Link to the down idle state
         public Link()
         {
-            state = new IdleLinkDownState(this, xPos, yPos);
-
             //Can change starting position later
-            xPos = Constant.LinkStartPosition.X;
-            yPos = Constant.LinkStartPosition.Y;
+            position = Constant.LinkStartPosition;
+
+            state = new IdleLinkDownState(this, position);
         }
 
         //Updates the player
@@ -43,107 +43,80 @@ namespace Sprint2.Player
 
         //Damage Link
         public void DamagePlayer() {
-            state.DamageLink(xPos, yPos, item);
+            state.DamageLink();
         }
 
         //Use item
         public void UseItem() { }
 
-        //Sets link to the left idle state
-        public void IdlePlayerLeft()
+        //Sets link to the idle state
+        public void SetIdle()
         {
-            state.IdleLinkLeft(this);
-        }
-
-        //Sets link to the right idle state
-        public void IdlePlayerRight()
-        {
-            state.IdleLinkRight(this);
-        }
-
-        //Sets link to the up idle state
-        public void IdlePlayerUp()
-        {
-            state.IdleLinkUp(this);
-        }
-
-        //Sets link to the down idle state
-        public void IdlePlayerDown()
-        {
-            state.IdleLinkDown(this);
+            state.SetLinkIdle();
         }
 
         //Sets link to the moving left state
         public void MovePlayerLeft()
         {
-            state.MoveLinkLeft(this);
+            state.MoveLinkLeft();
         }
 
         //Sets link to the moving right state
         public void MovePlayerRight()
         {
-            state.MoveLinkRight(this);
+            state.MoveLinkRight();
         }
 
         //Sets link to the moving up state
         public void MovePlayerUp()
         {
-            state.MoveLinkUp(this);
+            state.MoveLinkUp();
         }
 
         //Sets link to the moving down state
         public void MovePlayerDown()
         {
-            state.MoveLinkDown(this);
+            state.MoveLinkDown();
         }
 
-        //Player attacks left
-        public void AttackLeft() {
-            
+        //Player attacks
+        public void Attack() {
+            state.Attack();
         }
-
-        //Player attacks right
-        public void AttackRight() { }
-
-        //Player attacks up
-        public void AttackUp() { }
-
-        //Player attacks down
-        public void AttackDown() { }
 
         //Moves Link left
         public void MoveLeft()
         {
-            if(xPos > 0)
+            if(position.X > 0)
             {
-                xPos--;
+                position.X--;
             }
         }
 
         //Moves Link right
         public void MoveRight()
         {
-            if(xPos < Constant.ScreenWidth)
+            if(position.X < Constant.ScreenWidth)
             {
-                xPos++;
+                position.X++;
             }
         }
 
         //Moves Link up
         public void MoveUp()
         {
-            if(yPos > 0)
+            if(position.Y > 0)
             {
-                yPos--;
+                position.Y--;
             }
         }
 
         //Moves Link down
         public void MoveDown()
         {
-            if(yPos < Constant.ScreenHeight)
+            if(position.Y < Constant.ScreenHeight)
             {
-                yPos++;
+                position.Y++;
             }
         }
     }

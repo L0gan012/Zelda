@@ -16,17 +16,9 @@ namespace Sprint2.Player
         //Use item
         void UseItem();
 
-        //Idle left
-        void IdlePlayerLeft();
+        //Idle
+        void SetIdle();
 
-        //Idle right
-        void IdlePlayerRight();
-
-        //Idle up
-        void IdlePlayerUp();
-
-        //Idle down
-        void IdlePlayerDown();
 
         //Sets the player left state
         void MovePlayerLeft();
@@ -40,17 +32,8 @@ namespace Sprint2.Player
         //Sets the player down state
         void MovePlayerDown();
 
-        //Player attacks left
-        void AttackLeft();
-
-        //Player attacks right
-        void AttackRight();
-
-        //Player attacks up
-        void AttackUp();
-
-        //Player attacks down
-        void AttackDown();
+        //Player attacks
+        void Attack();
 
         //Moves the player left
         void MoveLeft();

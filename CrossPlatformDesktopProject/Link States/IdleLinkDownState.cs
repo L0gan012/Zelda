@@ -1,4 +1,6 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+using Sprint2.Factory;
 using Sprint2.Player;
 using Sprint2.Sprite;
 
@@ -9,12 +11,14 @@ namespace Sprint2
         //Instance variables
         private IPlayer link;
         private ISprite sprite;
+        private LinkSpriteFactory spriteFactory;
 
         //Constructor with Link instance parameter
-        public IdleLinkDownState(Link link, float xPos, float yPos)
+        public IdleLinkDownState(Link link, Vector2 position)
         {
             this.link = link;
-            sprite = new SpriteLinkIdleDownGreen(xPos, yPos);
+            spriteFactory = LinkSpriteFactory.Instance;
+            sprite = new SpriteLinkIdleDownGreen(position);
         }
 
         //Updates the State
@@ -70,75 +74,34 @@ namespace Sprint2
         public void UseClock(){}
 
         //Idle Link left
-        public void IdleLinkLeft(){}
-
-        //Idle Link right
-        public void IdleLinkRight(){}
-
-        //Idle Link up
-        public void IdleLinkUp(){}
-
-        //Idle Link down
-        public void IdleLinkDown(){}
+        public void SetLinkIdle(){
+            //NO-OP
+            //Already idle
+        }
 
         //Moves Link left
-        public void MoveLinkLeft(){}
+        public void MoveLinkLeft(){
+            sprite = spriteFactory.CreateMovingLeftLinkSprite();
+        }
 
         //Moves Link right
-        public void MoveLinkRight(){}
+        public void MoveLinkRight(){
+            sprite = spriteFactory.CreateMovingRightLinkSprite();
+        }
 
         //Moves Link up
-        public void MoveLinkUp(){}
+        public void MoveLinkUp(){
+            sprite = spriteFactory.CreateMovingUpLinkSprite();
+        }
 
         //Moves Link down
-        public void MoveLinkDown(){}
+        public void MoveLinkDown(){
+            sprite = spriteFactory.CreateMovingDownLinkSprite();
+        }
 
-        //Link attacks with wood sword left
-        public void AttackWoodSwordLeft(){}
-
-        //Link attacks with wood sword right
-        public void AttackWoodSwordRight(){}
-
-        //Link attacks with wood sword up
-        public void AttackWoodSwordUp(){}
-
-        //Link attacks with wood sword down
-        public void AttackWoodSwordDown(){}
-
-        //Link attacks with white sword left
-        public void AttackWhiteSwordLeft(){}
-
-        //Link attacks with white sword right
-        public void AttackWhiteSwordRight(){}
-
-        //Link attacks with white sword up
-        public void AttackWhiteSwordUp(){}
-
-        //Link attacks with white sword down
-        public void AttackWhiteSwordDown(){}
-
-        //Link attacks with magic sword left
-        public void AttackMagicSwordLeft(){}
-
-        //Link attacks with magic sword right
-        public void AttackMagicSwordRight(){}
-
-        //Link attacks with magic sword up
-        public void AttackMagicSwordUp(){}
-
-        //Link attacks with magic sword down
-        public void AttackMagicSwordDown(){}
-
-        //Link attacks with magic rod left
-        public void AttackMagicRodLeft(){}
-
-        //Link attacks with magic rod right
-        public void AttackMagicRodRight(){}
-
-        //Link attacks with magic rod up
-        public void AttackMagicRodUp(){}
-
-        //Link attacks with magic rod down
-        public void AttackMagicRodDown(){}
+        //Link attacks
+        public void Attack() {
+            sprite = spriteFactory.CreateAttackingDownLinkSprite();
+        }
     }
 }
