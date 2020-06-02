@@ -61,22 +61,22 @@ namespace Sprint2.Factory
 
 		public ISprite CreateMovingLeftLinkSprite()
 		{
-			return;
+			return new SpriteLinkWalkLeftGreen();
 		}
 
 		public ISprite CreateMovingRightLinkSprite()
 		{
-			return;
+			return new SpriteLinkWalkRightGreen();
 		}
 
 		public ISprite CreateMovingUpLinkSprite()
 		{
-			return;
+			return new SpriteLinkWalkUpGreen();
 		}
 
 		public ISprite CreateMovingDownLinkSprite()
 		{
-			return;
+			return new SpriteLinkWalkDownGreen();
 		}
 
 		public ISprite CreateAttackingLeftLinkSprite()
