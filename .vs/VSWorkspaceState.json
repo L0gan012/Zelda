@@ -3,8 +3,8 @@
     "",
     "\\CrossPlatformDesktopProject",
     "\\CrossPlatformDesktopProject\\Link States",
-    "\\CrossPlatformDesktopProject\\Player"
+    "\\CrossPlatformDesktopProject\\Sprite"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Player\\Link.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\SpriteLinkIdleUpGreen.cs",
   "PreviewInSolutionExplorer": false
 }

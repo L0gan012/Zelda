@@ -8,30 +8,32 @@ using System.Threading.Tasks;
 
 namespace Sprint2
 {
-    //TODO:(Barry) Rename texture for different sprite sheets
-    private Texture2D texture;
-    private Vector2 position;
-    private int currentFrame;
-    private int totalFrames;
-    private int currentTick;
-    private Game1 game;
-    private Iplayer link;
-
-    public SpriteLinkAttackWoodenSwordDownGreen(Game1 game, Iplayer link)
+    public class SpriteLinkAttackWoodenSwordRightGreen : ISprite
     {
-        this.game = game;
-        texture = this.game.texture;
-        this.link = link;
-        position = this.link.position;
+        //TODO:(Barry) Rename texture for different sprite sheets
+        private Texture2D texture;
+        private Vector2 position;
+        private int currentFrame;
+        private int totalFrames;
+        private int currentTick;
+        private Game1 game;
+        private Iplayer link;
+
+        public SpriteLinkAttackWoodenSwordRightGreen(Game1 game, Iplayer link)
+        {
+            this.game = game;
+            texture = this.game.texture;
+            this.link = link;
+            position = this.link.position;
 
 
-        currentFrame = 0;
-        totalFrames = 5;
-        currentTick = 0;
-    }
+            currentFrame = 0;
+            totalFrames = 5;
+            currentTick = 0;
+        }
 
 
-    public void Update()
+        public void Update()
         {
             if (currentFrame < totalFrames)
             {
@@ -112,5 +114,6 @@ namespace Sprint2
 
 
         }
+    }
     }
 }

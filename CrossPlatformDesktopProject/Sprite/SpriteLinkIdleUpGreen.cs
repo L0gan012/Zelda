@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Sprint2
 {
-    public class SpriteLinkIdleUpGreen
+    public class SpriteLinkIdleUpGreen : ISprite
     {
          private Texture2D texture;
         private Vector2 position;
