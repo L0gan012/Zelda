@@ -55,48 +55,39 @@ namespace Sprint2.Factory
 
 		public ISprite CreateSpriteStatue()
 		{
-			//return new BlockSprite(lockSpritesheet, 32, 32);
-			return new Blocks();
+			return new Blocks(statueSpritesheet, 1, 1);
 		}
 		public ISprite CreateSpriteSquare()
 		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
+			return new Blocks(squareSpritesheet, 1, 1);
 		}
 		public ISprite CreateSpriteWall()
 		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
+			return new Blocks(wallSpritesheet, 1, 1);
 		}
 		public ISprite CreateSpriteLockedDoor()
 		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
-		}
-		public ISprite CreateSpriteShutDoor()
-		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
+			return new Blocks(lockedDoorSpritesheet, 1, 1);
 		}
 		public ISprite CreateSpriteOpenDoor()
 		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
+			return new Blocks(openDoorSpritesheet, 1, 1);
+		}
+		public ISprite CreateSpriteShutDoor()
+		{
+			return new Blocks(shutDoorSpritesheet, 1, 1);
 		}
 		public ISprite CreateSpriteStairs()
 		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
+			return new Blocks(stairsSpritesheet, 1, 1);
 		}
 		public ISprite CreateSpriteLadder()
 		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
+			return new Blocks(ladderSpritesheet, 1, 1);
 		}
 		public ISprite CreateSpriteBrick()
 		{
-			return new Blocks();
-			//return new BlockSprite(lockSpritesheet, 32, 32);
+			return new Blocks(brickSpritesheet, 1, 1);
 		}
 
 	}

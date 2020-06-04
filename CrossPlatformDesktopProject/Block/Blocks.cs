@@ -6,12 +6,14 @@ namespace Sprint2.Block
 {
     class Blocks : ISprite
     {
+        //Instance variable
         public Texture2D Texture { get; set; }
         public int Rows { get; set; }
         public int Columns { get; set; }
         private int currentFrame;
         private int totalFrames;
 
+        //Constructor
         public Blocks(Texture2D texture, int row, int column)
         {
             Texture = texture;
@@ -22,6 +24,7 @@ namespace Sprint2.Block
 
         }
 
+        //Draw different type of blocks 
         public void Draw(SpriteBatch spriteBatch, Vector2 location)
         {
             int width = Texture.Width / Columns;
@@ -37,8 +40,12 @@ namespace Sprint2.Block
             spriteBatch.End();
         }
 
+        //Update if the block sprite is animated
         public void Update()
         {
+            currentFrame++;
+            if (currentFrame == totalFrames)
+                currentFrame = 0;
         }
     }
 
