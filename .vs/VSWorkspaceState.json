@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Link States",
+    "\\CrossPlatformDesktopProject\\Content",
     "\\CrossPlatformDesktopProject\\Sprite"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\SpriteLinkIdleUpGreen.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\MovingSprite.cs",
   "PreviewInSolutionExplorer": false
 }
