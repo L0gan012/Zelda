@@ -12,6 +12,7 @@ namespace Sprint2.Factory
 
 	public class ItemsSpriteFactory
     {
+		//Instance variables
 		private Texture2D itemsSpritesheet;
 		private static ItemsSpriteFactory instance = new ItemsSpriteFactory();
 
@@ -32,10 +33,97 @@ namespace Sprint2.Factory
 			itemsSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 		}
 
-		/*Todo Add methods for loading new item sprites. 
-		public ISprite CreateSpriteBoomerang(This is a test method name)()
+		 
+		public ISprite CreateSpriteBlueCandle()
 		{
-			return new SpriteBoomerang();
-		}*/
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteBluePotion()
+		{
+			//return new SpriteCandle ();
+		}
+
+        public ISprite CreateSpriteBlueRing()
+        {
+            //return new SpriteCandle ();
+        }
+
+		public ISprite CreateSpriteBomb()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteBow()
+		{
+			//return new SpriteCandle ();
+		}
+		public ISprite CreateSpriteClock()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteCompass()
+		{
+			//return new SpriteCandle ();
+		}
+		public ISprite CreateSpriteFairy()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteRupee()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteFlute()
+		{
+			//return new SpriteCandle ();
+		}
+
+
+		public ISprite CreateSpriteHeartContainer()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteHeartKey()
+		{
+			//return new SpriteCandle ();
+		}
+
+
+		public ISprite CreateSpriteLadder()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMagicBoomerang()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMagicRod()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMagicShield()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMap()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpritePotionNote()
+		{
+			//return new SpriteCandle ();
+		}
+
+
 	}
 }

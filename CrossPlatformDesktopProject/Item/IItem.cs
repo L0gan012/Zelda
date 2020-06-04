@@ -2,12 +2,15 @@
 
 namespace Sprint2
 {
-    public interface IItem
+   public interface IItem
     {
         //Updates the item
         void Update();
 
         //Draws the item
-        void Draw(SpriteBatch spriteBatch, Texture2D texture);
+        void Draw(SpriteBatch spriteBatch);
+
+        //Uses item
+        void Use();
     }
 }

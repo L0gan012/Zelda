@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Content",
+    "\\CrossPlatformDesktopProject\\Content\\TextureSheets\\ItemTextures",
+    "\\CrossPlatformDesktopProject\\Content\\TextureSheets\\NPCTextures",
+    "\\CrossPlatformDesktopProject\\Content\\TextureSheets\\ProjectileTextures",
     "\\CrossPlatformDesktopProject\\Sprite"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\MovingSprite.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\SpriteLinkIdleRightGreen.cs",
   "PreviewInSolutionExplorer": false
 }
