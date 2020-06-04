@@ -17,7 +17,7 @@ namespace Sprint2
         private SpriteBatch spriteBatch;
 
         //TODO: make properties instead -Izzy
-        public IPlayer link;
+        private IPlayer link;
         public IController controller;
         private static List<IItem> items;
         private static List<IEnemy> enemies;
@@ -37,7 +37,12 @@ namespace Sprint2
             get { return enemies; }
             set { enemies.Add((IEnemy) value); }
         }
-
+                public IPlayer Link
+        {
+            get { return link; }
+            set { link = value; }
+        }
+      
         //Game constructor
         public Game1()
         {
@@ -61,7 +66,7 @@ namespace Sprint2
 
 
             //Initializes player object
-            link = new Link();
+            link = new Link(this);
 
             base.Initialize();
         }

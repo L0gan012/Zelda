@@ -108,6 +108,7 @@
     <Compile Include="Link States\MovingLinkLeftState.cs" />
     <Compile Include="Link States\MovingLinkRightState.cs" />
     <Compile Include="Link States\MovingLinkUpState.cs" />
+    <Compile Include="Player\DamagedLink.cs" />
     <Compile Include="Player\IPlayer.cs" />
     <Compile Include="Player\Link.cs" />
     <Compile Include="Program.cs" />
