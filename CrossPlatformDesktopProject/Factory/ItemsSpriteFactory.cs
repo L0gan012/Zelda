@@ -12,6 +12,7 @@ namespace Sprint2.Factory
 
 	public class ItemsSpriteFactory
     {
+		//Instance variables
 		private Texture2D itemsSpritesheet;
 		private static ItemsSpriteFactory instance = new ItemsSpriteFactory();
 
@@ -32,10 +33,41 @@ namespace Sprint2.Factory
 			itemsSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 		}
 
-		/*Todo Add methods for loading new item sprites. 
-		public ISprite CreateSpriteBoomerang(This is a test method name)()
+		 
+		public ISprite CreateSpriteBlueCandle()
 		{
-			return new SpriteBoomerang();
-		}*/
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteBluePotion()
+		{
+			//return new SpriteCandle ();
+		}
+
+        public ISprite CreateSpriteBlueRing()
+        {
+            //return new SpriteCandle ();
+        }
+
+		public ISprite CreateSpriteBomb()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteBow()
+		{
+			//return new SpriteCandle ();
+		}
+		public ISprite CreateSpriteClock()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteClock()
+		{
+			//return new SpriteCandle ();
+		}
+
+
 	}
 }

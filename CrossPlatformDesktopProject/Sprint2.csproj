@@ -41,7 +41,10 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
+    <Compile Include="Block\Block.cs" />
     <Compile Include="Block\IBlock.cs" />
+    <Compile Include="Command\ItemBackCommand.cs" />
+    <Compile Include="Command\ItemFowardCommand.cs" />
     <Compile Include="Command\ExitCommand.cs" />
     <Compile Include="Command\ICommand.cs" />
     <Compile Include="Command\DamageCommand.cs" />
@@ -50,8 +53,11 @@
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
     <Compile Include="Enemy\IEnemy.cs" />
+    <Compile Include="Factory\BlockSpriteFactory.cs" />
+    <Compile Include="Factory\ItemsSpriteFactory.cs" />
     <Compile Include="Factory\LinkSpriteFactory.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Item\ItemBlueCandle.cs" />
     <Compile Include="Item\IItem.cs" />
     <Compile Include="Link States\IdleLinkRightState.cs" />
     <Compile Include="Link States\IdleLinkLeftState.cs" />
@@ -142,6 +148,70 @@
       <Link>MonoGame.Framework.dll.config</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Content\Fonts\Font.spritefont" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyAquamentus.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyAquamentusMouthOpen.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoDown.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoDownPuffed.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoLeft.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoLeftPuffed.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoRight.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoRightPuffed.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoUp.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoUpPuffed.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyGel.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkDown.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkLeft.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkRight.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkUp.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyKeese.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyRopeLeft.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyRopeRight.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemySpikeCross.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyStalfos.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyWallmasterLeft.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyWallmasterRight.png" />
+    <Content Include="Content\TextureSheets\EnemyTextures\EnemyZol.png" />
+    <Content Include="Content\TextureSheets\Ethan.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemBlueCandle.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemBluePotion.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemBlueRing.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemBomb.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemBow.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemClock.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemCompass.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemFairy.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemFiveRupee.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemFlute.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemHeart.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemHeartContainer.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemKey.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemLadder.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemMagicBoomerang.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemMagicRod.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemMagicShield.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemMap.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemPotionNote.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemPowerBracelet.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemRaft.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemRedPotion.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemRupee.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemSilverArrow.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemTriforcePieceAnimated.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemWhiteSword.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemWoodenArrow.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemWoodenBoomerang.png" />
+    <Content Include="Content\TextureSheets\ItemTextures\ItemWoodenSword.png" />
+    <Content Include="Content\TextureSheets\LinkSpriteSheet.png" />
+    <Content Include="Content\TextureSheets\NPCTextures\FireIdle.png" />
+    <Content Include="Content\TextureSheets\NPCTextures\OldMan.png" />
+    <Content Include="Content\TextureSheets\NPCTextures\Vendor.png" />
+    <Content Include="Content\TextureSheets\NPCTextures\ZeldaAnimatedGreen.png" />
+    <Content Include="Content\TextureSheets\ProjectileTextures\FireAnimated.png" />
+    <Content Include="Content\TextureSheets\ProjectileTextures\ProjectileAquamentus.png" />
+    <Content Include="Content\TextureSheets\ProjectileTextures\ProjectileFlame.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
