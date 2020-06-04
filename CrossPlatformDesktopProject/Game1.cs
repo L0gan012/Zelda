@@ -21,6 +21,7 @@ namespace Sprint2
         public IController controller;
         private static List<IItem> items;
         public int itemPosition;
+        private ItemLoadAllContent itemLoader;
 
         public List<IItem> ListOfItems
         {
@@ -61,7 +62,8 @@ namespace Sprint2
 
             //Initializes items object
             items = new List<IItem>();
-            
+            itemLoader = new ItemLoadAllContent(this);
+
             //Initializes player object
             link = new Link(this);
 
@@ -76,6 +78,9 @@ namespace Sprint2
             
             //Loads sprite content for link
             LinkSpriteFactory.Instance.LoadAllTextures(Content);
+
+            //Loads content for all items
+            itemLoader.LoadContent();
 
             //Registers Commands for controls
             controller.RegisterCommand();

@@ -13,14 +13,11 @@ namespace Sprint2.Item
     {
         //Instance variables
         private ISprite sprite;
-        private Game1 game;
 
-        private ItemHeartContainer(Game1 game)
+        public ItemHeartContainer()
         {
-            this.game = game;
-            //Load Blue Candle sprite
-            sprite = ItemsSpriteFactory.Instance.CreateSpriteHeartContainer();
-            game.ListOfItems.Add(this);
+           //Load heart sprite
+           sprite = ItemsSpriteFactory.Instance.CreateSpriteHeartContainer();
         }
 
         public void Draw(SpriteBatch spriteBatch)
