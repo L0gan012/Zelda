@@ -2,7 +2,7 @@
 
 namespace Sprint2
 {
-    interface IItem
+    public interface IItem
     {
         //Updates the item
         void Update();

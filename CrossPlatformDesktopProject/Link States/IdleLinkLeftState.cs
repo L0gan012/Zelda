@@ -33,43 +33,10 @@ namespace Sprint2
         public void DamageLink(){}
 
         //Use compass item
-        public void UseCompass(){}
+        public void UseItem(IItem item)
+        {
 
-        //Use map item
-        public void UseMap(){}
-
-        //Use key item
-        public void UseKey(){}
-
-        //Use heart container item
-        public void UseHeartContainer(){}
-
-        //Use triforce piece item
-        public void UseTriforcePiece(){}
-
-        //Use wooden boomerang item
-        public void UseWoodenBoomerang(){}
-
-        //Use bow item
-        public void UseBow(){}
-
-        //Use heart item
-        public void UseHeart(){}
-
-        //Use rupee item
-        public void UseRupee(){}
-
-        //Use arrow item
-        public void UseArrow(){}
-
-        //Use bomb item
-        public void UseBomb(){}
-
-        //Use fairy item
-        public void UseFairy(){}
-
-        //Use clock item
-        public void UseClock(){}
+        }
 
         //Idle Link left
         public void SetLinkIdle(){

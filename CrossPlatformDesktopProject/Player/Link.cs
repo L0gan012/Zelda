@@ -20,6 +20,12 @@ namespace Sprint2.Player
             set { state = value; }
         }
 
+        public IItem Item
+        {
+            get { return item; }
+            set { item = value; }
+        }
+
         //No parameter constructor, initializes Link to the down idle state
         public Link()
         {
@@ -47,7 +53,9 @@ namespace Sprint2.Player
         }
 
         //Use item
-        public void UseItem() { }
+        public void UseItem() {
+            state.UseItem(item);
+        }
 
         //Sets link to the idle state
         public void SetIdle()
