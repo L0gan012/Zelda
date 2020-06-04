@@ -14,6 +14,7 @@ namespace Sprint2.Factory
     {
 		//Instance variables
 		private Texture2D itemsSpritesheet;
+		//private Texture2D itemSpriteContent;
 		private static ItemsSpriteFactory instance = new ItemsSpriteFactory();
 
 		public static ItemsSpriteFactory Instance
@@ -30,7 +31,8 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			itemsSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
+			//This is for changing over to multiple sprite sheets 
+			//itemSpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/ItemTextures");
 		}
 
 		 
@@ -63,11 +65,99 @@ namespace Sprint2.Factory
 			//return new SpriteCandle ();
 		}
 
-		public ISprite CreateSpriteClock()
+		public ISprite CreateSpriteCompass()
+		{
+			//return new SpriteCandle ();
+		}
+		public ISprite CreateSpriteFairy()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteRupee()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteFlute()
 		{
 			//return new SpriteCandle ();
 		}
 
 
+		public ISprite CreateSpriteHeartContainer()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteHeartKey()
+		{
+			//return new SpriteCandle ();
+		}
+
+
+		public ISprite CreateSpriteLadder()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMagicBoomerang()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMagicRod()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMagicShield()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteMap()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpritePotionNote()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpritePowerBracelet()
+		{
+			//return new SpriteCandle ();
+		}
+		public ISprite CreateSpriteRaft()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteRedPotion()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteRupee()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteSilverArrow()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteWhiteSword()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteWoodenArrow()
+		{
+			//return new SpriteCandle ();
+		}
 	}
 }

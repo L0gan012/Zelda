@@ -17,26 +17,32 @@ namespace Sprint2
         private SpriteBatch spriteBatch;
 
         //TODO: make properties instead -Izzy
-        public IPlayer link;
+        private IPlayer link;
         public IController controller;
         private static List<IItem> items;
-        public int itemPosition;
+        private static List<IEnemy> enemies;
+        public int itemListPosition;
+        public int enemylistPosition;
+        private ItemLoadAllContent itemLoader;
+        private EnemyLoadAllContent enemyLoader;
 
         public List<IItem> ListOfItems
-        {
-            get
-            {
-                return items;
-            }
-
-            set
-            {
-                items.Add((IItem)value);
-            }
-
+        { 
+            get { return items;}
+            set{ items.Add((IItem)value); }
         }
 
-
+        public List<IEnemy> ListOfEnemies
+        {
+            get { return enemies; }
+            set { enemies.Add((IEnemy) value); }
+        }
+                public IPlayer Link
+        {
+            get { return link; }
+            set { link = value; }
+        }
+      
         //Game constructor
         public Game1()
         {
@@ -55,9 +61,12 @@ namespace Sprint2
 
             //Initializes items object
             items = new List<IItem>();
-            
+            itemLoader = new ItemLoadAllContent(this);
+            enemyLoader = new EnemyLoadAllContent(this);
+
+
             //Initializes player object
-            link = new Link();
+            link = new Link(this);
 
             base.Initialize();
         }
@@ -70,6 +79,11 @@ namespace Sprint2
             
             //Loads sprite content for link
             LinkSpriteFactory.Instance.LoadAllTextures(Content);
+
+            //Loads content for all items
+            itemLoader.LoadContent();
+            enemyLoader.LoadContent();
+
 
             //Registers Commands for controls
             controller.RegisterCommand();
@@ -89,7 +103,9 @@ namespace Sprint2
             //Updates link object
             link.Update();
             //Updates items object
-            ListOfItems[itemPosition].Update();
+            items[itemListPosition].Update();
+            //Updates items object
+            enemies[enemylistPosition].Update();
 
             base.Update(gameTime);
          
@@ -101,7 +117,8 @@ namespace Sprint2
             //Set background color
             GraphicsDevice.Clear(Color.White);
             //link.Draw();
-            //ListOfItems[itemPosition].Draw();
+            //items[itemListPosition].Draw(spriteBatch);
+            //enemies[enemylistPosition].Draw(spriteBatch);
             base.Draw(gameTime);
         }
 

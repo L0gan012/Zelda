@@ -30,8 +30,6 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			//This is for changing over to multiple sprite sheets 
-			//spriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets");
 			linkSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 		}
 
@@ -56,22 +54,22 @@ namespace Sprint2.Factory
 			return new SpriteLinkIdleDownGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingLeftLinkSprite(Vector2 position)
+		public ISprite CreateMovingLeftLinkGreenSprite(Vector2 position)
 		{
 			return new SpriteLinkWalkLeftGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingRightLinkSprite(Vector2 position)
+		public ISprite CreateMovingRightLinkGreenSprite(Vector2 position)
 		{
 			return new SpriteLinkWalkRightGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingUpLinkSprite(Vector2 position)
+		public ISprite CreateMovingUpLinkGreenSprite(Vector2 position)
 		{
 			return new SpriteLinkWalkUpGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingDownLinkSprite(Vector2 position)
+		public ISprite CreateMovingDownLinkGreenSprite(Vector2 position)
 		{
 			return new SpriteLinkWalkDownGreen(linkSpritesheet, position);
 		}
