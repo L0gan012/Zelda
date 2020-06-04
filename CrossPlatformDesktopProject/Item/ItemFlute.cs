@@ -9,17 +9,17 @@ using System.Threading.Tasks;
 
 namespace Sprint2.Item
 {
-    public class ItemBlueCandle : IItem
+    public class ItemFlute : IItem
     {
         //Instance variables
         private ISprite sprite;
         private Game1 game;
 
-        private ItemBlueCandle(Game1 game)
+        private ItemFlute(Game1 game)
         {
             this.game = game;
             //Load Blue Candle sprite
-            sprite = ItemsSpriteFactory.Instance.CreateSpriteBlueCandle();
+            sprite = ItemsSpriteFactory.Instance.CreateSpriteFlute();
             game.ListOfItems.Add(this);
         }
 

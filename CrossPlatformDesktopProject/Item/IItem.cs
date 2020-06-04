@@ -8,6 +8,9 @@ namespace Sprint2
         void Update();
 
         //Draws the item
-        void Draw(SpriteBatch spriteBatch, Texture2D texture);
+        void Draw(SpriteBatch spriteBatch);
+
+        //Uses item
+        void Use();
     }
 }
