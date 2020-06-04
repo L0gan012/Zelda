@@ -7,7 +7,7 @@ namespace Sprint2.Player
     class Link : IPlayer
     {
         //Instance variables
-        private ILinkState state;
+        private static ILinkState state;
 
         private IItem item;
 
@@ -26,13 +26,19 @@ namespace Sprint2.Player
             set { item = value; }
         }
 
+        public Vector2 Position
+        {
+            get { return position; }
+            set { position = value; }
+        }
+
         //No parameter constructor, initializes Link to the down idle state
         public Link()
         {
             //Can change starting position later
             position = Constant.LinkStartPosition;
 
-            state = new IdleLinkDownState(this, position);
+            state = new IdleLinkDownState(this);
         }
 
         //Updates the player
@@ -42,9 +48,9 @@ namespace Sprint2.Player
         }
 
         //Draws the player
-        public void Draw(SpriteBatch spriteBatch, Texture2D texture)
+        public void Draw(SpriteBatch spriteBatch)
         {
-            state.Draw(spriteBatch, texture);
+            state.Draw(spriteBatch);
         }
 
         //Damage Link

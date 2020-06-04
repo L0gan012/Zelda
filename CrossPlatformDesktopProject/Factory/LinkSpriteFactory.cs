@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sprint2.Sprite;
+using Microsoft.Xna.Framework;
 
 namespace Sprint2.Factory
 {
@@ -35,62 +36,62 @@ namespace Sprint2.Factory
 		}
 
 
-		public ISprite CreateLinkIdleLeftGreenSprite()
+		public ISprite CreateLinkIdleLeftGreenSprite(Vector2 position)
 		{
-			return new SpriteLinkIdleLeftGreen();
+			return new SpriteLinkIdleLeftGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateLinkIdleRightGreenSprite()
+		public ISprite CreateLinkIdleRightGreenSprite(Vector2 position)
 		{
-			return new SpriteLinkIdleRightGreen();
+			return new SpriteLinkIdleRightGreen(linkSpriteSheet, position);
 		}
 
-		public ISprite CreateLinkIdleUpGreenSprite()
+		public ISprite CreateLinkIdleUpGreenSprite(Vector2 position)
 		{
-			return new SpriteLinkIdleUpGreen();
+			return new SpriteLinkIdleUpGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateLinkIdleDownGreenSprite()
+		public ISprite CreateLinkIdleDownGreenSprite(Vector2 position)
 		{
-			return new SpriteLinkIdleDownGreen();
+			return new SpriteLinkIdleDownGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingLeftLinkSprite()
+		public ISprite CreateMovingLeftLinkSprite(Vector2 position)
 		{
-			return new SpriteLinkWalkLeftGreen();
+			return new SpriteLinkWalkLeftGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingRightLinkSprite()
+		public ISprite CreateMovingRightLinkSprite(Vector2 position)
 		{
-			return new SpriteLinkWalkRightGreen();
+			return new SpriteLinkWalkRightGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingUpLinkSprite()
+		public ISprite CreateMovingUpLinkSprite(Vector2 position)
 		{
-			return new SpriteLinkWalkUpGreen();
+			return new SpriteLinkWalkUpGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateMovingDownLinkSprite()
+		public ISprite CreateMovingDownLinkSprite(Vector2 position)
 		{
-			return new SpriteLinkWalkDownGreen();
+			return new SpriteLinkWalkDownGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateAttackingLeftLinkSprite()
-		{
-			return;
-		}
-
-		public ISprite CreateAttackingRightLinkSprite()
+		public ISprite CreateAttackingLeftLinkSprite(Vector2 position)
 		{
 			return;
 		}
 
-		public ISprite CreateAttackingUpLinkSprite()
+		public ISprite CreateAttackingRightLinkSprite(Vector2 position)
 		{
 			return;
 		}
 
-		public ISprite CreateAttackingDownLinkSprite()
+		public ISprite CreateAttackingUpLinkSprite(Vector2 position)
+		{
+			return;
+		}
+
+		public ISprite CreateAttackingDownLinkSprite(Vector2 position)
 		{
 			return;
 		}

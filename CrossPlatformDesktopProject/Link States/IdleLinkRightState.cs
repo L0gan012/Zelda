@@ -13,10 +13,10 @@ namespace Sprint2
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public IdleLinkRightState(Link link, Vector2 position)
+        public IdleLinkRightState(Link link)
         {
             this.link = link;
-            sprite = LinkSpriteFactory.Instance.CreateLinkIdleRightGreenSprite();
+            sprite = LinkSpriteFactory.Instance.CreateLinkIdleRightGreenSprite(link.Position);
         }
 
         //Updates the State
@@ -25,8 +25,8 @@ namespace Sprint2
         }
 
         //Draws the sprite attached to the state
-        public void Draw(SpriteBatch spriteBatch, Texture2D texture){
-            sprite.Draw(spriteBatch, texture);
+        public void Draw(SpriteBatch spriteBatch){
+            sprite.Draw(spriteBatch);
         }
 
         //Damage Link
@@ -35,7 +35,8 @@ namespace Sprint2
         //Use compass item
         public void UseItem(IItem item)
         {
-
+            item.Use();
+            link.State = new UseItemRightState(link);
         }
 
         //Idle Link left
