@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using Sprint2.Controller;
 using Sprint2.Factory;
 using Sprint2.Player;
+using Sprint2.Item;
+using System.Runtime.InteropServices;
 
 namespace Sprint2
 {
@@ -17,6 +19,22 @@ namespace Sprint2
         //TODO: make properties instead -Izzy
         public IPlayer link;
         public IController controller;
+        private static List<IItem> items;
+        public int itemPosition;
+
+        public List<IItem> ListOfItems
+        {
+            get
+            {
+                return items;
+            }
+
+            set
+            {
+                items.Add((IItem)value);
+            }
+
+        }
 
 
         //Game constructor
@@ -35,6 +53,9 @@ namespace Sprint2
             //Initializes controller object
             controller = new KeyboardController(this);
 
+            //Initializes items object
+            items = new List<IItem>();
+            
             //Initializes player object
             link = new Link();
 
@@ -67,6 +88,9 @@ namespace Sprint2
              controller.Update();
             //Updates link object
             link.Update();
+            //Updates items object
+            ListOfItems[itemPosition].Update();
+
             base.Update(gameTime);
          
         }
@@ -77,6 +101,7 @@ namespace Sprint2
             //Set background color
             GraphicsDevice.Clear(Color.White);
             //link.Draw();
+            //ListOfItems[itemPosition].Draw();
             base.Draw(gameTime);
         }
 

@@ -9,28 +9,33 @@ using System.Threading.Tasks;
 
 namespace Sprint2.Item
 {
-    class Boomerang : IItem
+    public class ItemBlueCandle : IItem
     {
         //Instance variables
         private ISprite sprite;
-        private ItemsSpriteFactory spriteFactory;
+        private Game1 game;
 
-        public Boomerang()
+        private ItemBlueCandle(Game1 game)
         {
-            /*Load new Block sprite
-            sprite = ItemsFactory.Instance.CreateSpriteBoomerang());*/
-
+            this.game = game;
+            //Load Blue Candle sprite
+            sprite = ItemsSpriteFactory.Instance.CreateSpriteBlueCandle();
+            game.ListOfItems.Add(this);
         }
 
         public void Draw(SpriteBatch spriteBatch, Texture2D texture)
         {
-            /*Todo draw current item
-            sprite.Draw(spriteBatch, texture);*/
+            //Todo draw current item
+            sprite.Draw(spriteBatch, texture);
         }
+
 
         public void Update()
         {
-            //sprite.Update();
+            
         }
+
+
+
     }
 }
