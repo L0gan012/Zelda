@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2.IBlock
+namespace Sprint2.Block
 {
     class Block : IBlock
     {
