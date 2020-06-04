@@ -42,6 +42,10 @@ namespace Sprint2.Factory
 			//return new SpriteCandle ();
 		}
 
+		public ISprite CreateSpriteEnemyDodongoDown()
+		{
+			//return new SpriteCandle ();
+		}
 		public ISprite CreateSpriteEnemyDodongoDownPuffed()
 		{
 			//return new SpriteCandle ();

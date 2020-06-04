@@ -10,21 +10,21 @@ namespace Sprint2.Command
     /// <summary>
     /// Command to change item on display
     /// </summary>
-    class ItemBackCommand : ICommand
+    class EnemyFowardCommand : ICommand
     {
         //Instance variables
         private Game1 game;
 
-        public ItemBackCommand(Game1 game)
+        public EnemyFowardCommand(Game1 game)
         {
             this.game = game;
         }
 
         public void Execute()
         {
-            if (this.game.itemListPosition > 0) 
+            if (this.game.enemylistPosition < this.game.ListOfEnemies.Count) 
             { 
-                this.game.itemListPosition--; 
+                this.game.enemylistPosition++; 
             }
            
         }
