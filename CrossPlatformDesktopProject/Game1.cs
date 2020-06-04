@@ -17,7 +17,7 @@ namespace Sprint2
         private SpriteBatch spriteBatch;
 
         //TODO: make properties instead -Izzy
-        public IPlayer link;
+        private IPlayer link;
         public IController controller;
         private static List<IItem> items;
         public int itemPosition;
@@ -34,6 +34,12 @@ namespace Sprint2
                 items.Add((IItem)value);
             }
 
+        }
+
+        public IPlayer Link
+        {
+            get { return link; }
+            set { link = value; }
         }
 
 
@@ -57,7 +63,7 @@ namespace Sprint2
             items = new List<IItem>();
             
             //Initializes player object
-            link = new Link();
+            link = new Link(this);
 
             base.Initialize();
         }

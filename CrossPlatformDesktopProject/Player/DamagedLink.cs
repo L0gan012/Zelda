@@ -4,47 +4,36 @@ using System.Diagnostics.Eventing.Reader;
 
 namespace Sprint2.Player
 {
-    public class Link : IPlayer
+    public class DamagedLink : IPlayer
     {
         //Instance variables
         private static Game1 game;
-        private static ILinkState state;
-        private IItem item;
-        private static Vector2 position;
-
-        //Properties
-        public ILinkState State
-        {
-            get { return state; }
-            set { state = value; }
-        }
-
-        public IItem Item
-        {
-            get { return item; }
-            set { item = value; }
-        }
-
-        public Vector2 Position
-        {
-            get { return position; }
-            set { position = value; }
-        }
+        private Link link;
+        private int timer;
 
         //No parameter constructor, initializes Link to the down idle state
-        public Link(Game1 game)
+        public DamagedLink(Link link, Game1 game)
         {
-            //Can change starting position later
-            Link.game = game;
-            position = Constant.LinkStartPosition;
-
-            state = new IdleLinkDownState(this);
+            DamagedLink.game = game;
+            this.link = link;
+            timer = Constant.DamagedTime;
         }
 
         //Updates the player
         public void Update()
         {
-            state.Update();
+            timer--;
+            if(timer == 0)
+            {
+                RemoveDecorator();
+            }
+            link.Update();
+        }
+
+        //Removes the decorator
+        public void RemoveDecorator()
+        {
+            game.Link = link;
         }
 
         //Draws the player
@@ -54,12 +43,14 @@ namespace Sprint2.Player
         }
 
         //Damage Link
-        public void DamagePlayer() {
-            state.DamageLink(game);
+        public void DamagePlayer()
+        {
+            //Doesn't take damage
         }
 
         //Use item
-        public void UseItem() {
+        public void UseItem()
+        {
             state.UseItem(item);
         }
 
@@ -94,43 +85,44 @@ namespace Sprint2.Player
         }
 
         //Player attacks
-        public void Attack() {
+        public void Attack()
+        {
             state.Attack();
         }
 
         //Moves Link left
         public void MoveLeft()
         {
-            if(position.X > 0)
+            if (link.Position.X > 0)
             {
-                position.X--;
+                link.Position.X--;
             }
         }
 
         //Moves Link right
         public void MoveRight()
         {
-            if(position.X < Constant.ScreenWidth)
+            if (link.Position.X < Constant.ScreenWidth)
             {
-                position.X++;
+                link.Position.X += 1;
             }
         }
 
         //Moves Link up
         public void MoveUp()
         {
-            if(position.Y > 0)
+            if (link.Position.Y > 0)
             {
-                position.Y--;
+                link.Position.Y--;
             }
         }
 
         //Moves Link down
         public void MoveDown()
         {
-            if(position.Y < Constant.ScreenHeight)
+            if (link.Position.Y < Constant.ScreenHeight)
             {
-                position.Y++;
+                link.Position.Y++;
             }
         }
     }

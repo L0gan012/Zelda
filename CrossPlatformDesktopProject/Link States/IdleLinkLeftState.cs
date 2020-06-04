@@ -30,7 +30,9 @@ namespace Sprint2
         }
 
         //Damage Link
-        public void DamageLink(){}
+        public void DamageLink(Game1 game){
+            game.Link = new DamagedLink(link, game);
+        }
 
         //Use compass item
         public void UseItem(IItem item)
