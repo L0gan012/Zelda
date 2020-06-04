@@ -31,7 +31,6 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			itemsSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 			//This is for changing over to multiple sprite sheets 
 			//itemSpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/ItemTextures");
 		}

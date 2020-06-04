@@ -53,6 +53,7 @@
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
     <Compile Include="Enemy\IEnemy.cs" />
+    <Compile Include="Factory\EnemySpriteFactory.cs" />
     <Compile Include="Factory\BlockSpriteFactory.cs" />
     <Compile Include="Factory\ItemsSpriteFactory.cs" />
     <Compile Include="Factory\LinkSpriteFactory.cs" />
