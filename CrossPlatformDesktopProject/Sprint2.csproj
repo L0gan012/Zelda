@@ -84,6 +84,10 @@
     <Compile Include="Command\MoveDownCommand.cs" />
     <Compile Include="Command\SetIdleCommand.cs" />
     <Compile Include="Command\AttackCommand.cs" />
+    <Compile Include="Link States\AttackingLinkDownState.cs" />
+    <Compile Include="Link States\AttackingLinkRightState.cs" />
+    <Compile Include="Link States\AttackingLinkLeftState.cs" />
+    <Compile Include="Link States\AttackingLinkUpState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">

@@ -13,10 +13,10 @@ namespace Sprint2
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public IdleLinkDownState(Link link, Vector2 position)
+        public IdleLinkDownState(Link link)
         {
             this.link = link;
-            sprite = LinkSpriteFactory.Instance.CreateLinkIdleDownGreenSprite();
+            sprite = LinkSpriteFactory.Instance.CreateLinkIdleDownGreenSprite(link.Position);
         }
 
         //Updates the State
@@ -25,51 +25,19 @@ namespace Sprint2
         }
 
         //Draws the sprite attached to the state
-        public void Draw(SpriteBatch spriteBatch, Texture2D texture){
-            sprite.Draw(spriteBatch, texture);
+        public void Draw(SpriteBatch spriteBatch){
+            sprite.Draw(spriteBatch);
         }
 
         //Damage Link
         public void DamageLink(){}
 
         //Use compass item
-        public void UseCompass(){}
-
-        //Use map item
-        public void UseMap(){}
-
-        //Use key item
-        public void UseKey(){}
-
-        //Use heart container item
-        public void UseHeartContainer(){}
-
-        //Use triforce piece item
-        public void UseTriforcePiece(){}
-
-        //Use wooden boomerang item
-        public void UseWoodenBoomerang(){}
-
-        //Use bow item
-        public void UseBow(){}
-
-        //Use heart item
-        public void UseHeart(){}
-
-        //Use rupee item
-        public void UseRupee(){}
-
-        //Use arrow item
-        public void UseArrow(){}
-
-        //Use bomb item
-        public void UseBomb(){}
-
-        //Use fairy item
-        public void UseFairy(){}
-
-        //Use clock item
-        public void UseClock(){}
+        public void UseItem(IItem item)
+        {
+            item.Use();
+            link.State = new UseItemDownState(link);
+        }
 
         //Idle Link left
         public void SetLinkIdle(){
