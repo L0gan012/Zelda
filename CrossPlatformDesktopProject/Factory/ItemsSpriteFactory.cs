@@ -127,6 +127,38 @@ namespace Sprint2.Factory
 			//return new SpriteCandle ();
 		}
 
+		public ISprite CreateSpritePowerBracelet()
+		{
+			//return new SpriteCandle ();
+		}
+		public ISprite CreateSpriteRaft()
+		{
+			//return new SpriteCandle ();
+		}
 
+		public ISprite CreateSpriteRedPotion()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteRupee()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteSilverArrow()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteWhiteSword()
+		{
+			//return new SpriteCandle ();
+		}
+
+		public ISprite CreateSpriteWoodenArrow()
+		{
+			//return new SpriteCandle ();
+		}
 	}
 }

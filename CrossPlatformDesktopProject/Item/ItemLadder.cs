@@ -15,12 +15,10 @@ namespace Sprint2.Item
         private ISprite sprite;
         private Game1 game;
 
-        private ItemLadder(Game1 game)
+        public ItemLadder()
         {
-            this.game = game;
-            //Load Blue Candle sprite
+            //Load Ladder sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteLadder();
-            game.ListOfItems.Add(this);
         }
 
         public void Draw(SpriteBatch spriteBatch)

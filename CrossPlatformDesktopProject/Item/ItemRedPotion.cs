@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace Sprint2.Item
 {
-    public class ItemMagicRod : IItem
+    public class ItemRedPotion : IItem
     {
         //Instance variables
         private ISprite sprite;
 
-        public ItemMagicRod()
+        public ItemRedPotion()
         {
-            //Load Rod sprite
-            sprite = ItemsSpriteFactory.Instance.CreateSpriteMagicRod();
+            //Load Red Potion sprite
+            sprite = ItemsSpriteFactory.Instance.CreateSpriteRedPotion();
         }
 
         public void Draw(SpriteBatch spriteBatch)

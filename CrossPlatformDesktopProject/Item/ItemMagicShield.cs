@@ -13,14 +13,12 @@ namespace Sprint2.Item
     {
         //Instance variables
         private ISprite sprite;
-        private Game1 game;
 
-        private ItemMagicShield(Game1 game)
+
+        public ItemMagicShield()
         {
-            this.game = game;
-            //Load Blue Candle sprite
+            //Load Shield sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteMagicShield();
-            game.ListOfItems.Add(this);
         }
 
         public void Draw(SpriteBatch spriteBatch)

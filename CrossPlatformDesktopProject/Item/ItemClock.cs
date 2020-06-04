@@ -1,4 +1,4 @@
-﻿using Microsoft.Xna.Framework;
+﻿ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Sprint2.Factory;
 using System;
@@ -13,14 +13,12 @@ namespace Sprint2.Item
     {
         //Instance variables
         private ISprite sprite;
-        private Game1 game;
 
-        private ItemClock(Game1 game)
+        public ItemClock()
         {
-            this.game = game;
-            //Load Blue Candle sprite
+
+            //Load Clock sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteClock();
-            game.ListOfItems.Add(this);
         }
 
         public void Draw(SpriteBatch spriteBatch)
