@@ -13,7 +13,7 @@ namespace Sprint2
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public IdleLinkLeftState(Link link, Vector2 position)
+        public IdleLinkLeftState(Link link)
         {
             this.link = link;
             sprite = LinkSpriteFactory.Instance.CreateLinkIdleLeftGreenSprite(link.Position);
