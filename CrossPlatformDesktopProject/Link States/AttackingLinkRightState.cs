@@ -6,68 +6,75 @@ using Sprint2.Sprite;
 
 namespace Sprint2
 {
-    class IdleLinkUpState : ILinkState
+    class AttackingLinkRightState : ILinkState
     {
         //Instance variables
         private Link link;
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public IdleLinkUpState(Link link)
+        public AttackingLinkRightState(Link link, Vector2 position)
         {
             this.link = link;
-            sprite = LinkSpriteFactory.Instance.CreateLinkIdleUpGreenSprite(link.Position);
+            sprite = LinkSpriteFactory.Instance.CreateAttackingRightLinkSprite();
         }
 
         //Updates the State
-        public void Update(){
+        public void Update()
+        {
             sprite.Update();
         }
 
         //Draws the sprite attached to the state
-        public void Draw(SpriteBatch spriteBatch){
-            sprite.Draw(spriteBatch);
+        public void Draw(SpriteBatch spriteBatch, Texture2D texture)
+        {
+            sprite.Draw(spriteBatch, texture);
         }
 
         //Damage Link
-        public void DamageLink(){}
+        public void DamageLink() { }
 
         //Use compass item
         public void UseItem(IItem item)
         {
-            item.Use();
-            link.State = new UseItemUpState(link);
+            //TODO  - figure out how this works
         }
 
         //Idle Link left
-        public void SetLinkIdle(){
-            //NO-OP
-            //Already idle
+        public void SetLinkIdle()
+        {
+            // TODO- should we do this?
+            link.State = new IdleLinkRightState(link);
         }
 
         //Moves Link left
-        public void MoveLinkLeft(){
+        public void MoveLinkLeft()
+        {
             link.State = new MovingLinkLeftState(link);
         }
 
         //Moves Link right
-        public void MoveLinkRight(){
+        public void MoveLinkRight()
+        {
             link.State = new MovingLinkRightState(link);
         }
 
         //Moves Link up
-        public void MoveLinkUp(){
+        public void MoveLinkUp()
+        {
             link.State = new MovingLinkUpState(link);
         }
 
         //Moves Link down
-        public void MoveLinkDown(){
+        public void MoveLinkDown()
+        {
             link.State = new MovingLinkDownState(link);
         }
 
         //Link attacks
-        public void Attack() {
-            link.State = new AttackingLinkUpState(link);
+        public void Attack()
+        {
+            //cannot attack from attack state
         }
     }
 }
