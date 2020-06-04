@@ -4,8 +4,13 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</File>
-    <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</File>
-    <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkSpriteSheet.png</File>
+    <File>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</File>
+    <File>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</File>
+    <File>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkSpriteSheet.png</File>
   </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
 </SourceFileCollection>

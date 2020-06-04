@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sprint2
 {
-    class SpriteLinkAttackWoodenSwordDownGreen : ISprite
+    public class SpriteLinkAttackWoodenSwordDownGreen : ISprite
     {
         //TODO:(Barry) Rename texture for different sprite sheets
         private Texture2D texture;

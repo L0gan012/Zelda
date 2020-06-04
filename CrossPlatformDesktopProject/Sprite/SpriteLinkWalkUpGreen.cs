@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sprint2
 {
-    class SpriteLinkWalkUpGreen : ISprite
+    public class SpriteLinkWalkUpGreen : ISprite
     {
 
         private Texture2D texture;

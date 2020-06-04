@@ -29,15 +29,11 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
+			//This is for changing over to multiple sprite sheets 
+			//spriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets");
 			linkSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
 		}
 
-		//Todo: Load Sprite
-		//Method is place holder for common factory methods
-		/*public ISprite CreateSmallEnemySprite()
-		{
-			return new EnemySprite(enemySpritesheet, 32, 32);
-		}*/
 
 		public ISprite CreateLinkIdleLeftGreenSprite()
 		{
