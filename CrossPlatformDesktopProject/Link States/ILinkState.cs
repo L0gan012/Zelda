@@ -8,49 +8,13 @@ namespace Sprint2
         void Update();
 
         //Draws the sprite attached to the state
-        void Draw(SpriteBatch spriteBatch, Texture2D texture);
+        void Draw(SpriteBatch spriteBatch);
 
         //Damage Link
         void DamageLink();
 
         //Use compass item
-        void UseCompass();
-
-        //Use map item
-        void UseMap();
-
-        //Use key item
-        void UseKey();
-
-        //Use heart container item
-        void UseHeartContainer();
-
-        //Use triforce piece item
-        void UseTriforcePiece();
-
-        //Use wooden boomerang item
-        void UseWoodenBoomerang();
-
-        //Use bow item
-        void UseBow();
-
-        //Use heart item
-        void UseHeart();
-
-        //Use rupee item
-        void UseRupee();
-
-        //Use arrow item
-        void UseArrow();
-
-        //Use bomb item
-        void UseBomb();
-
-        //Use fairy item
-        void UseFairy();
-
-        //Use clock item
-        void UseClock();
+        void UseItem(IItem item);
 
         //Idle Link
         void SetLinkIdle();

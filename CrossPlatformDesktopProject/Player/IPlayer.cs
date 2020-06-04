@@ -8,7 +8,7 @@ namespace Sprint2.Player
         void Update();
 
         //Draws the player
-        void Draw(SpriteBatch spriteBatch, Texture2D texture);
+        void Draw(SpriteBatch spriteBatch);
 
         //Damage player
         void DamagePlayer();

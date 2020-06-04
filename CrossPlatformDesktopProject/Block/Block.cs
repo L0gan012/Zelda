@@ -1,11 +1,13 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
-
-namespace Sprint2.Block
+namespace Sprint2.IBlock
 {
     class Block : IBlock
     {
-        private IBlock state;
+        private SpriteBatch spriteBatch;
+        private Texture2D texture;
+        
         public void Draw(SpriteBatch spriteBatch, Texture2D texture)
         {
             state.Draw(spriteBatch, texture);
@@ -14,6 +16,14 @@ namespace Sprint2.Block
         public void Update()
         {
             state.Update();
+        }
+    }
+
+    class Statue : Block
+    {
+        public IBlock Statue
+        {
+
         }
     }
 }
