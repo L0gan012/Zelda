@@ -52,6 +52,9 @@ namespace Sprint2.Controller
             commandDictionary.Add(Keys.O, new EnemyFowardCommand(game));
             commandDictionary.Add(Keys.P, new EnemyBackCommand(game));
 
+            //block commands
+            commandDictionary.Add(Keys.T, new BlockBackCommand(game));
+            commandDictionary.Add(Keys.Y, new BlockFowardCommand(game));
 
             this.idle = new SetIdleCommand(game);
         }

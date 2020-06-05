@@ -20,8 +20,10 @@ namespace Sprint2.Factory
 		private Texture2D openDoorSpritesheet;
 		private Texture2D shutDoorSpritesheet;
 		private Texture2D stairsSpritesheet;
-		private Texture2D ladderSpritesheet;
-		private Texture2D brickSpritesheet;
+		private Texture2D ladderTileSpritesheet;
+		private Texture2D brickTileSpritesheet;
+		private Texture2D bombedOpeningSpritesheet;
+		private Texture2D gapTileSpritesheet;
 
 		private static BlockSpriteFactory instance = new BlockSpriteFactory();
 
@@ -47,8 +49,10 @@ namespace Sprint2.Factory
 			openDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
 			shutDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
 			stairsSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			ladderSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			brickSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			ladderTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			brickTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			bombedOpeningSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			gapTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
 			// More Content.Load calls follow
 			//...
 		}
@@ -81,14 +85,23 @@ namespace Sprint2.Factory
 		{
 			return new Blocks(stairsSpritesheet, 1, 1);
 		}
-		public IBlock CreateSpriteLadder()
+		public IBlock CreateSpriteLadderTile()
 		{
-			return new Blocks(ladderSpritesheet, 1, 1);
+			return new Blocks(ladderTileSpritesheet, 1, 1);
 		}
-		public IBlock CreateSpriteBrick()
+		public IBlock CreateSpriteBrickTile()
 		{
-			return new Blocks(brickSpritesheet, 1, 1);
+			return new Blocks(brickTileSpritesheet, 1, 1);
 		}
+		public IBlock CreateSpriteBombedOpening()
+		{
+			return new Blocks(bombedOpeningSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteGapTile()
+		{
+			return new Blocks(gapTileSpritesheet, 1, 1);
+		}
+
 
 	}
 }
