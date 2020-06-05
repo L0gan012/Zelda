@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</SourceFile>
-  <SourceTime>2020-05-31T21:22:20.7579608-04:00</SourceTime>
-  <DestFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/Fonts/Font.xnb</DestFile>
-  <DestTime>2020-06-04T21:40:46.2103641-04:00</DestTime>
+  <SourceFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</SourceFile>
+  <SourceTime>2020-05-31T19:59:39.890831-04:00</SourceTime>
+  <DestFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/Fonts/Font.xnb</DestFile>
+  <DestTime>2020-06-04T22:12:23.8469027-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
-  <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
+  <ImporterTime>2018-12-08T11:35:14-05:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
-  <ProcessorTime>2018-12-08T11:35:54-05:00</ProcessorTime>
+  <ProcessorTime>2018-12-08T11:35:14-05:00</ProcessorTime>
   <Parameters>
     <Key>TextureFormat</Key>
     <Value>Compressed</Value>
