@@ -8,6 +8,7 @@ using Sprint2.Player;
 using Sprint2.Item;
 using Sprint2.Block;
 using System.Runtime.InteropServices;
+using Sprint2.Enemy_NPC;
 
 namespace Sprint2
 {
@@ -23,7 +24,7 @@ namespace Sprint2
         private static List<INPC> enemies;
         private static List<IBlock> blocks;
         public int itemListPosition;
-        public int enemylistPosition;
+        public int enemyListPosition;
         public int blockListPosition;
         private ItemLoadAllContent itemLoader;
         private EnemyLoadAllContent enemyLoader;
@@ -68,9 +69,12 @@ namespace Sprint2
             //Initializes controller object
             controller = new KeyboardController(this);
 
-            //Initializes items object
+            //Initializes items objects
             items = new List<IItem>();
             itemLoader = new ItemLoadAllContent(this);
+
+            //Initializes enemy and npc objects
+            enemies = new List<INPC>();
             enemyLoader = new EnemyLoadAllContent(this);
 
             //Initializes blocks object
@@ -101,6 +105,8 @@ namespace Sprint2
 
             //Loads content for all items
             itemLoader.LoadContent();
+
+            //Loads content for all enemies and npcs
             enemyLoader.LoadContent();
 
             //Loads content for all blocks
@@ -124,7 +130,7 @@ namespace Sprint2
             //Updates items object
             items[itemListPosition].Update();
             //Updates items object
-            enemies[enemylistPosition].Update();
+            enemies[enemyListPosition].Update();
             //Updates blocks object
             blocks[blockListPosition].Update();
 
@@ -139,7 +145,7 @@ namespace Sprint2
             GraphicsDevice.Clear(Color.White);
             //link.Draw();
             //items[itemListPosition].Draw(spriteBatch);
-            //enemies[enemylistPosition].Draw(spriteBatch);
+            //enemies[enemyListPosition].Draw(spriteBatch);
 
             //Draw blocks
             blocks[blockListPosition].Draw(spriteBatch, new Vector2(100, 100));

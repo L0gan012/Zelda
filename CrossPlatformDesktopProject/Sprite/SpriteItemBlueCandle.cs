@@ -2,14 +2,13 @@
 using Microsoft.Xna.Framework.Graphics;
 using System.Linq.Expressions;
 
-namespace Sprint2
+namespace Sprint2.Sprite
 {
     public class SpriteItemBlueCandle : ISprite
     {
         private Texture2D texture;
         private int rows;
         private int columns;
-        private int currentTick;
         private int currentFrame;
         private int totalFrames;
 
@@ -21,21 +20,13 @@ namespace Sprint2
             rows = 1;
             columns = 1;
             currentFrame = 0;
-            currentTick = 0;
             totalFrames = rows * columns;
         }
 
 
         public void Update()
         {
-            if (currentTick >= 8)
-            {
-                currentTick = 0;
-                currentFrame++;
-                if (currentFrame >= totalFrames)
-                    currentFrame = 0;
-            }
-            currentTick++;
+
         }
 
 

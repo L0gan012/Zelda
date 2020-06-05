@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Content",
     "\\CrossPlatformDesktopProject\\Content\\TextureSheets",
-    "\\CrossPlatformDesktopProject\\Content\\TextureSheets\\ItemTextures",
-    "\\CrossPlatformDesktopProject\\Sprite"
+    "\\CrossPlatformDesktopProject\\Factory"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\SpriteItemBlueCandle.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Factory\\BlockSpriteFactory.cs",
   "PreviewInSolutionExplorer": false
 }

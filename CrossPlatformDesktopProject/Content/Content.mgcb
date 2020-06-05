@@ -728,7 +728,7 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/ItemTextures/ItemSilverArrow.png
 
-#begin TextureSheets/ItemTextures/ItemTriforcePieceAnimated.png
+#begin TextureSheets/ItemTextures/ItemTriforcePiece.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -738,7 +738,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/ItemTextures/ItemTriforcePieceAnimated.png
+/build:TextureSheets/ItemTextures/ItemTriforcePiece.png
 
 #begin TextureSheets/ItemTextures/ItemWhiteSword.png
 /importer:TextureImporter
@@ -788,6 +788,7 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/ItemTextures/ItemWoodenSword.png
 
+<<<<<<< HEAD
 #begin TextureSheets/LinkSpriteSheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -801,6 +802,9 @@
 /build:TextureSheets/LinkSpriteSheet.png
 
 #begin TextureSheets/NPCTextures/FireIdle.png
+=======
+#begin TextureSheets/LinkTextures/LinkPickupItemGreen.png
+>>>>>>> refs/remotes/origin/master
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -810,9 +814,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/FireIdle.png
+/build:TextureSheets/LinkTextures/LinkPickupItemGreen.png
 
-#begin TextureSheets/NPCTextures/OldMan.png
+#begin TextureSheets/LinkTextures/LinkSpriteSheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -822,9 +826,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/OldMan.png
+/build:TextureSheets/LinkTextures/LinkSpriteSheet.png
 
-#begin TextureSheets/NPCTextures/Vendor.png
+#begin TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -834,9 +838,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/Vendor.png
+/build:TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.png
 
-#begin TextureSheets/NPCTextures/ZeldaAnimatedGreen.png
+#begin TextureSheets/LinkTextures/LinkUseItemDownGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -846,9 +850,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/ZeldaAnimatedGreen.png
+/build:TextureSheets/LinkTextures/LinkUseItemDownGreen.png
 
-#begin TextureSheets/ProjectileTextures/FireAnimated.png
+#begin TextureSheets/LinkTextures/LinkUseItemLeftGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -858,7 +862,127 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/ProjectileTextures/FireAnimated.png
+/build:TextureSheets/LinkTextures/LinkUseItemLeftGreen.png
+
+#begin TextureSheets/LinkTextures/LinkUseItemRightGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkUseItemRightGreen.png
+
+#begin TextureSheets/LinkTextures/LinkUseItemUpGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkUseItemUpGreen.png
+
+#begin TextureSheets/LinkTextures/LinkWalkDownGreenSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkDownGreenSmall.png
+
+#begin TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.png
+
+#begin TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png
+
+#begin TextureSheets/LinkTextures/LinkWalkUpGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkUpGreen.png
+
+#begin TextureSheets/NPCTextures/NPCfireIdle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/NPCTextures/NPCfireIdle.png
+
+#begin TextureSheets/NPCTextures/NPColdman.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/NPCTextures/NPColdman.png
+
+#begin TextureSheets/NPCTextures/NPCvendor.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/NPCTextures/NPCvendor.png
+
+#begin TextureSheets/NPCTextures/NPCzeldaGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/NPCTextures/NPCzeldaGreen.png
 
 #begin TextureSheets/ProjectileTextures/ProjectileAquamentus.png
 /importer:TextureImporter
@@ -872,7 +996,7 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/ProjectileTextures/ProjectileAquamentus.png
 
-#begin TextureSheets/ProjectileTextures/ProjectileFire.png
+#begin TextureSheets/ProjectileTextures/ProjectileCandle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -882,7 +1006,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/ProjectileTextures/ProjectileFire.png
+/build:TextureSheets/ProjectileTextures/ProjectileCandle.png
 
 #begin TextureSheets/ProjectileTextures/ProjectileFlame.png
 /importer:TextureImporter
@@ -1400,3 +1524,114 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/ProjectileTextures/ProjectileWoodenSwordUp.png
 
+<<<<<<< HEAD
+=======
+#begin TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.png
+
+#begin TextureSheets/Ethan.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/Ethan.png
+
+#begin TextureSheets/LinkSpriteSheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkSpriteSheet.png
+
+>>>>>>> refs/remotes/origin/master

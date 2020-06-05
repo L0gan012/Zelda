@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sprint2.Sprite;
+using Microsoft.Xna.Framework;
 
 namespace Sprint2.Factory
 {
@@ -13,8 +14,8 @@ namespace Sprint2.Factory
 	public class ItemsSpriteFactory
     {
 		//Instance variables
-		private Texture2D itemsSpritesheet;
-		//private Texture2D itemSpriteContent;
+		//Dictionary populated with TextureContent class
+		private Dictionary<string, Texture2D> itemSpriteContent;
 		private static ItemsSpriteFactory instance = new ItemsSpriteFactory();
 
 		public static ItemsSpriteFactory Instance
@@ -31,37 +32,43 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			//This is for changing over to multiple sprite sheets 
-			//itemSpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/ItemTextures");
+			//Loads the Dictionary with all the item textures in ItemTextures folder
+			itemSpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/ItemTextures");
 		}
 
 		 
-		public ISprite CreateSpriteBlueCandle()
+		public ISprite CreateSpriteBlueCandle(Vector2 position)
 		{
+			Texture2D texture = itemSpriteContent["ItemBlueCandle"];
 			//return new SpriteCandle ();
 		}
 
 		public ISprite CreateSpriteBluePotion()
 		{
+			Texture2D texture = itemSpriteContent["ItemBluePotion"];
 			//return new SpriteCandle ();
 		}
 
         public ISprite CreateSpriteBlueRing()
         {
+			Texture2D texture = itemSpriteContent["ItemBlueRing"];
             //return new SpriteCandle ();
         }
 
 		public ISprite CreateSpriteBomb()
 		{
+			Texture2D texture = itemSpriteContent["ItemBomb"];
 			//return new SpriteCandle ();
 		}
 
 		public ISprite CreateSpriteBow()
 		{
+			Texture2D texture = itemSpriteContent["ItemBow"];
 			//return new SpriteCandle ();
 		}
 		public ISprite CreateSpriteClock()
 		{
+			Texture2D texture = itemSpriteContent["ItemClock"];
 			//return new SpriteCandle ();
 		}
 
@@ -71,7 +78,7 @@ namespace Sprint2.Factory
 		}
 		public ISprite CreateSpriteFairy()
 		{
-			//return new SpriteCandle ();
+			return new SpriteContinuousAnimation(itemSpriteContent["ItemFairy"], 1, 2, 8);
 		}
 
 
