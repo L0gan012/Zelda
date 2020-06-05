@@ -33,5 +33,7 @@ namespace Sprint2
 
         //Link attacks
         void Attack();
+
+        void SetDamagedSprite();
     }
 }

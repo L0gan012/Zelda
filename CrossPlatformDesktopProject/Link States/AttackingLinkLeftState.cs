@@ -9,11 +9,11 @@ namespace Sprint2
     class AttackingLinkLeftState : ILinkState
     {
         //Instance variables
-        private Link link;
+        private ILink link;
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public AttackingLinkLeftState(Link link, Vector2 position)
+        public AttackingLinkLeftState(ILink link)
         {
             this.link = link;
             sprite = LinkSpriteFactory.Instance.CreateAttackingLeftLinkSprite();
@@ -26,13 +26,16 @@ namespace Sprint2
         }
 
         //Draws the sprite attached to the state
-        public void Draw(SpriteBatch spriteBatch, Texture2D texture)
+        public void Draw(SpriteBatch spriteBatch)
         {
-            sprite.Draw(spriteBatch, texture);
+            sprite.Draw(spriteBatch);
         }
 
         //Damage Link
-        public void DamageLink() { }
+        public void DamageLink(Game1 game) {
+            SetDamagedSprite();
+            game.Link = new DamagedLink(link, game);
+        }
 
         //Use compass item
         public void UseItem(IItem item)
@@ -75,6 +78,11 @@ namespace Sprint2
         public void Attack()
         {
             //cannot attack from attack state
+        }
+
+        public void SetDamagedSprite()
+        {
+            sprite = LinkSpriteFactory.Instance.CreateAttackingLeftLinkDamagedSprite(link.Position);
         }
     }
 }

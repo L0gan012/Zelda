@@ -4,18 +4,42 @@ using System.Diagnostics.Eventing.Reader;
 
 namespace Sprint2.Player
 {
-    public class DamagedLink : IPlayer
+    public class DamagedLink : ILink
     {
         //Instance variables
         private static Game1 game;
-        private Link link;
+        private ILink link;
+        private ILinkState state;
+        private IItem item;
+        private Vector2 position;
         private int timer;
 
+        public ILinkState State
+        {
+            get { return state; }
+            set { state = value; }
+        }
+
+        public IItem Item
+        {
+            get { return item; }
+            set { item = value; }
+        }
+
+        public Vector2 Position
+        {
+            get { return position; }
+            set { position = value; }
+        }
+
         //No parameter constructor, initializes Link to the down idle state
-        public DamagedLink(Link link, Game1 game)
+        public DamagedLink(ILink link, Game1 game)
         {
             DamagedLink.game = game;
             this.link = link;
+            state = link.State;
+            item = link.Item;
+            position = link.Position;
             timer = Constant.DamagedTime;
         }
 
@@ -58,71 +82,77 @@ namespace Sprint2.Player
         public void SetIdle()
         {
             state.SetLinkIdle();
+            state.SetDamagedSprite();
         }
 
         //Sets link to the moving left state
         public void MovePlayerLeft()
         {
             state.MoveLinkLeft();
+            state.SetDamagedSprite();
         }
 
         //Sets link to the moving right state
         public void MovePlayerRight()
         {
             state.MoveLinkRight();
+            state.SetDamagedSprite();
         }
 
         //Sets link to the moving up state
         public void MovePlayerUp()
         {
             state.MoveLinkUp();
+            state.SetDamagedSprite();
         }
 
         //Sets link to the moving down state
         public void MovePlayerDown()
         {
             state.MoveLinkDown();
+            state.SetDamagedSprite();
         }
 
         //Player attacks
         public void Attack()
         {
             state.Attack();
+            state.SetDamagedSprite();
         }
 
         //Moves Link left
         public void MoveLeft()
         {
-            if (link.Position.X > 0)
+            if (position.X > 0)
             {
-                link.Position.X--;
+                position.X--;
             }
         }
 
         //Moves Link right
         public void MoveRight()
         {
-            if (link.Position.X < Constant.ScreenWidth)
+            if (position.X < Constant.ScreenWidth)
             {
-                link.Position.X += 1;
+                position.X += 1;
             }
         }
 
         //Moves Link up
         public void MoveUp()
         {
-            if (link.Position.Y > 0)
+            if (position.Y > 0)
             {
-                link.Position.Y--;
+                position.Y--;
             }
         }
 
         //Moves Link down
         public void MoveDown()
         {
-            if (link.Position.Y < Constant.ScreenHeight)
+            if (position.Y < Constant.ScreenHeight)
             {
-                link.Position.Y++;
+                position.Y++;
             }
         }
     }
