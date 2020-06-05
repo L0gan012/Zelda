@@ -6,7 +6,7 @@ using Sprint2.Factory;
 
 namespace Sprint2.Sprite
 {
-    public class SpriteContinuousAnimation : ISprite
+    class SpriteContinuousAnimation : ISprite
     {
         public Texture2D Texture { get; set; }
         public int Rows { get; set; }
