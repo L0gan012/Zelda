@@ -72,6 +72,7 @@
     <Compile Include="Enemy_NPC\Dodongo\LeftMovingDodongoState.cs" />
     <Compile Include="Enemy_NPC\Dodongo\RightMovingDodongoState.cs" />
     <Compile Include="Enemy_NPC\Dodongo\UpMovingDodongoState.cs" />
+    <Compile Include="Enemy_NPC\Keese\Keese.cs" />
     <Compile Include="Enemy_NPC\Gel\Gel.cs" />
     <Compile Include="Enemy_NPC\IEnemy.cs" />
     <Compile Include="Enemy_NPC\EnemyLoadAllContent.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Sprite\AnimatedSprite.cs" />
     <Compile Include="Sprite\ISprite.cs" />
     <Compile Include="Sprite\MovingSprite.cs" />
+    <Compile Include="Sprite\SpriteContinuousAnimation.cs" />
     <Compile Include="Sprite\SpriteEnemyAquamentus.cs" />
     <Compile Include="Sprite\SpriteEnemyAquamentusMouthOpen.cs" />
     <Compile Include="Sprite\SpriteEnemyDodongoDown.cs" />
@@ -333,7 +335,9 @@
     <Content Include="Content\TextureSheets\ProjectileTextures\ProjectileAquamentus.png" />
     <Content Include="Content\TextureSheets\ProjectileTextures\ProjectileFlame.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Enemy_NPC\Goriya\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
