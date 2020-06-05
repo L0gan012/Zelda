@@ -3,13 +3,9 @@ using System.CodeDom;
 
 namespace Sprint2
 {
-    public interface IEnemy
+    public interface IEnemy : INPC
     {
-        //Updates the Enemy
-        void Update();
-
-        //Draws the enemy
-        void Draw(SpriteBatch spriteBatch);
+        
 
         //Enemy walks up
         void MoveUp();
@@ -22,6 +18,8 @@ namespace Sprint2
 
         //Enemy walks left
         void MoveLeft();
+
+        //eventually add a damage method
 
     }
 }

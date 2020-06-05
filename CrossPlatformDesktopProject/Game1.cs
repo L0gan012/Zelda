@@ -17,11 +17,10 @@ namespace Sprint2
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
 
-        //TODO: make properties instead -Izzy
         private ILink link;
         public IController controller;
         private static List<IItem> items;
-        private static List<IEnemy> enemies;
+        private static List<INPC> enemies;
         private static List<IBlock> blocks;
         public int itemListPosition;
         public int enemylistPosition;
@@ -33,10 +32,10 @@ namespace Sprint2
         public List<IItem> ListOfItems
         { 
             get { return items;}
-            set{ items.Add((IItem)value); }
+            set { items.Add((IItem)value); }
         }
 
-        public List<IEnemy> ListOfEnemies
+        public List<INPC> ListOfEnemies
         {
             get { return enemies; }
             set { enemies.Add((IEnemy) value); }
@@ -81,6 +80,9 @@ namespace Sprint2
             //Initializes player object
             link = new Link(this);
 
+            //Registers Commands for controls
+            controller.RegisterCommand();
+
             base.Initialize();
         }
 
@@ -103,9 +105,7 @@ namespace Sprint2
 
             //Loads content for all blocks
             blockLoader.LoadContent();
-
-            //Registers Commands for controls
-            controller.RegisterCommand();
+            
         }
 
         //Unloads content
