@@ -19,6 +19,8 @@ namespace Sprint2
         public static readonly int DisplayScaleX = 3;
         public static readonly int DisplayScaleY = 3;
 
+        //Link Damaged time
+        public static readonly int DamagedTime = 1000;
 
     }
 }

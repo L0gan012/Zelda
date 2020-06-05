@@ -41,9 +41,14 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
-    <Compile Include="Block\Block.cs" />
+    <Compile Include="Block\BlockLoadAllContent.cs" />
+    <Compile Include="Block\Blocks.cs" />
     <Compile Include="Block\IBlock.cs" />
+    <Compile Include="Command\BlockBackCommand.cs" />
+    <Compile Include="Command\BlockFowardCommand.cs" />
+    <Compile Include="Command\EnemyBackCommand.cs" />
     <Compile Include="Command\ItemBackCommand.cs" />
+    <Compile Include="Command\EnemyFowardCommand.cs" />
     <Compile Include="Command\ItemFowardCommand.cs" />
     <Compile Include="Command\ExitCommand.cs" />
     <Compile Include="Command\ICommand.cs" />
@@ -52,12 +57,33 @@
     <Compile Include="Constant.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedDownState.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedLeftState.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedRightState.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedUpState.cs" />
+    <Compile Include="Enemy\Dodongo\Dodongo.cs" />
+    <Compile Include="Enemy\Dodongo\DownMovingDodongoState.cs" />
+    <Compile Include="Enemy\Dodongo\IDodongoState.cs" />
+    <Compile Include="Enemy\Aquamentus\Aquamentus.cs" />
+    <Compile Include="Enemy\Dodongo\LeftMovingDodongoState.cs" />
+    <Compile Include="Enemy\Dodongo\RightMovingDodongoState.cs" />
+    <Compile Include="Enemy\Dodongo\UpMovingDodongoState.cs" />
     <Compile Include="Enemy\IEnemy.cs" />
+    <Compile Include="Enemy\EnemyLoadAllContent.cs" />
+    <Compile Include="Factory\EnemySpriteFactory.cs" />
     <Compile Include="Factory\BlockSpriteFactory.cs" />
     <Compile Include="Factory\ItemsSpriteFactory.cs" />
     <Compile Include="Factory\LinkSpriteFactory.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="Item\ItemLoadAllContent.cs" />
     <Compile Include="Item\ItemBomb.cs" />
+    <Compile Include="Item\ItemWoodenArrow.cs" />
+    <Compile Include="Item\ItemWhiteSword.cs" />
+    <Compile Include="Item\ItemSilverArrow.cs" />
+    <Compile Include="Item\ItemRupee.cs" />
+    <Compile Include="Item\ItemRedPotion.cs" />
+    <Compile Include="Item\ItemRaft.cs" />
+    <Compile Include="Item\ItemPowerBracelet.cs" />
     <Compile Include="Item\ItemPotionNote.cs" />
     <Compile Include="Item\ItemMap.cs" />
     <Compile Include="Item\ItemMagicShield.cs" />
@@ -85,7 +111,8 @@
     <Compile Include="Link States\MovingLinkLeftState.cs" />
     <Compile Include="Link States\MovingLinkRightState.cs" />
     <Compile Include="Link States\MovingLinkUpState.cs" />
-    <Compile Include="Player\IPlayer.cs" />
+    <Compile Include="Player\DamagedLink.cs" />
+    <Compile Include="Player\ILink.cs" />
     <Compile Include="Player\Link.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,6 +142,8 @@
     <Compile Include="Link States\AttackingLinkRightState.cs" />
     <Compile Include="Link States\AttackingLinkLeftState.cs" />
     <Compile Include="Link States\AttackingLinkUpState.cs" />
+    <Compile Include="Enemy\INPC.cs" />
+    <Compile Include="Enemy\Old man\OldMan.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
@@ -233,6 +262,9 @@
     <Content Include="Content\TextureSheets\ProjectileTextures\FireAnimated.png" />
     <Content Include="Content\TextureSheets\ProjectileTextures\ProjectileAquamentus.png" />
     <Content Include="Content\TextureSheets\ProjectileTextures\ProjectileFlame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enemy\Old man\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

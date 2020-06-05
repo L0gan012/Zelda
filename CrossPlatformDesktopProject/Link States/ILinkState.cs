@@ -11,7 +11,7 @@ namespace Sprint2
         void Draw(SpriteBatch spriteBatch);
 
         //Damage Link
-        void DamageLink();
+        void DamageLink(Game1 game);
 
         //Use compass item
         void UseItem(IItem item);
@@ -33,5 +33,7 @@ namespace Sprint2
 
         //Link attacks
         void Attack();
+
+        void SetDamagedSprite();
     }
 }

@@ -4,13 +4,12 @@ using System.Diagnostics.Eventing.Reader;
 
 namespace Sprint2.Player
 {
-    class Link : IPlayer
+    public class Link : ILink
     {
         //Instance variables
+        private static Game1 game;
         private static ILinkState state;
-
         private IItem item;
-
         private static Vector2 position;
 
         //Properties
@@ -33,9 +32,10 @@ namespace Sprint2.Player
         }
 
         //No parameter constructor, initializes Link to the down idle state
-        public Link()
+        public Link(Game1 game)
         {
             //Can change starting position later
+            Link.game = game;
             position = Constant.LinkStartPosition;
 
             state = new IdleLinkDownState(this);
@@ -55,7 +55,7 @@ namespace Sprint2.Player
 
         //Damage Link
         public void DamagePlayer() {
-            state.DamageLink();
+            state.DamageLink(game);
         }
 
         //Use item

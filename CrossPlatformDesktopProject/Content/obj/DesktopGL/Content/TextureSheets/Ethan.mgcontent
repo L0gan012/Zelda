@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</SourceFile>
-  <SourceTime>2020-05-31T21:22:20.7589742-04:00</SourceTime>
-  <DestFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/Ethan.xnb</DestFile>
-  <DestTime>2020-05-31T21:23:18.0924444-04:00</DestTime>
+  <SourceFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</SourceFile>
+  <SourceTime>2020-05-31T19:59:39.8915489-04:00</SourceTime>
+  <DestFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/Ethan.xnb</DestFile>
+  <DestTime>2020-06-04T22:12:23.8890928-04:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
+  <ImporterTime>2018-12-08T11:35:14-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2018-12-08T11:35:54-05:00</ProcessorTime>
+  <ProcessorTime>2018-12-08T11:35:14-05:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

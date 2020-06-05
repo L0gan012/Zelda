@@ -1,13 +1,25 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
+using System.CodeDom;
 
 namespace Sprint2
 {
-    interface IEnemy
+    public interface IEnemy : INPC
     {
-        //Updates the Enemy
-        void Update();
+        
 
-        //Draws the enemy
-        void Draw(SpriteBatch spriteBatch, Texture2D texture);
+        //Enemy walks up
+        void MoveUp();
+
+        //Enemy walks down
+        void MoveDown();
+
+        //Enemy walks right
+        void MoveRight();
+
+        //Enemy walks left
+        void MoveLeft();
+
+        //eventually add a damage method
+
     }
 }

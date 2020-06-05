@@ -41,7 +41,7 @@ namespace Sprint2.Factory
 
 		public ISprite CreateLinkIdleRightGreenSprite(Vector2 position)
 		{
-			return new SpriteLinkIdleRightGreen(linkSpriteSheet, position);
+			return new SpriteLinkIdleRightGreen(linkSpritesheet, position);
 		}
 
 		public ISprite CreateLinkIdleUpGreenSprite(Vector2 position)
@@ -74,22 +74,22 @@ namespace Sprint2.Factory
 			return new SpriteLinkWalkDownGreen(linkSpritesheet, position);
 		}
 
-		public ISprite CreateAttackingLeftLinkSprite(Vector2 position)
+		public ISprite CreateAttackingLeftLinkGreenSprite(Vector2 position)
+		{
+			return new SpriteLinkAttackWoodenSwordLeftGreen(linkSpritesheet, position);
+		}
+
+		public ISprite CreateAttackingRightLinkGreenSprite(Vector2 position)
 		{
 			return;
 		}
 
-		public ISprite CreateAttackingRightLinkSprite(Vector2 position)
+		public ISprite CreateAttackingUpLinkGreenSprite(Vector2 position)
 		{
 			return;
 		}
 
-		public ISprite CreateAttackingUpLinkSprite(Vector2 position)
-		{
-			return;
-		}
-
-		public ISprite CreateAttackingDownLinkSprite(Vector2 position)
+		public ISprite CreateAttackingDownLinkGreenSprite(Vector2 position)
 		{
 			return;
 		}

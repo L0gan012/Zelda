@@ -1,9 +1,16 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace Sprint2.Player
 {
-    public interface IPlayer
+    public interface ILink
     {
+        ILinkState State { get; set; }
+
+        IItem Item { get; set; }
+
+        Vector2 Position { get; set; }
+
         //Updates the player
         void Update();
 
