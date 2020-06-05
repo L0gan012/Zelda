@@ -8,12 +8,14 @@ namespace Sprint2.Sprite
         //Instance variables
         private int locationX;
         private int locationY;
+        private Texture2D texture;
 
         //Constructor with game instance parameter
-        public StationarySprite(int screenWidth, int screenHeight)
+        public StationarySprite(int screenWidth, int screenHeight, Texture2D texture)
         {
             locationX = screenWidth / 2;
             locationY = screenHeight / 2;
+            this.texture = texture;
         }
 
         //Not used update since it is a single image
@@ -23,7 +25,7 @@ namespace Sprint2.Sprite
         }
 
         //Draws the sprite to the screen
-        public void Draw(SpriteBatch spriteBatch, Texture2D texture)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
             //Sprite dimensions
             int spriteWidth = 14;
@@ -38,7 +40,7 @@ namespace Sprint2.Sprite
 
             //Draw specified sprite to the screen
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, Color.White);
             spriteBatch.End();
         }
     }

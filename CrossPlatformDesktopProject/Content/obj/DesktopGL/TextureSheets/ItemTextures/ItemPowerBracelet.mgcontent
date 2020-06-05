@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemPowerBracelet.png</SourceFile>
-  <SourceTime>2020-06-03T19:18:49.0992424-04:00</SourceTime>
+  <SourceTime>2020-06-04T23:57:53.8315858-04:00</SourceTime>
   <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/ItemTextures/ItemPowerBracelet.xnb</DestFile>
-  <DestTime>2020-06-04T22:43:29.2286366-04:00</DestTime>
+  <DestTime>2020-06-04T23:58:26.2488469-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

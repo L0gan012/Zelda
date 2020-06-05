@@ -14,12 +14,12 @@ namespace Sprint2.Sprite
         private int locationY;
 
         //Constructor with window width and height
-        public AnimatedSprite(int screenWidth, int screenHeight)
+        public AnimatedSprite(int screenWidth, int screenHeight, Texture2D texture)
         {
             currentFrame = 1;
             totalFrames = 2;
             framesPerSecond = 60;
-
+            this.texture = texture;
             locationX = screenWidth / 2;
             locationY = screenHeight / 2;
         }
@@ -37,7 +37,7 @@ namespace Sprint2.Sprite
         }
 
         //Draws the specified sprite to the screen
-        public void Draw(SpriteBatch spriteBatch, Texture2D texture)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
             //Dimensions for the specified sprites
             int spriteWidth = 14;
@@ -61,7 +61,7 @@ namespace Sprint2.Sprite
             }
 
             //Draws the specifed sprite to the screen
-            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, Color.White);
             spriteBatch.End();
         }
     }
