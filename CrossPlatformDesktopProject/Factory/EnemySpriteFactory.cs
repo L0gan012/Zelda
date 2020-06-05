@@ -14,7 +14,8 @@ namespace Sprint2.Factory
 		private Texture2D enemySpritesheet;
 		private static EnemySpriteFactory instance = new EnemySpriteFactory();
 
-		public static EnemySpriteFactory Instance
+
+        public static EnemySpriteFactory Instance
 		{
 			get
 			{
@@ -34,7 +35,12 @@ namespace Sprint2.Factory
 
 		public ISprite CreateSpriteEnemyAquamentus()
 		{
-			//return new SpriteCandle ();
+			//return new Sprite();
+		}
+
+		public ISprite CreateSpriteEnemyAquamentusProjectile()
+		{
+			//return new Sprite();
 		}
 
 		public ISprite CreateSpriteEnemyAquamentusMouthOpen()

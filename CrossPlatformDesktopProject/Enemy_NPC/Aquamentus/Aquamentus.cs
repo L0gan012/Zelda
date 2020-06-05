@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
+using Sprint2.Enemy_NPC;
 using Sprint2.Factory;
 using System;
 using System.Collections.Generic;
@@ -8,45 +9,47 @@ using System.Threading.Tasks;
 
 namespace Sprint2.Enemy
 {
-    class EnemyAquamentus : IEnemy
+    public class Aquamentus : IEnemy
     {
 
         //Instance variables
-        private ISprite sprite;
+        public IAquamentusState state;
 
-        public EnemyAquamentus()
+        public Aquamentus()
         {
-            this.sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentus();
+            state = new MouthClosedAquamentusState(this);
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            sprite.Draw(spriteBatch);
-        }
-
-        public void Update()
-        {
-            sprite.Update();
+            state.Draw(spriteBatch);
         }
 
         public void MoveDown()
         {
-            throw new NotImplementedException();
+
         }
 
         public void MoveLeft()
         {
-            throw new NotImplementedException();
+
         }
 
         public void MoveRight()
         {
-            throw new NotImplementedException();
+
         }
 
         public void MoveUp()
         {
-            throw new NotImplementedException();
+
         }
+
+        public void Update()
+        {
+            state.Update();
+        }
+
+
     }
 }

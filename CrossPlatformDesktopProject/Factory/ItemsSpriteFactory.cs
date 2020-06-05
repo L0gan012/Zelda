@@ -14,7 +14,6 @@ namespace Sprint2.Factory
 	public class ItemsSpriteFactory
     {
 		//Instance variables
-		private Texture2D itemsSpritesheet;
 		//Dictionary populated with TextureContent class
 		private Dictionary<string, Texture2D> itemSpriteContent;
 		private static ItemsSpriteFactory instance = new ItemsSpriteFactory();
@@ -41,7 +40,6 @@ namespace Sprint2.Factory
 		public ISprite CreateSpriteBlueCandle(Vector2 position)
 		{
 			Texture2D texture = itemSpriteContent["ItemBlueCandle"];
-			//return new SpriteCandle ();
 			return new SpriteItemBlueCandle(texture, position);
 		}
 

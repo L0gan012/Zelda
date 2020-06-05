@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sprint2.Item
+namespace Sprint2.Enemy_NPC
 {
     /// <summary>
     /// Class to load all enemys into games item list
@@ -26,7 +26,9 @@ namespace Sprint2.Item
         //Initailizes all game items
         public void LoadContent()
         {
+            game.ListOfEnemies.Add(new Aquamentus());
             game.ListOfEnemies.Add(new Dodongo());
+            game.ListOfEnemies.Add(new Gel());
         }
     }
 }
