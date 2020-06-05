@@ -41,6 +41,7 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
+    <Compile Include="Block\BlockLoadAllContent.cs" />
     <Compile Include="Block\Blocks.cs" />
     <Compile Include="Block\IBlock.cs" />
     <Compile Include="Command\EnemyBackCommand.cs" />

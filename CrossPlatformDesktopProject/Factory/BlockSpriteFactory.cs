@@ -53,39 +53,39 @@ namespace Sprint2.Factory
 			//...
 		}
 
-		public ISprite CreateSpriteStatue()
+		public IBlock CreateSpriteStatue()
 		{
 			return new Blocks(statueSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteSquare()
+		public IBlock CreateSpriteSquare()
 		{
 			return new Blocks(squareSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteWall()
+		public IBlock CreateSpriteWall()
 		{
 			return new Blocks(wallSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteLockedDoor()
+		public IBlock CreateSpriteLockedDoor()
 		{
 			return new Blocks(lockedDoorSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteOpenDoor()
+		public IBlock CreateSpriteOpenDoor()
 		{
 			return new Blocks(openDoorSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteShutDoor()
+		public IBlock CreateSpriteShutDoor()
 		{
 			return new Blocks(shutDoorSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteStairs()
+		public IBlock CreateSpriteStairs()
 		{
 			return new Blocks(stairsSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteLadder()
+		public IBlock CreateSpriteLadder()
 		{
 			return new Blocks(ladderSpritesheet, 1, 1);
 		}
-		public ISprite CreateSpriteBrick()
+		public IBlock CreateSpriteBrick()
 		{
 			return new Blocks(brickSpritesheet, 1, 1);
 		}

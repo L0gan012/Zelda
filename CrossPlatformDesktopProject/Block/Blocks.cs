@@ -4,7 +4,7 @@ using Sprint2.Factory;
 
 namespace Sprint2.Block
 {
-    class Blocks : ISprite
+    class Blocks : IBlock
     {
         //Instance variable
         public Texture2D Texture { get; set; }
