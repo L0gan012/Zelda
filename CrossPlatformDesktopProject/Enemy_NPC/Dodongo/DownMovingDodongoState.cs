@@ -3,7 +3,7 @@ using Sprint2.Factory;
 
 namespace Sprint2.Enemy
 {
-    internal class DownMovingDodongoState : IDodongoState
+    public class DownMovingDodongoState : IDodongoState
     {
         //Instance Variables 
         private Dodongo dodongo;
@@ -17,7 +17,7 @@ namespace Sprint2.Enemy
 
         public void BePuffed()
         {
-            dodongo.state = new BePuffedDownState();
+            dodongo.state = new BePuffedDownState(dodongo);
         }
 
         public void Update()

@@ -13,6 +13,7 @@ namespace Sprint2.Item
     {
         //Instance variables
         private ISprite sprite;
+        private Vector2 location;
 
 
         public ItemBlueCandle()

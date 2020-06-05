@@ -34,62 +34,62 @@ namespace Sprint2.Factory
 		}
 
 
-		public ISprite CreateLinkIdleLeftGreenSprite(Vector2 position)
+		public ISprite CreateLinkIdleLeftGreenSprite()
 		{
-			return new SpriteLinkIdleLeftGreen(linkSpritesheet, position);
+			return new SpriteLinkIdleLeftGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateLinkIdleRightGreenSprite(Vector2 position)
+		public ISprite CreateLinkIdleRightGreenSprite()
 		{
-			return new SpriteLinkIdleRightGreen(linkSpritesheet, position);
+			return new SpriteLinkIdleRightGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateLinkIdleUpGreenSprite(Vector2 position)
+		public ISprite CreateLinkIdleUpGreenSprite()
 		{
-			return new SpriteLinkIdleUpGreen(linkSpritesheet, position);
+			return new SpriteLinkIdleUpGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateLinkIdleDownGreenSprite(Vector2 position)
+		public ISprite CreateLinkIdleDownGreenSprite()
 		{
-			return new SpriteLinkIdleDownGreen(linkSpritesheet, position);
+			return new SpriteLinkIdleDownGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateMovingLeftLinkGreenSprite(Vector2 position)
+		public ISprite CreateMovingLeftLinkGreenSprite()
 		{
-			return new SpriteLinkWalkLeftGreen(linkSpritesheet, position);
+			return new SpriteLinkWalkLeftGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateMovingRightLinkGreenSprite(Vector2 position)
+		public ISprite CreateMovingRightLinkGreenSprite()
 		{
-			return new SpriteLinkWalkRightGreen(linkSpritesheet, position);
+			return new SpriteLinkWalkRightGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateMovingUpLinkGreenSprite(Vector2 position)
+		public ISprite CreateMovingUpLinkGreenSprite()
 		{
-			return new SpriteLinkWalkUpGreen(linkSpritesheet, position);
+			return new SpriteLinkWalkUpGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateMovingDownLinkGreenSprite(Vector2 position)
+		public ISprite CreateMovingDownLinkGreenSprite()
 		{
-			return new SpriteLinkWalkDownGreen(linkSpritesheet, position);
+			return new SpriteLinkWalkDownGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateAttackingLeftLinkGreenSprite(Vector2 position)
+		public ISprite CreateAttackingLeftLinkGreenSprite()
 		{
-			return new SpriteLinkAttackWoodenSwordLeftGreen(linkSpritesheet, position);
+			return new SpriteLinkAttackWoodenSwordLeftGreen(linkSpritesheet);
 		}
 
-		public ISprite CreateAttackingRightLinkGreenSprite(Vector2 position)
-		{
-			return;
-		}
-
-		public ISprite CreateAttackingUpLinkGreenSprite(Vector2 position)
+		public ISprite CreateAttackingRightLinkGreenSprite()
 		{
 			return;
 		}
 
-		public ISprite CreateAttackingDownLinkGreenSprite(Vector2 position)
+		public ISprite CreateAttackingUpLinkGreenSprite()
+		{
+			return;
+		}
+
+		public ISprite CreateAttackingDownLinkGreenSprite()
 		{
 			return;
 		}

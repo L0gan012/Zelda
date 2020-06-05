@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<<<<<<< HEAD
+  <SourceFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.png</SourceFile>
+  <SourceTime>2020-06-03T23:38:06.6294252-04:00</SourceTime>
+  <DestFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.xnb</DestFile>
+  <DestTime>2020-06-05T03:32:52.0729626-04:00</DestTime>
+=======
   <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.png</SourceFile>
   <SourceTime>2020-06-03T21:27:43.315827-04:00</SourceTime>
   <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.xnb</DestFile>
   <DestTime>2020-06-05T06:39:31.1839595-04:00</DestTime>
+>>>>>>> refs/remotes/origin/master
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
+  <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2016-03-30T02:36:08-04:00</ProcessorTime>
+  <ProcessorTime>2018-12-08T11:35:54-05:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

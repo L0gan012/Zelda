@@ -16,7 +16,7 @@ namespace Sprint2
         public IdleLinkUpState(ILink link)
         {
             this.link = link;
-            sprite = LinkSpriteFactory.Instance.CreateLinkIdleUpGreenSprite(link.Position);
+            sprite = LinkSpriteFactory.Instance.CreateLinkIdleUpGreenSprite();
         }
 
         //Updates the State
@@ -26,7 +26,7 @@ namespace Sprint2
 
         //Draws the sprite attached to the state
         public void Draw(SpriteBatch spriteBatch){
-            sprite.Draw(spriteBatch);
+            sprite.Draw(spriteBatch, link.Position);
         }
 
         //Damage Link
@@ -75,7 +75,7 @@ namespace Sprint2
 
         public void SetDamagedSprite()
         {
-            sprite = LinkSpriteFactory.Instance.CreateLinkIdleUpDamagedSprite(link.Position);
+            sprite = LinkSpriteFactory.Instance.CreateLinkIdleUpDamagedSprite();
         }
     }
 }

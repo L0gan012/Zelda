@@ -42,17 +42,17 @@ namespace Sprint2.Factory
 		//Load all textures
 		public void LoadAllTextures(ContentManager content)
 		{
-			statueSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			squareSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			wallSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			lockedDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			openDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			shutDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			stairsSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			ladderTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			brickTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			bombedOpeningSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
-			gapTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			statueSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Statue");
+			squareSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Square");
+			wallSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Wall");
+			lockedDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/LockedDoor");
+			openDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/OpenDoor");
+			shutDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/ShutDoor");
+			stairsSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Stairs");
+			ladderTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Ladder");
+			brickTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Brick");
+			bombedOpeningSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/BombedOpening");
+			gapTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Gap");
 			// More Content.Load calls follow
 			//...
 		}
