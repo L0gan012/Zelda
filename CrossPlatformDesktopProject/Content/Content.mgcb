@@ -775,7 +775,7 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkWalkUpGreen.png
 
-#begin TextureSheets/NPCTextures/FireIdle.png
+#begin TextureSheets/NPCTextures/NPCfireIdle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -785,9 +785,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/FireIdle.png
+/build:TextureSheets/NPCTextures/NPCfireIdle.png
 
-#begin TextureSheets/NPCTextures/OldMan.png
+#begin TextureSheets/NPCTextures/NPColdman.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -797,9 +797,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/OldMan.png
+/build:TextureSheets/NPCTextures/NPColdman.png
 
-#begin TextureSheets/NPCTextures/Vendor.png
+#begin TextureSheets/NPCTextures/NPCvendor.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -809,9 +809,9 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/Vendor.png
+/build:TextureSheets/NPCTextures/NPCvendor.png
 
-#begin TextureSheets/NPCTextures/ZeldaAnimatedGreen.png
+#begin TextureSheets/NPCTextures/NPCzeldaGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -821,7 +821,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/NPCTextures/ZeldaAnimatedGreen.png
+/build:TextureSheets/NPCTextures/NPCzeldaGreen.png
 
 #begin TextureSheets/ProjectileTextures/ProjectileAquamentus.png
 /importer:TextureImporter
@@ -835,7 +835,7 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/ProjectileTextures/ProjectileAquamentus.png
 
-#begin TextureSheets/ProjectileTextures/ProjectileFire.png
+#begin TextureSheets/ProjectileTextures/ProjectileCandle.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -845,7 +845,7 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:TextureSheets/ProjectileTextures/ProjectileFire.png
+/build:TextureSheets/ProjectileTextures/ProjectileCandle.png
 
 #begin TextureSheets/ProjectileTextures/ProjectileFlame.png
 /importer:TextureImporter
@@ -1362,6 +1362,90 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:TextureSheets/ProjectileTextures/ProjectileWoodenSwordUp.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.png
+
+#begin TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.png
 
 #begin TextureSheets/Ethan.png
 /importer:TextureImporter
