@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace Sprite2.Sprite
+namespace Sprint2.Sprite
 {
     public class SpriteEnemyDodongoDownPuffed : ISprite
     {

@@ -25,6 +25,11 @@ namespace Sprint2.Enemy
 
         }
 
+        public void MouthClose()
+        {
+
+        }
+
         public void MoveDown()
         {
 

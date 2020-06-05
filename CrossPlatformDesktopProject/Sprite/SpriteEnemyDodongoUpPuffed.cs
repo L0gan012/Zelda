@@ -1,9 +1,9 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace Sprite2.Sprite
+namespace Sprint2.Sprite
 {
-    public class SpriteEnemyDodongoUp : ISprite
+    public class SpriteEnemyDodongoUpPuffed : ISprite
     {
         private Texture2D texture;
         private int rows;
@@ -13,7 +13,7 @@ namespace Sprite2.Sprite
 
 
 
-        public SpriteEnemyDodongoUp(Texture2D texture)
+        public SpriteEnemyDodongoUpPuffed(Texture2D texture)
         {
             this.texture = texture;
             rows = 1;
