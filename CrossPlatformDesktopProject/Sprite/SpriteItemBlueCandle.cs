@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System.Linq.Expressions;
 
-namespace Sprint2
+namespace Sprint2.Sprite
 {
     public class SpriteItemBlueCandle : ISprite
     {

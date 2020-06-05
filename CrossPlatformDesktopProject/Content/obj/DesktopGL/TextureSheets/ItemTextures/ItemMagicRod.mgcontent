@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemMagicRod.png</SourceFile>
-  <SourceTime>2020-06-04T23:57:53.8296087-04:00</SourceTime>
+  <SourceTime>2020-06-03T19:17:37.8025394-04:00</SourceTime>
   <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/ItemTextures/ItemMagicRod.xnb</DestFile>
-  <DestTime>2020-06-04T23:58:26.1486461-04:00</DestTime>
+  <DestTime>2020-06-05T06:39:28.8831147-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

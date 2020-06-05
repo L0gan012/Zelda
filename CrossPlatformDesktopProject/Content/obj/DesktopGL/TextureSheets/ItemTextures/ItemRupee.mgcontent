@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemRupee.png</SourceFile>
-  <SourceTime>2020-06-04T23:57:53.8335665-04:00</SourceTime>
+  <SourceTime>2020-06-03T19:19:43.092724-04:00</SourceTime>
   <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/ItemTextures/ItemRupee.xnb</DestFile>
-  <DestTime>2020-06-04T23:58:26.3114606-04:00</DestTime>
+  <DestTime>2020-06-05T06:39:29.0636306-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

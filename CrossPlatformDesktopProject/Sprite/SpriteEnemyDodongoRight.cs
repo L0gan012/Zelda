@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace Sprint2
+namespace Sprint2.Sprite
 {
     public class SpriteEnemyDodongoRight : ISprite
     {

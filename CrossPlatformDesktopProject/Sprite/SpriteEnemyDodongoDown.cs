@@ -9,7 +9,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using System.Linq.Expressions;
 
-namespace Sprint2
+namespace Sprint2.Sprite
 {
     public class SpriteEnemyDodongoDown : ISprite
     {
