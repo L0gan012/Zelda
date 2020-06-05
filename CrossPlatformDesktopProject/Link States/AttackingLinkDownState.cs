@@ -16,7 +16,7 @@ namespace Sprint2
         public AttackingLinkDownState(ILink link)
         {
             this.link = link;
-            sprite = LinkSpriteFactory.Instance.CreateAttackingDownLinkSprite();
+            sprite = LinkSpriteFactory.Instance.CreateAttackingDownLinkGreenSprite();
         }
 
         //Updates the State
@@ -28,7 +28,7 @@ namespace Sprint2
         //Draws the sprite attached to the state
         public void Draw(SpriteBatch spriteBatch)
         {
-            sprite.Draw(spriteBatch);
+            sprite.Draw(spriteBatch, link.Position);
         }
 
         //Damage Link
@@ -82,7 +82,7 @@ namespace Sprint2
 
         public void SetDamagedSprite()
         {
-            sprite = LinkSpriteFactory.Instance.CreateAttackingDownLinkDamagedSprite(link.Position);
+            sprite = LinkSpriteFactory.Instance.CreateAttackingDownLinkDamagedSprite();
         }
     }
 }
