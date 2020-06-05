@@ -6,27 +6,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sprint2
+namespace Sprint2.Sprite
 {
     public class SpriteLinkAttackWoodenSwordDownGreen : ISprite
     {
-        //TODO:(Barry) Rename texture for different sprite sheets
         private Texture2D texture;
-        private Vector2 position;
+        //public int Rows { get; set; }
+        //public int Columns { get; set; }
         private int currentFrame;
         private int totalFrames;
         private int currentTick;
-        private Game1 game;
-        private Iplayer link;
 
-        public SpriteLinkAttackWoodenSwordDownGreen(Game1 game, Iplayer link)
+        public SpriteLinkAttackWoodenSwordDownGreen(Texture2D texture)
         {
-            this.game = game;
-            texture = this.game.texture;
-            this.link = link;
-            position = this.link.position;
 
-
+            this.texture = texture;
             currentFrame = 0;
             totalFrames = 5;
             currentTick = 0;
@@ -48,7 +42,7 @@ namespace Sprint2
 
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
             Vector2 weaponOffset = new Vector2(5, 16);
 

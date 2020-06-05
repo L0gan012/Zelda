@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Content\\TextureSheets\\ItemTextures",
-    "\\CrossPlatformDesktopProject\\Content\\TextureSheets\\NPCTextures",
-    "\\CrossPlatformDesktopProject\\Content\\TextureSheets\\ProjectileTextures",
-    "\\CrossPlatformDesktopProject\\Sprite"
+    "\\CrossPlatformDesktopProject\\Content\\TextureSheets",
+    "\\CrossPlatformDesktopProject\\Factory"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\SpriteLinkIdleRightGreen.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Factory\\BlockSpriteFactory.cs",
   "PreviewInSolutionExplorer": false
 }

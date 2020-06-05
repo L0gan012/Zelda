@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sprint2
+namespace Sprint2.Sprite
 {
     class SpriteLinkWalkRightGreen : ISprite
     {
@@ -17,11 +17,9 @@ namespace Sprint2
         private int totalFrames;
         private int currentTick;
 
-        public SpriteLinkWalkRightGreen(Game1 game)
+        public SpriteLinkWalkRightGreen(Texture2D texture)
         {
-            Game1 myGame = game;
-            texture = myGame.texture;
-            position = Constant.LinkStartPosition;
+            this.texture = texture;
             currentFrame = 0;
             totalFrames = 2;
             currentTick = 0;
@@ -40,7 +38,7 @@ namespace Sprint2
             currentTick++;
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
 
             Rectangle sourceRectangle;

@@ -10,6 +10,6 @@ namespace Sprint2
         void Update();
 
         //Draws the sprite
-        void Draw(SpriteBatch spriteBatch, Vector2 location);
+        void Draw(SpriteBatch spriteBatch, Vector2 position);
     }
 }
