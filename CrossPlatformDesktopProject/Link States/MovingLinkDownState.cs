@@ -9,11 +9,11 @@ namespace Sprint2
     class MovingLinkDownState : ILinkState
     {
         //Instance variables
-        private Link link;
+        private ILink link;
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public MovingLinkDownState(Link link)
+        public MovingLinkDownState(ILink link)
         {
             this.link = link;
             sprite = LinkSpriteFactory.Instance.CreateMovingDownLinkGreenSprite(link.Position);
@@ -32,7 +32,9 @@ namespace Sprint2
         }
 
         //Damage Link
-        public void DamageLink() { }
+        public void DamageLink(Game1 game) {
+            game.Link = new DamagedLink(link, game);
+        }
 
         //Use compass item
         public void UseItem(IItem item)
@@ -75,6 +77,11 @@ namespace Sprint2
         public void Attack()
         {
             link.State = new AttackingLinkDownState(link);
+        }
+
+        public void SetDamagedSprite()
+        {
+            sprite = LinkSpriteFactory.Instance.CreateMovingDownLinkDamagedSprite(link.Position);
         }
     }
 }

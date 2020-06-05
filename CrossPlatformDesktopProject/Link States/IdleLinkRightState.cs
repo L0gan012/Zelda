@@ -9,11 +9,11 @@ namespace Sprint2
     class IdleLinkRightState : ILinkState
     {
         //Instance variables
-        private Link link;
+        private ILink link;
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public IdleLinkRightState(Link link)
+        public IdleLinkRightState(ILink link)
         {
             this.link = link;
             sprite = LinkSpriteFactory.Instance.CreateLinkIdleRightGreenSprite(link.Position);
@@ -30,7 +30,10 @@ namespace Sprint2
         }
 
         //Damage Link
-        public void DamageLink(){}
+        public void DamageLink(Game1 game){
+            SetDamagedSprite();
+            game.Link = new DamagedLink(link, game);
+        }
 
         //Use compass item
         public void UseItem(IItem item)
@@ -68,6 +71,11 @@ namespace Sprint2
         //Link attacks
         public void Attack() {
             link.State = new AttackingLinkRightState(link);
+        }
+
+        public void SetDamagedSprite()
+        {
+            sprite = LinkSpriteFactory.Instance.CreateLinkIdleRightDamagedSprite(link.Position);
         }
     }
 }

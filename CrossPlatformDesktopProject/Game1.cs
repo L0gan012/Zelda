@@ -18,7 +18,7 @@ namespace Sprint2
         private SpriteBatch spriteBatch;
 
         //TODO: make properties instead -Izzy
-        private IPlayer link;
+        private ILink link;
         public IController controller;
         private static List<IItem> items;
         private static List<IEnemy> enemies;
@@ -47,7 +47,7 @@ namespace Sprint2
             get { return blocks; }
             set { blocks.Add((IBlock)value); }
         }
-        public IPlayer Link
+        public ILink Link
         {
             get { return link; }
             set { link = value; }

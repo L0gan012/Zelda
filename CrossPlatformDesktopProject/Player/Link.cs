@@ -4,7 +4,7 @@ using System.Diagnostics.Eventing.Reader;
 
 namespace Sprint2.Player
 {
-    public class Link : IPlayer
+    public class Link : ILink
     {
         //Instance variables
         private static Game1 game;
