@@ -6,18 +6,14 @@ namespace Sprint2
     public class SpriteLinkIdleDownGreen : ISprite
     {
          private Texture2D texture;
-        private Vector2 position;
 
         public SpriteLinkIdleDownGreen(Texture2D texture)
         {
             this.texture = texture;
-
-            //TODO: (Barry)  Get location of Link
-            position = Constant.LinkStartPosition;
         }
 
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
             Rectangle sourceRectangle;
             Rectangle destinationRectangle;

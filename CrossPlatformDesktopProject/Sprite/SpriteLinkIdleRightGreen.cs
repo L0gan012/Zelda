@@ -11,13 +11,10 @@ namespace Sprint2
         public SpriteLinkIdleRightGreen(Texture2D texture)
         {
             this.texture = texture;
-
-            //TODO: (Barry)  Get location of Link
-            position = Constant.LinkStartPosition;
         }
 
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
             Rectangle sourceRectangle;
             Rectangle destinationRectangle;

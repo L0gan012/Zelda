@@ -12,16 +12,13 @@ namespace Sprint2
     {
 
         private Texture2D texture;
-        private Vector2 location;
         private int currentFrame;
         private int totalFrames;
         private int currentTick;
 
-        public SpriteLinkWalkUpGreen(Game1 game)
+        public SpriteLinkWalkUpGreen(Texture2D texture)
         {
-            Game1 myGame = game;
-            texture = myGame.texture;
-            location = Constant.LinkStartPosition;
+            this.texture = texture;
             currentFrame = 0;
             totalFrames = 2;
             currentTick = 0;
@@ -40,7 +37,7 @@ namespace Sprint2
             currentTick++;
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
 
             Rectangle sourceRectangle;
@@ -49,12 +46,12 @@ namespace Sprint2
             if (currentFrame == 0)
             {
                 sourceRectangle = new Rectangle(144, 16, 16, 16);
-                destinationRectangle = new Rectangle((int)location.X, (int)location.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
+                destinationRectangle = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
             }
             else
             {
                 sourceRectangle = new Rectangle(160, 16, 16, 16);
-                destinationRectangle = new Rectangle((int)location.X, (int)location.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
+                destinationRectangle = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
             }
 
             spriteBatch.Begin();

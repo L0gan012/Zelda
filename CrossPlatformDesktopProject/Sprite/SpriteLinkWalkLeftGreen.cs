@@ -10,18 +10,14 @@ namespace Sprint2
 {
     class SpriteLinkWalkLeftGreen : ISprite
     {
-
         private Texture2D texture;
-        private Vector2 position;
         private int currentFrame;
         private int totalFrames;
         private int currentTick;
 
-        public SpriteLinkWalkLeftGreen(Game1 game)
+        public SpriteLinkWalkLeftGreen(Texture2D texture)
         {
-            Game1 myGame = game;
-            texture = myGame.texture;
-            position = Constant.LinkStartPosition;
+            this.texture = texture;
             currentFrame = 0;
             totalFrames = 2;
             currentTick = 0;
@@ -40,7 +36,7 @@ namespace Sprint2
             currentTick++;
         }
 
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Vector2 position)
         {
 
             Rectangle sourceRectangle;
