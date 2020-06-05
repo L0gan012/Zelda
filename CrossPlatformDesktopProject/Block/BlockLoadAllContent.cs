@@ -28,8 +28,10 @@ namespace Sprint2.Block
             game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteOpenDoor());
             game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteShutDoor());
             game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteStairs());
-            game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteLadder());
-            game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteBrick());
+            game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteLadderTile());
+            game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteBrickTile());
+            game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteBombedOpening());
+            game.ListOfBlocks.Add(BlockSpriteFactory.Instance.CreateSpriteGapTile());
         }
     }
 }

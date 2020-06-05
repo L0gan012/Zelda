@@ -44,6 +44,8 @@
     <Compile Include="Block\BlockLoadAllContent.cs" />
     <Compile Include="Block\Blocks.cs" />
     <Compile Include="Block\IBlock.cs" />
+    <Compile Include="Command\BlockBackCommand.cs" />
+    <Compile Include="Command\BlockFowardCommand.cs" />
     <Compile Include="Command\EnemyBackCommand.cs" />
     <Compile Include="Command\ItemBackCommand.cs" />
     <Compile Include="Command\EnemyFowardCommand.cs" />

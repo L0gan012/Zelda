@@ -141,7 +141,7 @@ namespace Sprint2
             //items[itemListPosition].Draw(spriteBatch);
             //enemies[enemylistPosition].Draw(spriteBatch);
 
-            //Draw blocks on screen
+            //Draw blocks
             blocks[blockListPosition].Draw(spriteBatch, new Vector2(100, 100));
 
             base.Draw(gameTime);
