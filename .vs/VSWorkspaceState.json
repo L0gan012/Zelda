@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Factory",
-    "\\CrossPlatformDesktopProject\\Sprite"
+    "\\CrossPlatformDesktopProject\\Content\\TextureSheets",
+    "\\CrossPlatformDesktopProject\\Factory"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Factory\\ItemsSpriteFactory.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Factory\\BlockSpriteFactory.cs",
   "PreviewInSolutionExplorer": false
 }

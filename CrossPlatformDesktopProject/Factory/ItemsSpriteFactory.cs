@@ -42,7 +42,7 @@ namespace Sprint2.Factory
 		{
 			Texture2D texture = itemSpriteContent["ItemBlueCandle"];
 			//return new SpriteCandle ();
-			return new SpriteItemBlueCandle(texture, position);
+			
 		}
 
 		public ISprite CreateSpriteBluePotion()
@@ -80,7 +80,7 @@ namespace Sprint2.Factory
 		}
 		public ISprite CreateSpriteFairy()
 		{
-			//return new SpriteCandle ();
+			return new SpriteContinuousAnimation(itemSpriteContent["ItemFairy"], 1, 2, 8);
 		}
 
 
