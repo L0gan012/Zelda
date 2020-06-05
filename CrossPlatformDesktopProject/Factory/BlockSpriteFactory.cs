@@ -6,12 +6,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sprint2.Sprite;
+using Sprint2.Block;
 
 namespace Sprint2.Factory
 {
 	public class BlockSpriteFactory
 	{
-		private Texture2D blockSpritesheet;
+		// All spritesheet instance listed here
+		private Texture2D statueSpritesheet;
+		private Texture2D squareSpritesheet;
+		private Texture2D wallSpritesheet;
+		private Texture2D lockedDoorSpritesheet;
+		private Texture2D openDoorSpritesheet;
+		private Texture2D shutDoorSpritesheet;
+		private Texture2D stairsSpritesheet;
+		private Texture2D ladderSpritesheet;
+		private Texture2D brickSpritesheet;
+
 		private static BlockSpriteFactory instance = new BlockSpriteFactory();
 
 		public static BlockSpriteFactory Instance
@@ -26,18 +37,58 @@ namespace Sprint2.Factory
 		{
 		}
 
+		//Load all textures
 		public void LoadAllTextures(ContentManager content)
 		{
-			blockSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			statueSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			squareSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			wallSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			lockedDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			openDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			shutDoorSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			stairsSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			ladderSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
+			brickSpritesheet = content.Load<Texture2D>("TextureSheets/BlockSpriteSheet");
 			// More Content.Load calls follow
 			//...
 		}
 
-		// More public ISprite returning methods follow
-		// ...
-		/*public ISprite CreateSmallBlockSprite()
+		public IBlock CreateSpriteStatue()
 		{
-			return new BlockSprite(lockSpritesheet, 32, 32);
-		}*/
+			return new Blocks(statueSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteSquare()
+		{
+			return new Blocks(squareSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteWall()
+		{
+			return new Blocks(wallSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteLockedDoor()
+		{
+			return new Blocks(lockedDoorSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteOpenDoor()
+		{
+			return new Blocks(openDoorSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteShutDoor()
+		{
+			return new Blocks(shutDoorSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteStairs()
+		{
+			return new Blocks(stairsSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteLadder()
+		{
+			return new Blocks(ladderSpritesheet, 1, 1);
+		}
+		public IBlock CreateSpriteBrick()
+		{
+			return new Blocks(brickSpritesheet, 1, 1);
+		}
+
 	}
 }

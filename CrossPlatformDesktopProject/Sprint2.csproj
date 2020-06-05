@@ -41,9 +41,12 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
-    <Compile Include="Block\Block.cs" />
+    <Compile Include="Block\BlockLoadAllContent.cs" />
+    <Compile Include="Block\Blocks.cs" />
     <Compile Include="Block\IBlock.cs" />
+    <Compile Include="Command\EnemyBackCommand.cs" />
     <Compile Include="Command\ItemBackCommand.cs" />
+    <Compile Include="Command\EnemyFowardCommand.cs" />
     <Compile Include="Command\ItemFowardCommand.cs" />
     <Compile Include="Command\ExitCommand.cs" />
     <Compile Include="Command\ICommand.cs" />
@@ -52,13 +55,25 @@
     <Compile Include="Constant.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedDownState.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedLeftState.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedRightState.cs" />
+    <Compile Include="Enemy\Dodongo\BePuffedUpState.cs" />
+    <Compile Include="Enemy\Dodongo\Dodongo.cs" />
+    <Compile Include="Enemy\Dodongo\DownMovingDodongoState.cs" />
+    <Compile Include="Enemy\Dodongo\IDodongoState.cs" />
+    <Compile Include="Enemy\Aquamentus\Aquamentus.cs" />
+    <Compile Include="Enemy\Dodongo\LeftMovingDodongoState.cs" />
+    <Compile Include="Enemy\Dodongo\RightMovingDodongoState.cs" />
+    <Compile Include="Enemy\Dodongo\UpMovingDodongoState.cs" />
     <Compile Include="Enemy\IEnemy.cs" />
+    <Compile Include="Enemy\EnemyLoadAllContent.cs" />
     <Compile Include="Factory\EnemySpriteFactory.cs" />
     <Compile Include="Factory\BlockSpriteFactory.cs" />
     <Compile Include="Factory\ItemsSpriteFactory.cs" />
     <Compile Include="Factory\LinkSpriteFactory.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="Item\ItemAllLoadContent.cs" />
+    <Compile Include="Item\ItemLoadAllContent.cs" />
     <Compile Include="Item\ItemBomb.cs" />
     <Compile Include="Item\ItemWoodenArrow.cs" />
     <Compile Include="Item\ItemWhiteSword.cs" />

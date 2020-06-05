@@ -6,6 +6,7 @@ using Sprint2.Controller;
 using Sprint2.Factory;
 using Sprint2.Player;
 using Sprint2.Item;
+using Sprint2.Block;
 using System.Runtime.InteropServices;
 
 namespace Sprint2
@@ -17,33 +18,41 @@ namespace Sprint2
         private SpriteBatch spriteBatch;
 
         //TODO: make properties instead -Izzy
-        private ILink link;
+        private IPlayer link;
         public IController controller;
         private static List<IItem> items;
-        public int itemPosition;
+        private static List<IEnemy> enemies;
+        private static List<IBlock> blocks;
+        public int itemListPosition;
+        public int enemylistPosition;
+        public int blockListPosition;
         private ItemLoadAllContent itemLoader;
+        private EnemyLoadAllContent enemyLoader;
+        private BlockLoadAllContent blockLoader;
 
         public List<IItem> ListOfItems
-        {
-            get
-            {
-                return items;
-            }
-
-            set
-            {
-                items.Add((IItem)value);
-            }
-
+        { 
+            get { return items;}
+            set{ items.Add((IItem)value); }
         }
 
-        public ILink Link
+        public List<IEnemy> ListOfEnemies
+        {
+            get { return enemies; }
+            set { enemies.Add((IEnemy) value); }
+        }
+
+        public List<IBlock> ListOfBlocks
+        {
+            get { return blocks; }
+            set { blocks.Add((IBlock)value); }
+        }
+        public IPlayer Link
         {
             get { return link; }
             set { link = value; }
         }
-
-
+      
         //Game constructor
         public Game1()
         {
@@ -63,6 +72,11 @@ namespace Sprint2
             //Initializes items object
             items = new List<IItem>();
             itemLoader = new ItemLoadAllContent(this);
+            enemyLoader = new EnemyLoadAllContent(this);
+
+            //Initializes blocks object
+            blocks = new List<IBlock>();
+            blockLoader = new BlockLoadAllContent(this);
 
             //Initializes player object
             link = new Link(this);
@@ -79,8 +93,16 @@ namespace Sprint2
             //Loads sprite content for link
             LinkSpriteFactory.Instance.LoadAllTextures(Content);
 
+            //Loads sprite content for blocks
+            BlockSpriteFactory.Instance.LoadAllTextures(Content);
+
+
             //Loads content for all items
             itemLoader.LoadContent();
+            enemyLoader.LoadContent();
+
+            //Loads content for all blocks
+            blockLoader.LoadContent();
 
             //Registers Commands for controls
             controller.RegisterCommand();
@@ -96,11 +118,15 @@ namespace Sprint2
         protected override void Update(GameTime gameTime)
         {
             //Updates contols
-             controller.Update();
+            controller.Update();
             //Updates link object
             link.Update();
             //Updates items object
-            ListOfItems[itemPosition].Update();
+            items[itemListPosition].Update();
+            //Updates items object
+            enemies[enemylistPosition].Update();
+            //Updates blocks object
+            blocks[blockListPosition].Update();
 
             base.Update(gameTime);
          
@@ -112,7 +138,12 @@ namespace Sprint2
             //Set background color
             GraphicsDevice.Clear(Color.White);
             //link.Draw();
-            //ListOfItems[itemPosition].Draw();
+            //items[itemListPosition].Draw(spriteBatch);
+            //enemies[enemylistPosition].Draw(spriteBatch);
+
+            //Draw blocks on screen
+            blocks[blockListPosition].Draw(spriteBatch, new Vector2(100, 100));
+
             base.Draw(gameTime);
         }
 
