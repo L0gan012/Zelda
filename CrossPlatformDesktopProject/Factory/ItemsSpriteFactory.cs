@@ -40,32 +40,37 @@ namespace Sprint2.Factory
 		 
 		public ISprite CreateSpriteBlueCandle(Vector2 position)
 		{
-			//return new SpriteCandle ();
 			Texture2D texture = itemSpriteContent["ItemBlueCandle"];
+			//return new SpriteCandle ();
 			return new SpriteItemBlueCandle(texture, position);
 		}
 
 		public ISprite CreateSpriteBluePotion()
 		{
+			Texture2D texture = itemSpriteContent["ItemBluePotion"];
 			//return new SpriteCandle ();
 		}
 
         public ISprite CreateSpriteBlueRing()
         {
+			Texture2D texture = itemSpriteContent["ItemBlueRing"];
             //return new SpriteCandle ();
         }
 
 		public ISprite CreateSpriteBomb()
 		{
+			Texture2D texture = itemSpriteContent["ItemBomb"];
 			//return new SpriteCandle ();
 		}
 
 		public ISprite CreateSpriteBow()
 		{
+			Texture2D texture = itemSpriteContent["ItemBow"];
 			//return new SpriteCandle ();
 		}
 		public ISprite CreateSpriteClock()
 		{
+			Texture2D texture = itemSpriteContent["ItemClock"];
 			//return new SpriteCandle ();
 		}
 
