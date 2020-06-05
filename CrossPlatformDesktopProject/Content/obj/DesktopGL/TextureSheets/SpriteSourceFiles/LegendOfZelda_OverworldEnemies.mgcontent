@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/OldMan.png</SourceFile>
-  <SourceTime>2020-06-03T19:30:44.5953214-04:00</SourceTime>
-  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/NPCTextures/OldMan.xnb</DestFile>
-  <DestTime>2020-06-05T06:39:30.8109578-04:00</DestTime>
+  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.png</SourceFile>
+  <SourceTime>2020-06-02T15:24:33.4719829-04:00</SourceTime>
+  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.xnb</DestFile>
+  <DestTime>2020-06-05T09:20:41.7472788-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
