@@ -6,46 +6,53 @@ namespace Sprint2
 {
     public class SpriteItemBlueCandle : ISprite
     {
-            public Texture2D Texture { get; set; }
-            public int Rows { get; set; }
-            public int Columns { get; set; }
-            private int currentTick;
-            private int currentFrame;
-            private int totalFrames;
+        private Texture2D texture;
+        private int rows;
+        private int columns;
+        private int currentTick;
+        private int currentFrame;
+        private int totalFrames;
 
 
 
-            public SpriteItemBlueCandle(Texture2D texture)
-            {
-                Texture = texture;
-                Rows = 1;
-                Columns = 1;
-                currentFrame = 0;
-                currentTick = 0;
-                totalFrames = Rows * Columns;
-            }
-
-
-            public void Update()
-            {
-
-            }
-
-
-            public void Draw(SpriteBatch spriteBatch, Vector2 position)
-            {
-                int width = Texture.Width / Columns;
-                int height = Texture.Height / Rows;
-                int row = (int)((float)currentFrame / (float)Columns);
-                int column = currentFrame % Columns;
-
-                Rectangle sourceRectangle = new Rectangle(width * column, height * row, width, height);
-                Rectangle destinationRectangle = new Rectangle((int)position.X, (int)position.Y, width * Constant.ScaleDisplayX, height * Constant.ScaleDisplayY);
-
-                spriteBatch.Begin();
-                spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, Color.White);
-                spriteBatch.End();
-            }
+        public SpriteItemBlueCandle(Texture2D texture)
+        {
+            this.texture = texture;
+            rows = 1;
+            columns = 1;
+            currentFrame = 0;
+            currentTick = 0;
+            totalFrames = rows * columns;
         }
+
+
+        public void Update()
+        {
+            if (currentTick >= 8)
+            {
+                currentTick = 0;
+                currentFrame++;
+                if (currentFrame >= totalFrames)
+                    currentFrame = 0;
+            }
+            currentTick++;
+        }
+
+
+        public void Draw(SpriteBatch spriteBatch, Vector2 location)
+        {
+            int width = this.texture.Width / columns;
+            int height = this.texture.Height / rows;
+            int row = (int)((float)currentFrame / (float)columns);
+            int column = currentFrame % columns;
+
+            Rectangle sourceRectangle = new Rectangle(width * column, height * row, width, height);
+            Rectangle destinationRectangle = new Rectangle((int)location.X, (int)location.Y, width * Constant.DisplayScaleX, height * Constant.DisplayScaleY);
+
+            spriteBatch.Begin();
+            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.End();
+        }
+    }
     }
 
