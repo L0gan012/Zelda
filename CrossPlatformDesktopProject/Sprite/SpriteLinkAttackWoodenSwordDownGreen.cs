@@ -22,7 +22,7 @@ namespace Sprint2.Sprite
 
             this.texture = texture;
             currentFrame = 0;
-            totalFrames = 5;
+            totalFrames = 4;
             currentTick = 0;
         }
 

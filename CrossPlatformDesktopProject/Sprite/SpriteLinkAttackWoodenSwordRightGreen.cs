@@ -20,7 +20,7 @@ namespace Sprint2.Sprite
         {
             this.texture = texture;
             currentFrame = 0;
-            totalFrames = 5;
+            totalFrames = 4;
             currentTick = 0;
         }
 
@@ -54,17 +54,17 @@ namespace Sprint2.Sprite
 
 
 
-            //     if (currentFrame == 0)
-            //  {
-            //       sourceRectangleAvatar = new Rectangle(272, 16, 16, 16);
-            //       destinationRectangleAvatar = new Rectangle((int)location.X, (int)location.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
-
-            //       sourceRectangleWeapon = new Rectangle(272 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 11, 8);
-            //       destinationRectangleWeapon = new Rectangle((int)location.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)location.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
-
-            //    }
-
             if (currentFrame == 0)
+            {
+                   sourceRectangleAvatar = new Rectangle(272, 16, 16, 16);
+                   destinationRectangleAvatar = new Rectangle((int)location.X, (int)location.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
+
+                   sourceRectangleWeapon = new Rectangle(272 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 11, 8);
+                   destinationRectangleWeapon = new Rectangle((int)location.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)location.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
+
+            }
+
+            if (currentFrame == 1)
             {
                 sourceRectangleAvatar = new Rectangle(304, 16, 16, 16);
                 destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
@@ -72,7 +72,7 @@ namespace Sprint2.Sprite
                 sourceRectangleWeapon = new Rectangle(304 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 11, 8);
                 destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
             }
-            else if (currentFrame == 1)
+            else if (currentFrame == 2)
             {
                 sourceRectangleAvatar = new Rectangle(336, 16, 16, 16);
                 destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
@@ -80,7 +80,7 @@ namespace Sprint2.Sprite
                 sourceRectangleWeapon = new Rectangle(336 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 7, 8);
                 destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 7 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
             }
-            else if (currentFrame == 2)
+            else
             {
                 sourceRectangleAvatar = new Rectangle(368, 16, 16, 16);
                 destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
@@ -89,15 +89,7 @@ namespace Sprint2.Sprite
                 destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 3 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
 
             }
-            else
-            {
-                sourceRectangleAvatar = new Rectangle(48, 16, 16, 16);
-                destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
 
-                sourceRectangleWeapon = new Rectangle(272 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 11, 8);
-                destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
-
-            }
 
             spriteBatch.Begin();
             spriteBatch.Draw(texture, destinationRectangleAvatar, sourceRectangleAvatar, Color.White);
