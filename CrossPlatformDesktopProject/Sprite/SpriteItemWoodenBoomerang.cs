@@ -1,10 +1,9 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using System.Linq.Expressions;
+﻿using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
 
 namespace Sprint2
 {
-    public class SpriteItemBlueCandle : ISprite
+    public class SpriteItemWoodenBoomerang : ISprite
     {
         private Texture2D texture;
         private int rows;
@@ -12,9 +11,7 @@ namespace Sprint2
         private int currentFrame;
         private int totalFrames;
 
-
-
-        public SpriteItemBlueCandle(Texture2D texture)
+        public SpriteItemWoodenBoomerang(Texture2D texture)
         {
             this.texture = texture;
             rows = 1;
@@ -22,13 +19,6 @@ namespace Sprint2
             currentFrame = 0;
             totalFrames = rows * columns;
         }
-
-
-        public void Update()
-        {
-
-        }
-
 
         public void Draw(SpriteBatch spriteBatch, Vector2 location)
         {
@@ -44,6 +34,10 @@ namespace Sprint2
             spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, Color.White);
             spriteBatch.End();
         }
-    }
-    }
 
+        public void Update()
+        {
+
+        }
+    }
+}

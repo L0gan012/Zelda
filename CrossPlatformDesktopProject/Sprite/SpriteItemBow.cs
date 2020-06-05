@@ -1,10 +1,9 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using System.Linq.Expressions;
+﻿using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
 
 namespace Sprint2
 {
-    public class SpriteItemBlueCandle : ISprite
+    public class SpriteItemBow : ISprite
     {
         private Texture2D texture;
         private int rows;
@@ -14,7 +13,7 @@ namespace Sprint2
 
 
 
-        public SpriteItemBlueCandle(Texture2D texture)
+        public SpriteItemBow(Texture2D texture)
         {
             this.texture = texture;
             rows = 1;
@@ -45,5 +44,4 @@ namespace Sprint2
             spriteBatch.End();
         }
     }
-    }
-
+}
