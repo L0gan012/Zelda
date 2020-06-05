@@ -74,10 +74,6 @@ namespace Sprint2.Factory
 			//return new SpriteCandle ();
 		}
 
-		public ISprite CreateSpriteRupee()
-		{
-			//return new SpriteCandle ();
-		}
 
 		public ISprite CreateSpriteFlute()
 		{

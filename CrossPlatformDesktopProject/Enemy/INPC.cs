@@ -6,9 +6,9 @@ namespace Sprint2
     public interface INPC
     {
         //Updates the npc
-        public void Update();
+        void Update();
 
         //draws the npc
-        public void Draw(SpriteBatch spritebatch);
+        void Draw(SpriteBatch spritebatch);
     }
 }
