@@ -26,7 +26,7 @@ namespace Sprint2.Item
         public void LoadContent()
         {
             game.ListOfItems.Add(new ItemBlueCandle());
-            game.ListOfItems.Add(new ItemBluePotion());
+           /* game.ListOfItems.Add(new ItemBluePotion());
             game.ListOfItems.Add(new ItemBlueRing());
             game.ListOfItems.Add(new ItemBomb());
             game.ListOfItems.Add(new ItemBow());
@@ -49,7 +49,7 @@ namespace Sprint2.Item
             game.ListOfItems.Add(new ItemRupee());
             game.ListOfItems.Add(new ItemSilverArrow());
             game.ListOfItems.Add(new ItemWhiteSword());
-            game.ListOfItems.Add(new ItemWoodenArrow());
+            game.ListOfItems.Add(new ItemWoodenArrow());*/
         }
     }
 }
