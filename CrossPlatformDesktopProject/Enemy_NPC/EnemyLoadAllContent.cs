@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Sprint2.Enemy;
+using Sprint2.Enemy_NPC;
 using Sprint2.Factory;
 using System;
 using System.Collections.Generic;
