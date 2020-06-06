@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.png</SourceFile>
-  <SourceTime>2020-06-03T21:15:00.0239441-04:00</SourceTime>
-  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.xnb</DestFile>
-  <DestTime>2020-06-06T16:47:06.6975515-04:00</DestTime>
+  <SourceFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.png</SourceFile>
+  <SourceTime>2020-06-03T21:47:04.6050602-04:00</SourceTime>
+  <DestFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.xnb</DestFile>
+  <DestTime>2020-06-06T17:10:04.741842-04:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
+  <ImporterTime>2018-12-08T11:35:14-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2018-12-08T11:35:54-05:00</ProcessorTime>
+  <ProcessorTime>2018-12-08T11:35:14-05:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>
