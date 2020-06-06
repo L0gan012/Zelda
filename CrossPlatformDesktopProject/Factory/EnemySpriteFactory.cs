@@ -11,7 +11,7 @@ namespace Sprint2.Factory
 {
 	public class EnemySpriteFactory
 	{
-		private Texture2D enemySpritesheet;
+		private List<Texture2D> enemySpritesheetList;
 		private static EnemySpriteFactory instance = new EnemySpriteFactory();
 
 
@@ -25,36 +25,58 @@ namespace Sprint2.Factory
 
 		private EnemySpriteFactory()
 		{
+			enemySpritesheetList = new List<Texture2D>();
 		}
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			//enemySpritesheet = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/EnemyTextures");
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyAquamentus"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyAquamentusMouthOpen"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoDown"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoDownPuffed"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoLeft"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoLeftPuffed"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoRight"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoRightPuffed"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoUp"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoUpPuffed"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGel"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkDown"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkLeft"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkRight"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkUp"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyKeese"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyRopeLeft"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyRopeRight"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemySpikeCross"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyStalfos"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyWallmasterLeft"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyWallmasterRight"));
+			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyZol"));
 
 		}
 
 		public ISprite CreateSpriteEnemyAquamentus()
 		{
-			//return new Sprite();
+			return new SpriteEnemyAquamentus(enemySpritesheetList[0]);
 		}
 
 		public ISprite CreateSpriteEnemyAquamentusProjectile()
 		{
-			//return new Sprite();
 		}
 
 		public ISprite CreateSpriteEnemyAquamentusMouthOpen()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyAquamentusMouthOpen(enemySpritesheetList[2]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoDown()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoDown(enemySpritesheetList[3]);
 		}
 		public ISprite CreateSpriteEnemyDodongoDownPuffed()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoDownPuffed(enemySpritesheetList[4]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoLeft()

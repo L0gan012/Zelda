@@ -13,34 +13,21 @@ namespace Sprint2.Enemy_NPC
     {
         //Instance variables
         private ISprite sprite;
-        private Vector2 postion;
+        private Vector2 location;
         public Keese()
         {
             this.sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyKeese();
+            location = Constant.EnemyStartPosition;
+
         }
         public void Draw(SpriteBatch spritebatch)
         {
-            sprite.Draw(spritebatch);
+            sprite.Draw(spritebatch, location);
         }
 
-        public void MoveDown()
+        public void takeDamage()
         {
-
-        }
-
-        public void MoveLeft()
-        {
-
-        }
-
-        public void MoveRight()
-        {
-
-        }
-
-        public void MoveUp()
-        {
-
+            throw new NotImplementedException();
         }
 
         public void Update()

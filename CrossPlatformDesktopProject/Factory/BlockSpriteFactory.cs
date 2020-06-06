@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Sprint2.Sprite;
-using Sprint2.Block;
+using Sprint2;
 
 namespace Sprint2.Factory
 {
@@ -53,8 +53,6 @@ namespace Sprint2.Factory
 			brickTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Brick");
 			bombedOpeningSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/BombedOpening");
 			gapTileSpritesheet = content.Load<Texture2D>("TextureSheets/BlockTextures/Gap");
-			// More Content.Load calls follow
-			//...
 		}
 
 		public IBlock CreateSpriteStatue()

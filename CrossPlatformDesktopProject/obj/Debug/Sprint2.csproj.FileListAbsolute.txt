@@ -13,3 +13,5 @@ C:/Users/Logan/source/repos/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.
 C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/obj/Debug/Sprint2.csprojAssemblyReference.cache
 C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CoreCompileInputs.cache
 >>>>>>> refs/remotes/origin/master
+C:\Users\s282252\Documents\Visual Studio 2019\repos\Sprint2\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\s282252\Documents\Visual Studio 2019\repos\Sprint2\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache
