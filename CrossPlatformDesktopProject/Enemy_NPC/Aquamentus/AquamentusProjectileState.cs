@@ -14,7 +14,7 @@ namespace Sprint2
         public AquamentusProjectileStateFired(Aquamentus aquamentus)
         {
             this.aquamentus = aquamentus;
-            sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
+            //sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
         }
         public void Draw(SpriteBatch spritebatch, Color color, Vector2 location)
         {

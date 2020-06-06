@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2.Enemy.Oldman
+namespace Sprint2.Enemy
 {
     public class OldMan : INPC
     {
@@ -25,7 +25,7 @@ namespace Sprint2.Enemy.Oldman
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            sprite.Draw(spriteBatch,color, location);
+            sprite.Draw(spriteBatch, color, location);
         }
 
     }
