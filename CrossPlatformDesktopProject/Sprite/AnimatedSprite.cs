@@ -9,7 +9,7 @@ namespace Sprint2.Sprite
         private int currentFrame;
         private int totalFrames;
         private int framesPerSecond;
-
+        Texture2D texture;
         private int locationX;
         private int locationY;
 
@@ -37,7 +37,7 @@ namespace Sprint2.Sprite
         }
 
         //Draws the specified sprite to the screen
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
             //Dimensions for the specified sprites
             int spriteWidth = 14;
@@ -61,7 +61,7 @@ namespace Sprint2.Sprite
             }
 
             //Draws the specifed sprite to the screen
-            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, color);
             spriteBatch.End();
         }
     }

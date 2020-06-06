@@ -3,11 +3,11 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Sprint2.Sprite
 {
-    public class SpriteLinkUseItemDown : ISprite
+    public class SpriteLinkUseItemDownGreen : ISprite
     {
         private Texture2D texture;
 
-        public SpriteLinkUseItemDown(Texture2D texture)
+        public SpriteLinkUseItemDownGreen(Texture2D texture)
         {
             this.texture = texture;
         }
