@@ -186,10 +186,15 @@
     <Compile Include="Sprite\SpriteLinkAttackWoodenSwordLeftGreen.cs" />
     <Compile Include="Sprite\SpriteLinkAttackWoodenSwordRightGreen.cs" />
     <Compile Include="Sprite\SpriteLinkAttackWoodenSwordUpGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkGetItem.cs" />
     <Compile Include="Sprite\SpriteLinkIdleDownGreen.cs" />
     <Compile Include="Sprite\SpriteLinkIdleLeftGreen.cs" />
     <Compile Include="Sprite\SpriteLinkIdleRightGreen.cs" />
     <Compile Include="Sprite\SpriteLinkIdleUpGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemDownGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemLeftGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemRightGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemUpGreen.cs" />
     <Compile Include="Sprite\SpriteLinkWalkDownGreen.cs" />
     <Compile Include="Sprite\SpriteLinkWalkLeftGreen.cs" />
     <Compile Include="Sprite\SpriteLinkWalkRightGreen.cs" />

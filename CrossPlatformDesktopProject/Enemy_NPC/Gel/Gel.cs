@@ -13,32 +13,19 @@ namespace Sprint2.Enemy_NPC
     {
         //Instance variables
         private ISprite sprite;
-        private Vector2 postion;
+        private Vector2 location;
+
         public Gel()
         {
             this.sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyGel();
+            location = Constant.EnemyStartPosition;
         }
         public void Draw(SpriteBatch spritebatch)
         {
-            sprite.Draw(spritebatch);
+            sprite.Draw(spritebatch, location);
         }
 
-        public void MoveDown()
-        {
-
-        }
-
-        public void MoveLeft()
-        {
-
-        }
-
-        public void MoveRight()
-        {
-
-        }
-
-        public void MoveUp()
+        public void takeDamage()
         {
 
         }

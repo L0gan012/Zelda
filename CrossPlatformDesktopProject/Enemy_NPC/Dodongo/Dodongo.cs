@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Sprint2.Factory;
 using System;
 using System.Collections.Generic;
@@ -12,46 +13,53 @@ namespace Sprint2.Enemy
     {
 
         //Instance variables
-        public IDodongoState state;
+        public IDodongoState State { get; set; }
+        private Vector2 location;
+        private float limit;
 
         public Dodongo()
         {
-            state = new RightMovingDodongoState(this);
+            State = new RightMovingDodongoState(this);
         }
 
         public void Update()
         {
-            state.Update();
+            State.Update();
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            state.Draw(spriteBatch);
+            State.Draw(spriteBatch);
         }
 
         public void BePuffed()
         {
-            state.BePuffed();
+            State.BePuffed();
         }
 
         public void MoveDown()
         {
-            state.MoveDown();
+            State.MoveDown();
         }
 
         public void MoveLeft()
         {
-            state.MoveLeft();
+            State.MoveLeft();
         }
 
         public void MoveRight()
         {
-            state.MoveRight();
+            State.MoveRight();
         }
 
         public void MoveUp()
         {
-            state.MoveUp();
+            State.MoveUp();
+        }
+
+        public void takeDamage()
+        {
+            throw new NotImplementedException();
         }
     }
 }

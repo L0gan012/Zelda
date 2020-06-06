@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<<<<<<< HEAD
-  <SourceFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.png</SourceFile>
-  <SourceTime>2020-06-03T23:38:06.5424531-04:00</SourceTime>
-  <DestFile>C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.xnb</DestFile>
-  <DestTime>2020-06-05T00:37:13.6265243-04:00</DestTime>
-=======
   <SourceFile>C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.png</SourceFile>
   <SourceTime>2020-06-04T12:50:39.0834482-04:00</SourceTime>
   <DestFile>C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.xnb</DestFile>
-  <DestTime>2020-06-05T11:10:49.5325023-04:00</DestTime>
->>>>>>> refs/remotes/origin/master
+  <DestTime>2020-06-05T23:41:45.1413297-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
