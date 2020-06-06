@@ -54,7 +54,7 @@ namespace Sprint2.Sprite
 
 
 
-            if (currentframe == 0)
+            if (currentFrame == 0)
             {
                  sourceRectangleAvatar = new Rectangle(432, 16, 16, 16);
                  destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);

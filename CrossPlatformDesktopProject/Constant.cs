@@ -17,6 +17,7 @@ namespace Sprint2
 
         //Animation Speed setting
         public static readonly int TicksPerFrameWalk = 8;
+        public static readonly int TicksPerFrameAttackSword = 4;
 
         //One game grid square is 16*16 pixels.  DisplayScales multiply output size
         public static readonly int DisplayScaleX = 3;
