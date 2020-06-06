@@ -90,10 +90,7 @@
     <Compile Include="Player\Link.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sprite\AnimatedMovingSprite.cs" />
-    <Compile Include="Sprite\AnimatedSprite.cs" />
     <Compile Include="Sprite\ISprite.cs" />
-    <Compile Include="Sprite\MovingSprite.cs" />
     <Compile Include="Sprite\SpriteContinuousAnimation.cs" />
     <Compile Include="Sprite\SpriteEnemyAquamentus.cs" />
     <Compile Include="Sprite\SpriteEnemyAquamentusMouthOpen.cs" />

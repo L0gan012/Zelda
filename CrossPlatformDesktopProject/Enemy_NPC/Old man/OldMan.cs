@@ -8,10 +8,13 @@ namespace Sprint2.Enemy.Oldman
     {
         private ISprite sprite;
         private Vector2 location;
+        private Color color;
 
         public OldMan()
         {
             sprite = NPCSpriteFactory.Instance.createNPCOldMan();
+            location = Constant.EnemyStartPosition;
+            color = new Color();
         }
 
         public void Update()
@@ -22,7 +25,7 @@ namespace Sprint2.Enemy.Oldman
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            sprite.Draw(spriteBatch, location);
+            sprite.Draw(spriteBatch,color, location);
         }
 
     }
