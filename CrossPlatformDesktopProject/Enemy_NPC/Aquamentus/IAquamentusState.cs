@@ -14,7 +14,7 @@ namespace Sprint2
         void MouthOpen();
         void MouthClose();
         void Update();
-        void Draw(SpriteBatch spriteBatch, Vector2 location);
+        void Draw(SpriteBatch spriteBatch, Color color, Vector2 location);
         
     }
 }

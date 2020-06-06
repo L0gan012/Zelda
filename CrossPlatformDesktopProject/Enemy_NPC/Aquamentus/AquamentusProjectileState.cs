@@ -16,9 +16,9 @@ namespace Sprint2
             this.aquamentus = aquamentus;
             sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
         }
-        public void Draw(SpriteBatch spritebatch, Vector2 location)
+        public void Draw(SpriteBatch spritebatch, Color color, Vector2 location)
         {
-            sprite.Draw(spritebatch, location);
+            sprite.Draw(spritebatch, color, location);
         }
 
 
