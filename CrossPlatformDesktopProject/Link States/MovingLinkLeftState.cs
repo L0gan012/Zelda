@@ -26,9 +26,9 @@ namespace Sprint2
         }
 
         //Draws the sprite attached to the state
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Color color)
         {
-            sprite.Draw(spriteBatch, link.Position);
+            sprite.Draw(spriteBatch, color, link.Position);
         }
 
         //Damage Link
@@ -77,11 +77,6 @@ namespace Sprint2
         public void Attack()
         {
             link.State = new AttackingLinkLeftState(link);
-        }
-
-        public void SetDamagedSprite()
-        {
-            sprite = LinkSpriteFactory.Instance.CreateMovingLeftLinkDamagedSprite();
         }
     }
 }

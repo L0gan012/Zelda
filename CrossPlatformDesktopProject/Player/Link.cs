@@ -11,6 +11,7 @@ namespace Sprint2.Player
         private static ILinkState state;
         private IItem item;
         private static Vector2 position;
+        private static Color color;
 
         //Properties
         public ILinkState State
@@ -39,6 +40,7 @@ namespace Sprint2.Player
             position = Constant.LinkStartPosition;
 
             state = new IdleLinkDownState(this);
+            color = Color.White;
         }
 
         //Updates the player
@@ -50,7 +52,7 @@ namespace Sprint2.Player
         //Draws the player
         public void Draw(SpriteBatch spriteBatch)
         {
-            state.Draw(spriteBatch);
+            state.Draw(spriteBatch, color);
         }
 
         //Damage Link

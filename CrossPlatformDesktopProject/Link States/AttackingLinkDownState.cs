@@ -26,15 +26,14 @@ namespace Sprint2
         }
 
         //Draws the sprite attached to the state
-        public void Draw(SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch spriteBatch, Color color)
         {
-            sprite.Draw(spriteBatch, link.Position);
+            sprite.Draw(spriteBatch, color, link.Position);
         }
 
         //Damage Link
         public void DamageLink(Game1 game)
         {
-            SetDamagedSprite();
             game.Link = new DamagedLink(link, game);
         }
 
@@ -78,11 +77,6 @@ namespace Sprint2
         public void Attack()
         {
             //cannot attack from attack state
-        }
-
-        public void SetDamagedSprite()
-        {
-            sprite = LinkSpriteFactory.Instance.CreateAttackingDownLinkDamagedSprite();
         }
     }
 }

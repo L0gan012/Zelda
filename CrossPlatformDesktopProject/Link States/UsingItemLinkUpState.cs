@@ -6,71 +6,77 @@ using Sprint2.Sprite;
 
 namespace Sprint2
 {
-    class IdleLinkLeftState : ILinkState
+    class UsingItemLinkUpState : ILinkState
     {
         //Instance variables
         private ILink link;
         private ISprite sprite;
 
         //Constructor with Link instance parameter
-        public IdleLinkLeftState(ILink link)
+        public UsingItemLinkUpState(ILink link)
         {
             this.link = link;
-            sprite = LinkSpriteFactory.Instance.CreateLinkIdleLeftGreenSprite();
+            sprite = LinkSpriteFactory.Instance.CreateUsingItemUpLinkGreenSprite();
         }
 
         //Updates the State
-        public void Update(){
+        public void Update()
+        {
             sprite.Update();
         }
 
         //Draws the sprite attached to the state
-        public void Draw(SpriteBatch spriteBatch, Color color){
+        public void Draw(SpriteBatch spriteBatch, Color color)
+        {
             sprite.Draw(spriteBatch, color, link.Position);
         }
 
         //Damage Link
-        public void DamageLink(Game1 game){
-            SetDamagedSprite();
+        public void DamageLink(Game1 game)
+        {
             game.Link = new DamagedLink(link, game);
         }
 
         //Use compass item
         public void UseItem(IItem item)
         {
-            item.Use();
-            link.State = new UseItemLeftState(link);
+            //Already using an item
         }
 
-        //Idle Link left
-        public void SetLinkIdle(){
-            //NO-OP
-            //Already idle
+        //Idle Link Up
+        public void SetLinkIdle()
+        {
+            link.State = new IdleLinkUpState(link);
         }
 
-        //Moves Link left
-        public void MoveLinkLeft(){
+        //Moves Link Up
+        public void MoveLinkLeft()
+        {
             link.State = new MovingLinkLeftState(link);
         }
 
         //Moves Link right
-        public void MoveLinkRight(){
+        public void MoveLinkRight()
+        {
             link.State = new MovingLinkRightState(link);
         }
 
         //Moves Link up
-        public void MoveLinkUp(){
+        public void MoveLinkUp()
+        {
             link.State = new MovingLinkUpState(link);
         }
 
         //Moves Link down
-        public void MoveLinkDown(){
+        public void MoveLinkDown()
+        {
             link.State = new MovingLinkDownState(link);
         }
 
         //Link attacks
-        public void Attack() {
-            link.State = new AttackingLinkLeftState(link);
+        public void Attack()
+        {
+            link.State = new AttackingLinkUpState(link);
         }
     }
 }

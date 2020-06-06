@@ -117,6 +117,10 @@
     <Compile Include="Link States\MovingLinkLeftState.cs" />
     <Compile Include="Link States\MovingLinkRightState.cs" />
     <Compile Include="Link States\MovingLinkUpState.cs" />
+    <Compile Include="Link States\UsingItemLinkDownState.cs" />
+    <Compile Include="Link States\UsingItemLinkUpState.cs" />
+    <Compile Include="Link States\UsingItemLinkRightState.cs" />
+    <Compile Include="Link States\UsingItemLinkLeftState.cs" />
     <Compile Include="Player\DamagedLink.cs" />
     <Compile Include="Player\ILink.cs" />
     <Compile Include="Player\Link.cs" />
