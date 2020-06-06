@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/NPColdman.png</SourceFile>
+  <SourceFile>C:/Users/bbirs/source/repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/NPColdman.png</SourceFile>
   <SourceTime>2020-06-03T19:30:44.5953214-04:00</SourceTime>
-  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/NPCTextures/NPColdman.xnb</DestFile>
-  <DestTime>2020-06-05T15:09:47.7512247-04:00</DestTime>
+  <DestFile>C:/Users/bbirs/source/repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/NPCTextures/NPColdman.xnb</DestFile>
+  <DestTime>2020-06-06T15:30:50.8093665-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-03-30T02:36:08-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
