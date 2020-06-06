@@ -25,7 +25,7 @@ namespace Sprint2
         {
             State = new MouthClosedAquamentusState(this);
             location = Constant.EnemyStartPosition;
-            projectile = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
+            //projectile = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
 
             //movement 
             left = true;
@@ -36,7 +36,7 @@ namespace Sprint2
         public void Draw(SpriteBatch spriteBatch)
         {
             State.Draw(spriteBatch, location);
-            projectile.Draw(spriteBatch, location);
+            //projectile.Draw(spriteBatch, location);
 
         }
 
