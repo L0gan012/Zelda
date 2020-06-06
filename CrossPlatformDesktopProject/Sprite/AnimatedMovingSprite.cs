@@ -9,7 +9,7 @@ namespace Sprint2.Sprite
         private int currentFrame;
         private int totalFrames;
         private int framesPerSecond;
-
+        Texture2D texture;
         private int locationX;
         private readonly int screenWidth;
         private readonly int screenHeight;

@@ -34,7 +34,7 @@ namespace Sprint2.Sprite
         }
 
         //Draws the sprite to the screen
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
             //Dimensions for the sprite
             int spriteWidth = 14;

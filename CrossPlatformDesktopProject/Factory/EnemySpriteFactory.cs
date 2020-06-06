@@ -44,57 +44,59 @@ namespace Sprint2.Factory
 
 		/*public ISprite CreateSpriteEnemyAquamentusProjectile()
 		{
-		}
+			return new SpriteEnemyAquamentus(enemySpriteContent["EnemyAquamentus"]);
+
+		}*/
 
 		public ISprite CreateSpriteEnemyAquamentusMouthOpen()
 		{
-			return new SpriteEnemyAquamentusMouthOpen(enemySpritesheetList[2]);
+			return new SpriteEnemyAquamentusMouthOpen(enemySpriteContent["EnemyAquamentusMouthOpen"]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoDown()
 		{
-			return new SpriteEnemyDodongoDown(enemySpritesheetList[3]);
+			return new SpriteEnemyDodongoDown(enemySpriteContent["EnemyDodongoDown"]);
 		}
 		public ISprite CreateSpriteEnemyDodongoDownPuffed()
 		{
-			return new SpriteEnemyDodongoDownPuffed(enemySpritesheetList[4]);
+			return new SpriteEnemyDodongoDownPuffed(enemySpriteContent["EnemyDodongoDownPuffed"]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoLeft()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoLeft(enemySpriteContent["EnemyDodongoLeft"]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoLeftPuffed()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoLeftPuffed(enemySpriteContent["EnemyDodongoLeftPuffed"]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoRight()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoRight(enemySpriteContent["EnemyDodongoRight"]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoRightPuffed()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoRightPuffed(enemySpriteContent["EnemyDodongoRightPuffed"]);
 		}
 		public ISprite CreateSpriteEnemyDodongoUp()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoUp(enemySpriteContent["EnemyDodongoUp"]);
 		}
 
 		public ISprite CreateSpriteEnemyDodongoUpPuffed()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyDodongoUpPuffed(enemySpriteContent["EnemyDodongoUpPuffed"]);
 		}
 
 		public ISprite CreateSpriteEnemyGel()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyGel(enemySpriteContent["EnemyGel"]);
 		}
 
-		public ISprite CreateSpriteEnemyGoriyaWalkDown()
+		/*public ISprite CreateSpriteEnemyGoriyaWalkDown()
 		{
 			//return new SpriteCandle ();
 		}
@@ -107,14 +109,14 @@ namespace Sprint2.Factory
 		public ISprite CreateSpriteEnemyGoriyaWalkUp()
 		{
 			//return new SpriteCandle ();
-		}
+		}*/
 
 		public ISprite CreateSpriteEnemyKeese()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyKeese(enemySpriteContent["EnemyKeese"]);
 		}
 
-		public ISprite CreateSpriteEnemyRopeLeft()
+		/*public ISprite CreateSpriteEnemyRopeLeft()
 		{
 			//return new SpriteCandle ();
 		}

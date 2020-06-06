@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.png</SourceFile>
-  <SourceTime>2020-06-04T12:50:39.2310524-04:00</SourceTime>
-  <DestFile>C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.xnb</DestFile>
-  <DestTime>2020-06-05T23:41:48.1982569-04:00</DestTime>
+  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.png</SourceFile>
+  <SourceTime>2020-06-04T00:04:34.5276848-04:00</SourceTime>
+  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.xnb</DestFile>
+  <DestTime>2020-06-06T16:15:31.1812138-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png</SourceFile>
-  <SourceTime>2020-06-05T10:02:22.0850399-04:00</SourceTime>
-  <DestFile>C:/Users/s282252/Documents/Visual Studio 2019/repos/Sprint2/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.xnb</DestFile>
-  <DestTime>2020-06-05T11:10:51.8344913-04:00</DestTime>
+  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png</SourceFile>
+  <SourceTime>2020-06-06T14:56:25.1996151-04:00</SourceTime>
+  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.xnb</DestFile>
+  <DestTime>2020-06-06T16:15:29.8249135-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
