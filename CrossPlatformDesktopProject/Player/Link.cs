@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System.Diagnostics.Eventing.Reader;
 
-namespace Sprint2.Player
+namespace Sprint2
 {
     public class Link : ILink
     {
@@ -11,6 +11,7 @@ namespace Sprint2.Player
         private static ILinkState state;
         private IItem item;
         private static Vector2 position;
+        private static Color color;
 
         //Properties
         public ILinkState State
@@ -39,6 +40,7 @@ namespace Sprint2.Player
             position = Constant.LinkStartPosition;
 
             state = new IdleLinkDownState(this);
+            color = Color.White;
         }
 
         //Updates the player
@@ -50,7 +52,7 @@ namespace Sprint2.Player
         //Draws the player
         public void Draw(SpriteBatch spriteBatch)
         {
-            state.Draw(spriteBatch);
+            state.Draw(spriteBatch, color);
         }
 
         //Damage Link
@@ -69,30 +71,7 @@ namespace Sprint2.Player
             state.SetLinkIdle();
         }
 
-        //Sets link to the moving left state
-        public void MovePlayerLeft()
-        {
-            state.MoveLinkLeft();
-        }
-
-        //Sets link to the moving right state
-        public void MovePlayerRight()
-        {
-            state.MoveLinkRight();
-        }
-
-        //Sets link to the moving up state
-        public void MovePlayerUp()
-        {
-            state.MoveLinkUp();
-        }
-
-        //Sets link to the moving down state
-        public void MovePlayerDown()
-        {
-            state.MoveLinkDown();
-        }
-
+       
         //Player attacks
         public void Attack() {
             state.Attack();
@@ -101,7 +80,9 @@ namespace Sprint2.Player
         //Moves Link left
         public void MoveLeft()
         {
-            if(position.X > 0)
+            state.MoveLinkLeft();
+
+            while (position.X > 0)
             {
                 position.X--;
             }
@@ -110,7 +91,9 @@ namespace Sprint2.Player
         //Moves Link right
         public void MoveRight()
         {
-            if(position.X < Constant.ScreenWidth)
+            state.MoveLinkRight();
+
+            while (position.X < Constant.ScreenWidth)
             {
                 position.X++;
             }
@@ -119,7 +102,9 @@ namespace Sprint2.Player
         //Moves Link up
         public void MoveUp()
         {
-            if(position.Y > 0)
+            state.MoveLinkUp();
+
+            while (position.Y > 0)
             {
                 position.Y--;
             }
@@ -128,7 +113,9 @@ namespace Sprint2.Player
         //Moves Link down
         public void MoveDown()
         {
-            if(position.Y < Constant.ScreenHeight)
+            state.MoveLinkDown();
+
+            while (position.Y < Constant.ScreenHeight)
             {
                 position.Y++;
             }

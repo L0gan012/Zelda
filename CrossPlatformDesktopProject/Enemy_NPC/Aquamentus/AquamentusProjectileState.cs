@@ -1,54 +1,26 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Sprint2.Enemy_NPC;
 using Sprint2.Factory;
 
-namespace Sprint2.Enemy
+namespace Sprint2
 {
-    public class AquamentusProjectileState : IAquamentusState
+    public class AquamentusProjectileStateFired 
     {
         //Instance Variables 
         private Aquamentus aquamentus;
         private ISprite sprite;
 
-        public AquamentusProjectileState(Aquamentus aquamentus)
+        public AquamentusProjectileStateFired(Aquamentus aquamentus)
         {
             this.aquamentus = aquamentus;
             sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
         }
-        public void Draw(SpriteBatch spritebatch)
+        public void Draw(SpriteBatch spritebatch, Vector2 location)
         {
-            sprite.Draw(spritebatch);
+            sprite.Draw(spritebatch, location);
         }
 
-        public void MouthOpen()
-        {
-
-        }
-
-        public void MouthClose()
-        {
-
-        }
-
-        public void MoveDown()
-        {
-
-        }
-
-        public void MoveLeft()
-        {
-
-        }
-
-        public void MoveRight()
-        {
-
-        }
-
-        public void MoveUp()
-        {
-
-        }
 
         public void Update()
         {

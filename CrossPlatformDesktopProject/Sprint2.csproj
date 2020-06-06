@@ -57,7 +57,6 @@
     <Compile Include="Constant.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
-    <Compile Include="Enemy_NPC\Aquamentus\AquamentusProjectileState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\IAquamentusState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\MouthClosedAquamentusState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\MouthOpenAquamentusState.cs" />
@@ -117,6 +116,10 @@
     <Compile Include="Link States\MovingLinkLeftState.cs" />
     <Compile Include="Link States\MovingLinkRightState.cs" />
     <Compile Include="Link States\MovingLinkUpState.cs" />
+    <Compile Include="Link States\UsingItemLinkDownState.cs" />
+    <Compile Include="Link States\UsingItemLinkUpState.cs" />
+    <Compile Include="Link States\UsingItemLinkRightState.cs" />
+    <Compile Include="Link States\UsingItemLinkLeftState.cs" />
     <Compile Include="Player\DamagedLink.cs" />
     <Compile Include="Player\ILink.cs" />
     <Compile Include="Player\Link.cs" />
@@ -221,6 +224,8 @@
     <Compile Include="Link States\AttackingLinkUpState.cs" />
     <Compile Include="Enemy_NPC\INPC.cs" />
     <Compile Include="Enemy_NPC\Old man\OldMan.cs" />
+    <Compile Include="Command\ResetCommand.cs" />
+    <Compile Include="Factory\NPCSpriteFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">

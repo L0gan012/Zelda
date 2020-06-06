@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace Sprint2
 {
@@ -8,7 +9,7 @@ namespace Sprint2
         void Update();
 
         //Draws the sprite attached to the state
-        void Draw(SpriteBatch spriteBatch);
+        void Draw(SpriteBatch spriteBatch, Color color);
 
         //Damage Link
         void DamageLink(Game1 game);
@@ -33,7 +34,5 @@ namespace Sprint2
 
         //Link attacks
         void Attack();
-
-        void SetDamagedSprite();
     }
 }
