@@ -39,7 +39,7 @@ namespace Sprint2
 
         public void UseProjectile()
         {
-            aquamentus.State = new AquamentusProjectileState(aquamentus);
+            //aquamentus.State = new AquamentusProjectileState(aquamentus);
         }
     }
 }
