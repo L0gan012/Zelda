@@ -11,6 +11,7 @@ using Sprint2.Enemy_NPC;
 
 namespace Sprint2
 {
+
     public class Game1 : Game
     {
         //Instance variables
@@ -71,6 +72,8 @@ namespace Sprint2
             //Registers Commands for controls
             controller.RegisterCommand();
 
+            //Loads sprite content for link
+            LinkSpriteFactory.Instance.LoadAllTextures(Content);
 
             ICommand reset = new ResetCommand(this);
             reset.Execute();
@@ -85,8 +88,7 @@ namespace Sprint2
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             
-            //Loads sprite content for link
-            LinkSpriteFactory.Instance.LoadAllTextures(Content);
+
 
             //Loads sprite content for items
             ItemsSpriteFactory.Instance.LoadAllTextures(Content);
@@ -139,7 +141,7 @@ namespace Sprint2
             GraphicsDevice.Clear(Color.White);
 
             //Draws link
-            //link.Draw(spriteBatch);
+            link.Draw(spriteBatch);
 
             //Draws Items
             Items[ItemListPosition].Draw(spriteBatch);
