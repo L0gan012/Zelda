@@ -226,6 +226,7 @@
     <Compile Include="Enemy_NPC\Old man\OldMan.cs" />
     <Compile Include="Command\ResetCommand.cs" />
     <Compile Include="Factory\NPCSpriteFactory.cs" />
+    <Compile Include="TextureContent.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">

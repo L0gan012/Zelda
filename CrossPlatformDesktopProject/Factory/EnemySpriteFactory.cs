@@ -11,11 +11,13 @@ namespace Sprint2.Factory
 {
 	public class EnemySpriteFactory
 	{
-		private List<Texture2D> enemySpritesheetList;
+		//Instance variables
+		//Dictionary populated with TextureContent class
+		private Dictionary<string, Texture2D> enemySpriteContent;
 		private static EnemySpriteFactory instance = new EnemySpriteFactory();
 
 
-        public static EnemySpriteFactory Instance
+		public static EnemySpriteFactory Instance
 		{
 			get
 			{
@@ -25,43 +27,22 @@ namespace Sprint2.Factory
 
 		private EnemySpriteFactory()
 		{
-			enemySpritesheetList = new List<Texture2D>();
+
 		}
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyAquamentus"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyAquamentusMouthOpen"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoDown"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoDownPuffed"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoLeft"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoLeftPuffed"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoRight"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoRightPuffed"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoUp"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyDodongoUpPuffed"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGel"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkDown"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkLeft"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkRight"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyGoriyaWalkUp"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyKeese"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyRopeLeft"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyRopeRight"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemySpikeCross"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyStalfos"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyWallmasterLeft"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyWallmasterRight"));
-			enemySpritesheetList.Add(content.Load<Texture2D>("TextureSheets/EnemyZol"));
+			enemySpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/ItemTextures");
+
 
 		}
 
 		public ISprite CreateSpriteEnemyAquamentus()
 		{
-			return new SpriteEnemyAquamentus(enemySpritesheetList[0]);
+			return new SpriteEnemyAquamentus(enemySpriteContent["EnemyAquamentus"]);
 		}
 
-		public ISprite CreateSpriteEnemyAquamentusProjectile()
+		/*public ISprite CreateSpriteEnemyAquamentusProjectile()
 		{
 		}
 
@@ -166,7 +147,7 @@ namespace Sprint2.Factory
 		public ISprite CreateSpriteEnemyZol()
 		{
 			//return new SpriteCandle ();
-		}
+		}*/
 
 	}
 }

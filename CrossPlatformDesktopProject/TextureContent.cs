@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Content;
+using System;
 using System.Collections.Generic;
 using System.IO;
 
@@ -11,7 +12,7 @@ namespace Sprint2
     /// </summary>
     public static class TextureContent
     {
-        public static Dictionary<string, T> LoadListContent<T>(this ContentManager contentManager, string contentFolder)
+        public static Dictionary<string, T> LoadListContent<T>(ContentManager contentManager, string contentFolder)
         {
             DirectoryInfo dir = new DirectoryInfo(contentManager.RootDirectory + "/" + contentFolder);
             if (!dir.Exists)

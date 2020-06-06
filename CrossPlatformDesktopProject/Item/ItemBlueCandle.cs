@@ -19,12 +19,13 @@ namespace Sprint2.Item
         public ItemBlueCandle()
         {
             sprite = ItemsSpriteFactory.Instance.CreateSpriteBlueCandle();
+            location = Constant.ItemStartPosition;
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             //Draw current item
-            sprite.Draw(spriteBatch);
+            sprite.Draw(spriteBatch, location);
         }
 
 

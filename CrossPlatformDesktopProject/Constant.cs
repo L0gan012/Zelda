@@ -9,6 +9,7 @@ namespace Sprint2
         public static readonly int ScreenWidth = 800;
         public static readonly int ScreenHeight = 480;
         public static readonly Vector2 LinkStartPosition = new Vector2(200, 200);
+        public static readonly Vector2 ItemStartPosition = new Vector2(400, 200);
         public static readonly Vector2 EnemyStartPosition = new Vector2(600, 200);
         public static readonly int AquamentusXRange = 40;
         
