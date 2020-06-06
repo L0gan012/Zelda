@@ -22,7 +22,7 @@ namespace Sprint2.Command
         public void Execute()
         {
             //method yet to be written
-            this.game.link.setIdle();
+            this.game.Link.SetIdle();
         }
     }
 }

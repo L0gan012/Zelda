@@ -1,8 +1,9 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Sprint2.Enemy_NPC;
 using Sprint2.Factory;
 
-namespace Sprint2.Enemy
+namespace Sprint2
 {
     public class MouthOpenAquamentusState : IAquamentusState
     {
@@ -16,37 +17,17 @@ namespace Sprint2.Enemy
             this.aquamentus = aquamentus;
             sprite = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusMouthOpen();
         }
-        public void Draw(SpriteBatch spritebatch)
+        public void Draw(SpriteBatch spritebatch, Vector2 location)
         {
-            sprite.Draw();
+            sprite.Draw(spritebatch, location);
         }
 
         public void MouthClose()
         {
-            aquamentus.state = new MouthClosedAquamentusState(aquamentus);
+            aquamentus.State = new MouthClosedAquamentusState(aquamentus);
         }
 
         public void MouthOpen()
-        {
-
-        }
-
-        public void MoveDown()
-        {
-
-        }
-
-        public void MoveLeft()
-        {
-
-        }
-
-        public void MoveRight()
-        {
-
-        }
-
-        public void MoveUp()
         {
 
         }
@@ -58,7 +39,7 @@ namespace Sprint2.Enemy
 
         public void UseProjectile()
         {
-            aquamentus.state = new AquamentusProjectileState(aquamentus);
+            aquamentus.State = new AquamentusProjectileState(aquamentus);
         }
     }
 }

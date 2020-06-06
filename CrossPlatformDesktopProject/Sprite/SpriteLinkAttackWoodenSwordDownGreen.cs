@@ -42,9 +42,9 @@ namespace Sprint2.Sprite
 
         }
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
-            Vector2 weaponOffset = new Vector2(5, 16);
+        //    Vector2 weaponOffset = new Vector2(5, 16);
 
 
             Rectangle sourceRectangleAvatar;
@@ -60,11 +60,8 @@ namespace Sprint2.Sprite
                 sourceRectangleAvatar = new Rectangle(192, 16, 16, 16);
                 destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
 
-                sourceRectangleWeapon = new Rectangle(192 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 8, 11);
-                destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 8 * Constant.DisplayScaleX, 11 * Constant.DisplayScaleY);
-
-
-
+              //  sourceRectangleWeapon = new Rectangle(192 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 8, 11);
+              //  destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 8 * Constant.DisplayScaleX, 11 * Constant.DisplayScaleY);
             }
             else if (currentFrame == 1)
             {
@@ -89,13 +86,12 @@ namespace Sprint2.Sprite
 
                 sourceRectangleWeapon = new Rectangle(224 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 8, 3);
                 destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 8 * Constant.DisplayScaleX, 3 * Constant.DisplayScaleY);
-
             }
 
 
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, destinationRectangleAvatar, sourceRectangleAvatar, Color.White);
-            spriteBatch.Draw(texture, destinationRectangleWeapon, sourceRectangleWeapon, Color.White);
+            spriteBatch.Draw(texture, destinationRectangleAvatar, sourceRectangleAvatar, color);
+          //  spriteBatch.Draw(texture, destinationRectangleWeapon, sourceRectangleWeapon, color);
             spriteBatch.End();
 
 

@@ -57,7 +57,6 @@
     <Compile Include="Constant.cs" />
     <Compile Include="Controller\IController.cs" />
     <Compile Include="Controller\KeyboardController.cs" />
-    <Compile Include="Enemy_NPC\Aquamentus\AquamentusProjectileState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\IAquamentusState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\MouthClosedAquamentusState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\MouthOpenAquamentusState.cs" />
@@ -187,10 +186,15 @@
     <Compile Include="Sprite\SpriteLinkAttackWoodenSwordLeftGreen.cs" />
     <Compile Include="Sprite\SpriteLinkAttackWoodenSwordRightGreen.cs" />
     <Compile Include="Sprite\SpriteLinkAttackWoodenSwordUpGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkGetItem.cs" />
     <Compile Include="Sprite\SpriteLinkIdleDownGreen.cs" />
     <Compile Include="Sprite\SpriteLinkIdleLeftGreen.cs" />
     <Compile Include="Sprite\SpriteLinkIdleRightGreen.cs" />
     <Compile Include="Sprite\SpriteLinkIdleUpGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemDownGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemLeftGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemRightGreen.cs" />
+    <Compile Include="Sprite\SpriteLinkUseItemUpGreen.cs" />
     <Compile Include="Sprite\SpriteLinkWalkDownGreen.cs" />
     <Compile Include="Sprite\SpriteLinkWalkLeftGreen.cs" />
     <Compile Include="Sprite\SpriteLinkWalkRightGreen.cs" />
@@ -220,6 +224,8 @@
     <Compile Include="Link States\AttackingLinkUpState.cs" />
     <Compile Include="Enemy_NPC\INPC.cs" />
     <Compile Include="Enemy_NPC\Old man\OldMan.cs" />
+    <Compile Include="Command\ResetCommand.cs" />
+    <Compile Include="Factory\NPCSpriteFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">

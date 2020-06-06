@@ -14,7 +14,7 @@ namespace Sprint2.Sprite
             }
 
 
-            public void Draw(SpriteBatch spriteBatch, Vector2 position)
+            public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
             {
                 Rectangle sourceRectangle;
                 Rectangle destinationRectangle;
@@ -23,7 +23,7 @@ namespace Sprint2.Sprite
                 destinationRectangle = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
 
                 spriteBatch.Begin();
-                spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
+                spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, color);
                 spriteBatch.End();
             }
 

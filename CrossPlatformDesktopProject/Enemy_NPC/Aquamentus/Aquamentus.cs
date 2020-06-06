@@ -6,48 +6,70 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Xna.Framework;
 
-namespace Sprint2.Enemy
+namespace Sprint2
 {
     public class Aquamentus : IEnemy
     {
 
         //Instance variables
-        public IAquamentusState state;
+        public IAquamentusState State { get; set; }
+        private ISprite projectile;
+        private Vector2 location;
+        private bool left;
+        private float limit;
+       
 
         public Aquamentus()
         {
-            state = new MouthClosedAquamentusState(this);
+            State = new MouthClosedAquamentusState(this);
+            location = Constant.EnemyStartPosition;
+            projectile = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
+
+            //movement 
+            left = true;
+            limit = location.X - Constant.RNG.Next(Constant.AquamentusXRange);
+
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            state.Draw(spriteBatch);
+            State.Draw(spriteBatch, location);
+            projectile.Draw(spriteBatch, location);
+
         }
 
-        public void MoveDown()
+        public void takeDamage()
         {
-
+            //nothing yet
         }
 
-        public void MoveLeft()
-        {
-
-        }
-
-        public void MoveRight()
-        {
-
-        }
-
-        public void MoveUp()
-        {
-
-        }
+        
 
         public void Update()
         {
-            state.Update();
+            //TODO - take care of random movement and projectiles
+            if(left)
+            {
+                location.X--;
+                if(location.X == limit)
+                {
+                    left = false;
+                    limit = location.X + Constant.RNG.Next(Constant.AquamentusXRange);
+                }
+
+            } else
+            {
+                location.X++;
+                if (location.X == limit)
+                {
+                    left = true;
+                    limit = location.X - Constant.RNG.Next(Constant.AquamentusXRange);
+                }
+            }
+            
+            State.Update();
         }
 
 

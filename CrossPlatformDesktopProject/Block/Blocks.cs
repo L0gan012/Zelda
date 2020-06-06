@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Sprint2.Factory;
 
-namespace Sprint2.Block
+namespace Sprint2
 {
     class Blocks : IBlock
     {

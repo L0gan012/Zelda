@@ -81,7 +81,6 @@ namespace Sprint2.Factory
 			return new SpriteContinuousAnimation(itemSpriteContent["ItemFairy"], 1, 2, 8);
 		}
 
-
 		public ISprite CreateSpriteFlute()
 		{
 			//return new SpriteCandle ();

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2.Player
+namespace Sprint2
 {
     public interface ILink
     {
@@ -25,19 +25,6 @@ namespace Sprint2.Player
 
         //Idle
         void SetIdle();
-
-
-        //Sets the player left state
-        void MovePlayerLeft();
-
-        //Sets the player right state
-        void MovePlayerRight();
-
-        //Sets the player up state
-        void MovePlayerUp();
-
-        //Sets the player down state
-        void MovePlayerDown();
 
         //Player attacks
         void Attack();

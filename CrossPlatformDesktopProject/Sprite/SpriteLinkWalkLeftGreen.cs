@@ -36,7 +36,7 @@ namespace Sprint2.Sprite
             currentTick++;
         }
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
 
             Rectangle sourceRectangle;
@@ -54,7 +54,7 @@ namespace Sprint2.Sprite
             }
 
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, color);
             spriteBatch.End();
 
 
