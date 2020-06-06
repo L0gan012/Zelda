@@ -14,7 +14,7 @@ namespace Sprint2.Sprite
         }
 
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
             Rectangle sourceRectangle;
             Rectangle destinationRectangle;
