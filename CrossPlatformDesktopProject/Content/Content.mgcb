@@ -931,6 +931,18 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/NPCTextures/NPColdman.png
 
+#begin TextureSheets/NPCTextures/NPColdManIdle.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/NPCTextures/NPColdManIdle.png
+
 #begin TextureSheets/NPCTextures/NPCvendor.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -955,6 +967,18 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/NPCTextures/NPCzeldaGreen.png
 
+#begin TextureSheets/ProjectileTextures/ProjectileAfterBomb.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/ProjectileTextures/ProjectileAfterBomb.png
+
 #begin TextureSheets/ProjectileTextures/ProjectileAquamentus.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -966,6 +990,42 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:TextureSheets/ProjectileTextures/ProjectileAquamentus.png
+
+#begin TextureSheets/ProjectileTextures/ProjectileBomb.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/ProjectileTextures/ProjectileBomb.png
+
+#begin TextureSheets/ProjectileTextures/ProjectileBombExplosion.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/ProjectileTextures/ProjectileBombExplosion.png
+
+#begin TextureSheets/ProjectileTextures/ProjectileBombOnly.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/ProjectileTextures/ProjectileBombOnly.png
 
 #begin TextureSheets/ProjectileTextures/ProjectileCandle.png
 /importer:TextureImporter
