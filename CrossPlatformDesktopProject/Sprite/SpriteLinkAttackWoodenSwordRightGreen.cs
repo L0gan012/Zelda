@@ -57,10 +57,10 @@ namespace Sprint2.Sprite
             if (currentFrame == 0)
             {
                    sourceRectangleAvatar = new Rectangle(272, 16, 16, 16);
-                   destinationRectangleAvatar = new Rectangle((int)position.X, (int)location.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
+                   destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
 
                    sourceRectangleWeapon = new Rectangle(272 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 11, 8);
-                   destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)location.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
+                   destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
 
             }
 

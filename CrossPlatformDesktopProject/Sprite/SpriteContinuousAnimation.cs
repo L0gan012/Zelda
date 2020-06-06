@@ -14,6 +14,7 @@ namespace Sprint2.Sprite
         private int currentFrame;
         private int totalFrames;
         private int ticksPerFrame;
+        private int currentTick;
 
 
         public SpriteContinuousAnimation(Texture2D texture, int row, int column, int ticksPerFrame)
@@ -27,7 +28,7 @@ namespace Sprint2.Sprite
 
         }
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 location)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 location)
         {
             int width = Texture.Width / Columns;
             int height = Texture.Height / Rows;
@@ -38,7 +39,7 @@ namespace Sprint2.Sprite
             Rectangle destinationRectangle = new Rectangle((int)location.X, (int)location.Y, width * Constant.DisplayScaleX, height * Constant.DisplayScaleY);
 
             spriteBatch.Begin();
-            spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(Texture, destinationRectangle, sourceRectangle, color);
             spriteBatch.End();
         }
 

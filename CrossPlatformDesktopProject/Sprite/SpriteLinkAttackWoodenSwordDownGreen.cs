@@ -44,7 +44,7 @@ namespace Sprint2.Sprite
 
         public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
-        //    Vector2 weaponOffset = new Vector2(5, 16);
+            Vector2 weaponOffset = new Vector2(5, 16);
 
 
             Rectangle sourceRectangleAvatar;

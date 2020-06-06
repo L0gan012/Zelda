@@ -20,7 +20,7 @@ namespace Sprint2.Sprite
             totalFrames = rows * columns;
         }
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 location)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 location)
         {
             int width = this.texture.Width / columns;
             int height = this.texture.Height / rows;
@@ -31,7 +31,7 @@ namespace Sprint2.Sprite
             Rectangle destinationRectangle = new Rectangle((int)location.X, (int)location.Y, width * Constant.DisplayScaleX, height * Constant.DisplayScaleY);
 
             spriteBatch.Begin();
-            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, color);
             spriteBatch.End();
         }
 

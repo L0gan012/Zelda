@@ -25,7 +25,7 @@ namespace Sprint2.Sprite
         }
 
         //Draws the sprite to the screen
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
             //Sprite dimensions
             int spriteWidth = 14;
@@ -40,7 +40,7 @@ namespace Sprint2.Sprite
 
             //Draw specified sprite to the screen
             spriteBatch.Begin();
-            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(this.texture, destinationRectangle, sourceRectangle, color);
             spriteBatch.End();
         }
     }

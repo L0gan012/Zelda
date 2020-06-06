@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Sprint2.Sprite
 {
-    class SpriteLinkWalkDownGreen : ISprite
+    public class SpriteLinkGetItem : ISprite
     {
 
         private Texture2D texture;
@@ -17,7 +17,7 @@ namespace Sprint2.Sprite
         private int totalFrames;
         private int currentTick;
 
-        public SpriteLinkWalkDownGreen(Texture2D texture)
+        public SpriteLinkGetItem(Texture2D texture)
         {
             this.texture = texture;
             currentFrame = 0;
@@ -39,7 +39,7 @@ namespace Sprint2.Sprite
             currentTick++;
         }
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color,Vector2 position)
         {
 
             Rectangle sourceRectangle;
@@ -57,7 +57,7 @@ namespace Sprint2.Sprite
             }
 
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, color);
             spriteBatch.End();
 
 
