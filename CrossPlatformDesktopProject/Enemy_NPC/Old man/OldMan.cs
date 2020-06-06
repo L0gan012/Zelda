@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Sprint2.Enemy.Oldman
+namespace Sprint2.Enemy_NPC
 {
     public class OldMan : INPC
     {
