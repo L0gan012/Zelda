@@ -2,11 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Block",
-    "\\CrossPlatformDesktopProject\\Factory",
-    "\\CrossPlatformDesktopProject\\Item",
+    "\\CrossPlatformDesktopProject\\Enemy_NPC",
+    "\\CrossPlatformDesktopProject\\Link States",
+    "\\CrossPlatformDesktopProject\\Player",
     "\\CrossPlatformDesktopProject\\Sprite"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\SpriteLinkUseItemDownGreen.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Game1.cs",
   "PreviewInSolutionExplorer": false
 }
