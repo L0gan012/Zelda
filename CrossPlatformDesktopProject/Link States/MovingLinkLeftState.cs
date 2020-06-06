@@ -40,7 +40,7 @@ namespace Sprint2
         public void UseItem(IItem item)
         {
             item.Use();
-            link.State = new UseItemLeftState(link);
+            link.State = new UsingItemLinkLeftState(link);
         }
 
         //Idle Link left

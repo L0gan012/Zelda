@@ -39,7 +39,7 @@ namespace Sprint2
         //Use compass item
         public void UseItem(IItem item)
         {
-            //TODO  - figure out how this works
+            link.State = new UsingItemLinkRightState(link);
         }
 
         //Idle Link left

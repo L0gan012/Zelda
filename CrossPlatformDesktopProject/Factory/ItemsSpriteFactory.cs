@@ -37,13 +37,12 @@ namespace Sprint2.Factory
 		}
 
 		 
-		public ISprite CreateSpriteBlueCandle(Vector2 position)
+		public ISprite CreateSpriteBlueCandle()
 		{
-			Texture2D texture = itemSpriteContent["ItemBlueCandle"];
-			//return new SpriteCandle ();
+			return new SpriteItemBlueCandle(itemSpriteContent["ItemBlueCandle"]);
 		}
 
-		public ISprite CreateSpriteBluePotion()
+		/*public ISprite CreateSpriteBluePotion()
 		{
 			Texture2D texture = itemSpriteContent["ItemBluePotion"];
 			//return new SpriteCandle ();
@@ -160,6 +159,6 @@ namespace Sprint2.Factory
 		public ISprite CreateSpriteWoodenArrow()
 		{
 			//return new SpriteCandle ();
-		}
+		} */
 	}
 }
