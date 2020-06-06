@@ -19,13 +19,15 @@ namespace Sprint2
         private Vector2 location;
         private bool left;
         private float limit;
+        private Color color;
        
 
         public Aquamentus()
         {
             State = new MouthClosedAquamentusState(this);
             location = Constant.EnemyStartPosition;
-            //projectile = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
+            color = Color.White;
+           // projectile = EnemySpriteFactory.Instance.CreateSpriteEnemyAquamentusProjectile();
 
             //movement 
             left = true;
@@ -35,8 +37,8 @@ namespace Sprint2
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            State.Draw(spriteBatch, location);
-            //projectile.Draw(spriteBatch, location);
+            State.Draw(spriteBatch, color, location);
+            projectile.Draw(spriteBatch, color, location);
 
         }
 
