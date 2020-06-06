@@ -11,7 +11,7 @@ namespace Sprint2.Enemy.Oldman
 
         public OldMan()
         {
-            throw new NotImplementedException();
+            sprite = NPCSpriteFactory.Instance.createNPCOldMan();
         }
 
         public void Update()

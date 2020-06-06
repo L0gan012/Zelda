@@ -18,9 +18,9 @@ namespace Sprint2.Command
 
         public void Execute()
         {
-            if (this.game.blockListPosition > 0)
+            if (this.game.BlockListPosition > 0)
             {
-                this.game.blockListPosition--;
+                this.game.BlockListPosition--;
             }
 
         }

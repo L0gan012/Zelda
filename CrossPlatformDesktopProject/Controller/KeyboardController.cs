@@ -26,6 +26,7 @@ namespace Sprint2.Controller
         {
             //quit and reset commands
             commandDictionary.Add(Keys.Q, new ExitCommand(game));
+            commandDictionary.Add(Keys.R, new ResetCommand(game));
 
 
             //directional commands, arrow keys
@@ -64,23 +65,22 @@ namespace Sprint2.Controller
         /// </summary>
         public void Update()
         {
-            //Gets the pressed keys
             Keys[] pressedKeys = Keyboard.GetState().GetPressedKeys();
+            Keys prev = new Keys();
 
-
-            //if nothing is pressed, set player to be in an idle state
+            //if nothing is pressed, set player to be in an idle state, buggy with short animations
             if (pressedKeys.Length == 0)
             {
                 idle.Execute();
             }
             else
             {
-                //Loops through the pressed keys and if it is in the dictionary execute its given command
                 foreach (Keys key in pressedKeys)
                 {
-                    if (commandDictionary.ContainsKey(key))
+                    if (commandDictionary.ContainsKey(key) && !prev.Equals(key))
                     {
                         commandDictionary[key].Execute();
+                        prev = key;
                     }
                 }
 

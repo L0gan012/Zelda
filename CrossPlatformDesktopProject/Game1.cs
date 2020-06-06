@@ -6,7 +6,6 @@ using Sprint2.Controller;
 using Sprint2.Factory;
 using Sprint2.Player;
 using Sprint2.Item;
-using Sprint2.Block;
 using System.Runtime.InteropServices;
 using Sprint2.Enemy_NPC;
 
@@ -20,32 +19,32 @@ namespace Sprint2
 
         private ILink link;
         public IController controller;
-        private static List<IItem> items;
-        private static List<INPC> enemies;
-        private static List<IBlock> blocks;
-        public int itemListPosition;
-        public int enemyListPosition;
-        public int blockListPosition;
-        private ItemLoadAllContent itemLoader;
-        private EnemyLoadAllContent enemyLoader;
-        private BlockLoadAllContent blockLoader;
+        public static List<IItem> Items { get; set; }
+        public static List<INPC> Enemies { get; set; }
+        public static List<IBlock> Blocks { get; set; }
+        public int ItemListPosition { get; set; }
+        public int EnemyListPosition { get; set; }
+        public int BlockListPosition { get; set; }
+        public ItemLoadAllContent ItemLoader { get; set; }
+        public EnemyLoadAllContent EnemyLoader { get; set; }
+        public BlockLoadAllContent BlockLoader { get; set; }
 
         public List<IItem> ListOfItems
         { 
-            get { return items;}
-            set { items.Add((IItem)value); }
+            get { return Items;}
+            set { Items.Add((IItem)value); }
         }
 
         public List<INPC> ListOfEnemies
         {
-            get { return enemies; }
-            set { enemies.Add((IEnemy) value); }
+            get { return Enemies; }
+            set { Enemies.Add((IEnemy) value); }
         }
 
         public List<IBlock> ListOfBlocks
         {
-            get { return blocks; }
-            set { blocks.Add((IBlock)value); }
+            get { return Blocks; }
+            set { Blocks.Add((IBlock)value); }
         }
         public ILink Link
         {
@@ -69,23 +68,13 @@ namespace Sprint2
             //Initializes controller object
             controller = new KeyboardController(this);
 
-            //Initializes items objects
-            items = new List<IItem>();
-            itemLoader = new ItemLoadAllContent(this);
-
-            //Initializes enemy and npc objects
-            enemies = new List<INPC>();
-            enemyLoader = new EnemyLoadAllContent(this);
-
-            //Initializes blocks object
-            blocks = new List<IBlock>();
-            blockLoader = new BlockLoadAllContent(this);
-
-            //Initializes player object
-            link = new Link(this);
-
             //Registers Commands for controls
             controller.RegisterCommand();
+
+
+            ICommand reset = new ResetCommand(this);
+            reset.Execute();
+            
 
             base.Initialize();
         }
@@ -104,13 +93,13 @@ namespace Sprint2
 
 
             //Loads content for all items
-            itemLoader.LoadContent();
+            ItemLoader.LoadContent();
 
             //Loads content for all enemies and npcs
-            enemyLoader.LoadContent();
+            EnemyLoader.LoadContent();
 
             //Loads content for all blocks
-            blockLoader.LoadContent();
+            BlockLoader.LoadContent();
             
         }
 
@@ -126,13 +115,13 @@ namespace Sprint2
             //Updates contols
             controller.Update();
             //Updates link object
-            link.Update();
+            Link.Update();
             //Updates items object
-            items[itemListPosition].Update();
+            Items[ItemListPosition].Update();
             //Updates items object
-            enemies[enemyListPosition].Update();
+            Enemies[EnemyListPosition].Update();
             //Updates blocks object
-            blocks[blockListPosition].Update();
+            Blocks[BlockListPosition].Update();
 
             base.Update(gameTime);
          
@@ -148,7 +137,7 @@ namespace Sprint2
             //enemies[enemyListPosition].Draw(spriteBatch);
 
             //Draw blocks
-            blocks[blockListPosition].Draw(spriteBatch, new Vector2(100, 100));
+            Blocks[BlockListPosition].Draw(spriteBatch, new Vector2(100, 100));
 
             base.Draw(gameTime);
         }

@@ -18,7 +18,7 @@ namespace Sprint2.Command
         }
         public void Execute()
         {
-            this.game.link.DamagePlayer();
+            this.game.Link.DamagePlayer();
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Sprint2.Command
 
         public void Execute()
         {
-            this.game.link.Attack();
+            this.game.Link.Attack();
         }
     }
 }

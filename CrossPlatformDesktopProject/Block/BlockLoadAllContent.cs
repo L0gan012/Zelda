@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sprint2.Block
+namespace Sprint2
 {
-    class BlockLoadAllContent
+    public class BlockLoadAllContent
     {
 
         //Instance variables
