@@ -32,7 +32,7 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			enemySpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/ItemTextures");
+			enemySpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/EnemyTextures");
 
 
 		}

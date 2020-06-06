@@ -88,9 +88,14 @@ namespace Sprint2
             //Loads sprite content for link
             LinkSpriteFactory.Instance.LoadAllTextures(Content);
 
+            //Loads sprite content for items
+            ItemsSpriteFactory.Instance.LoadAllTextures(Content);
+
+            //Enemy sprite content for items
+            EnemySpriteFactory.Instance.LoadAllTextures(Content);
+
             //Loads sprite content for blocks
             BlockSpriteFactory.Instance.LoadAllTextures(Content);
-
 
             //Loads content for all items
             ItemLoader.LoadContent();

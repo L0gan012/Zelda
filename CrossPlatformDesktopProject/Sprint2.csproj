@@ -246,6 +246,17 @@
     <None Include="Content\Fonts\Font.spritefont" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\TextureSheets\BlockTextures\BombedOpening.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\Brick.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\Gap.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\Ladder.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\LockedDoor.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\OpenDoor.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\ShutDoor.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\Square.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\Stairs.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\Statue.png" />
+    <Content Include="Content\TextureSheets\BlockTextures\Wall.png" />
     <Content Include="Content\TextureSheets\EnemyTextures\EnemyAquamentus.png" />
     <Content Include="Content\TextureSheets\EnemyTextures\EnemyAquamentusMouthOpen.png" />
     <Content Include="Content\TextureSheets\EnemyTextures\EnemyDodongoDown.png" />

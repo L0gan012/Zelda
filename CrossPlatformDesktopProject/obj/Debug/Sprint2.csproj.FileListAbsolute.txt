@@ -156,3 +156,4 @@ C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CopyComplete
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.exe
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.pdb
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache

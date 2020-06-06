@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.png</SourceFile>
-  <SourceTime>2020-06-05T12:45:51.2443977-04:00</SourceTime>
-  <DestFile>/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.xnb</DestFile>
-  <DestTime>2020-06-06T17:10:06.266132-04:00</DestTime>
+  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.png</SourceFile>
+  <SourceTime>2020-06-06T14:56:25.197674-04:00</SourceTime>
+  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.xnb</DestFile>
+  <DestTime>2020-06-06T17:17:55.9356955-04:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2018-12-08T11:35:14-05:00</ImporterTime>
+  <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2018-12-08T11:35:14-05:00</ProcessorTime>
+  <ProcessorTime>2018-12-08T11:35:54-05:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>
