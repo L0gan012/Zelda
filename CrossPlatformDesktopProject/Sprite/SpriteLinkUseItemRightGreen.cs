@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System;
 
 namespace Sprint2.Sprite
 {
@@ -13,7 +14,7 @@ namespace Sprint2.Sprite
         }
 
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
             Rectangle sourceRectangle;
             Rectangle destinationRectangle;

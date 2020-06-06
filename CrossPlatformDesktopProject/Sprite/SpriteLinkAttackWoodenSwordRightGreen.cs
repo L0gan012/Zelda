@@ -40,7 +40,7 @@ namespace Sprint2.Sprite
 
         }
 
-        public void Draw(SpriteBatch spriteBatch, Vector2 position)
+        public void Draw(SpriteBatch spriteBatch, Color color, Vector2 position)
         {
             Vector2 weaponOffset = new Vector2(16, 5);
 
@@ -57,10 +57,10 @@ namespace Sprint2.Sprite
             if (currentFrame == 0)
             {
                    sourceRectangleAvatar = new Rectangle(272, 16, 16, 16);
-                   destinationRectangleAvatar = new Rectangle((int)location.X, (int)location.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
+                   destinationRectangleAvatar = new Rectangle((int)position.X, (int)location.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
 
                    sourceRectangleWeapon = new Rectangle(272 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 11, 8);
-                   destinationRectangleWeapon = new Rectangle((int)location.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)location.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
+                   destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)location.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
 
             }
 
@@ -92,8 +92,8 @@ namespace Sprint2.Sprite
 
 
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, destinationRectangleAvatar, sourceRectangleAvatar, Color.White);
-            spriteBatch.Draw(texture, destinationRectangleWeapon, sourceRectangleWeapon, Color.White);
+            spriteBatch.Draw(texture, destinationRectangleAvatar, sourceRectangleAvatar, color);
+            spriteBatch.Draw(texture, destinationRectangleWeapon, sourceRectangleWeapon, color);
             spriteBatch.End();
 
 
