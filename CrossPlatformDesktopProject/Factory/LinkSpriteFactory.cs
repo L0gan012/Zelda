@@ -81,7 +81,7 @@ namespace Sprint2.Factory
 
 		public ISprite CreateAttackingRightLinkGreenSprite()
 		{
-			return;
+			return new SpriteLinkAttackWoodenSwordRightGreen(linkSpritesheet);
 		}
 
 		public ISprite CreateAttackingUpLinkGreenSprite()

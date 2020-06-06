@@ -5,19 +5,9 @@ namespace Sprint2
 {
     public interface IEnemy : INPC
     {
-        
 
-        //Enemy walks up
-        void MoveUp();
 
-        //Enemy walks down
-        void MoveDown();
-
-        //Enemy walks right
-        void MoveRight();
-
-        //Enemy walks left
-        void MoveLeft();
+        void takeDamage();
 
         //eventually add a damage method
 

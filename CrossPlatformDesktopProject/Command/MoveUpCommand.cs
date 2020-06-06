@@ -19,8 +19,7 @@ namespace Sprint2.Command
 
         public void Execute()
         { 
-            this.game.link.MovePlayerUp();
-            this.game.link.MoveUp();
+            this.game.Link.MoveUp();
         }
     }
 }

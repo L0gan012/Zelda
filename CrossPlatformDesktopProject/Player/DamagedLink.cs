@@ -13,6 +13,7 @@ namespace Sprint2.Player
         private IItem item;
         private Vector2 position;
         private int timer;
+        private Color color;
 
         public ILinkState State
         {
@@ -47,6 +48,20 @@ namespace Sprint2.Player
         public void Update()
         {
             timer--;
+            if(timer%4 == 0)
+            {
+                color = Color.Blue;
+            } else if(timer%4 == 1)
+            {
+                color = Color.Red;
+            } else if(timer%4 == 2)
+            {
+                color = Color.Green;
+            } else
+            {
+                color = Color.Purple;
+            }
+
             if(timer == 0)
             {
                 RemoveDecorator();
@@ -57,13 +72,14 @@ namespace Sprint2.Player
         //Removes the decorator
         public void RemoveDecorator()
         {
+            color = Color.White;
             game.Link = link;
         }
 
         //Draws the player
         public void Draw(SpriteBatch spriteBatch)
         {
-            state.Draw(spriteBatch);
+            state.Draw(spriteBatch, color);
         }
 
         //Damage Link
@@ -82,42 +98,36 @@ namespace Sprint2.Player
         public void SetIdle()
         {
             state.SetLinkIdle();
-            state.SetDamagedSprite();
         }
 
         //Sets link to the moving left state
         public void MovePlayerLeft()
         {
             state.MoveLinkLeft();
-            state.SetDamagedSprite();
         }
 
         //Sets link to the moving right state
         public void MovePlayerRight()
         {
             state.MoveLinkRight();
-            state.SetDamagedSprite();
         }
 
         //Sets link to the moving up state
         public void MovePlayerUp()
         {
             state.MoveLinkUp();
-            state.SetDamagedSprite();
         }
 
         //Sets link to the moving down state
         public void MovePlayerDown()
         {
             state.MoveLinkDown();
-            state.SetDamagedSprite();
         }
 
         //Player attacks
         public void Attack()
         {
             state.Attack();
-            state.SetDamagedSprite();
         }
 
         //Moves Link left
