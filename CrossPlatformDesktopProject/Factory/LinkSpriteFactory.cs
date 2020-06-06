@@ -24,7 +24,7 @@ namespace Sprint2.Factory
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			linkSpritesheet = content.Load<Texture2D>("TextureSheets/LinkSpriteSheet");
+			linkSpritesheet = content.Load<Texture2D>("TextureSheets/LinkTextures/LinkSpriteSheet");
 		}
 
 

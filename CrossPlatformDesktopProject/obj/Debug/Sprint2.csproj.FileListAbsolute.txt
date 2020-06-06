@@ -137,7 +137,6 @@ C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Statue.xnb
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Wall.xnb
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\Ethan.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkSpriteSheet.xnb
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\Fonts\Font.xnb
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
@@ -157,3 +156,8 @@ C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Spr
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.exe
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.pdb
 C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileAfterBomb.xnb
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBomb.xnb
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombExplosion.xnb
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombOnly.xnb
+C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPColdManIdle.xnb

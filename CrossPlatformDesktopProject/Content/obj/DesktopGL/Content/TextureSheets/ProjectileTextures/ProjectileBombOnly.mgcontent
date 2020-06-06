@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkSpriteSheet.png</SourceFile>
-  <SourceTime>2020-05-30T17:59:18.8219362-04:00</SourceTime>
-  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/LinkSpriteSheet.xnb</DestFile>
-  <DestTime>2020-06-06T17:17:59.1900415-04:00</DestTime>
+  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileBombOnly.png</SourceFile>
+  <SourceTime>2020-06-06T15:36:02.6480942-04:00</SourceTime>
+  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ProjectileTextures/ProjectileBombOnly.xnb</DestFile>
+  <DestTime>2020-06-06T18:06:58.3339349-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -39,6 +39,7 @@
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyWallmasterLeft.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyWallmasterRight.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyZol.png</File>
+    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemBlueCandle.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemBluePotion.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemBlueRing.png</File>
@@ -81,9 +82,14 @@
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkWalkUpGreen.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/NPCfireIdle.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/NPColdman.png</File>
+    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/NPColdManIdle.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/NPCvendor.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/NPCTextures/NPCzeldaGreen.png</File>
+    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileAfterBomb.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileAquamentus.png</File>
+    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileBomb.png</File>
+    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileBombExplosion.png</File>
+    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileBombOnly.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileCandle.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileFlame.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.png</File>
@@ -128,17 +134,19 @@
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordLeft.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordRight.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordUp.png</File>
-    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.png</File>
     <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.png</File>
-    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/Ethan.png</File>
-    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkSpriteSheet.png</File>
+    <File>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

@@ -311,6 +311,17 @@
     <Content Include="Content\TextureSheets\ItemTextures\ItemWoodenBoomerang.png" />
     <Content Include="Content\TextureSheets\ItemTextures\ItemWoodenSword.png" />
     <Content Include="Content\TextureSheets\LinkSpriteSheet.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkPickupItemGreen.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkSpriteSheet.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkSpriteSheet_Uncut.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkUseItemDownGreen.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkUseItemLeftGreen.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkUseItemRightGreen.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkUseItemUpGreen.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkWalkDownGreenSmall.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkWalkLeftGreenSmall.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkWalkRightGreenSmall.png" />
+    <Content Include="Content\TextureSheets\LinkTextures\LinkWalkUpGreen.png" />
     <Content Include="Content\TextureSheets\NPCTextures\FireIdle.png" />
     <Content Include="Content\TextureSheets\NPCTextures\OldMan.png" />
     <Content Include="Content\TextureSheets\NPCTextures\Vendor.png" />

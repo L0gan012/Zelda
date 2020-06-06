@@ -137,9 +137,15 @@ namespace Sprint2
         {
             //Set background color
             GraphicsDevice.Clear(Color.White);
-            //link.Draw();
-            //items[itemListPosition].Draw(spriteBatch);
-            //enemies[enemyListPosition].Draw(spriteBatch);
+
+            //Draws link
+            //link.Draw(spriteBatch);
+
+            //Draws Items
+            Items[ItemListPosition].Draw(spriteBatch);
+
+            //Draws Enemies
+            Enemies[EnemyListPosition].Draw(spriteBatch);
 
             //Draw blocks
             Blocks[BlockListPosition].Draw(spriteBatch, new Vector2(100, 100));

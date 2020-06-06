@@ -38,7 +38,7 @@ namespace Sprint2
         public void Draw(SpriteBatch spriteBatch)
         {
             State.Draw(spriteBatch, color, location);
-            projectile.Draw(spriteBatch, color, location);
+           // projectile.Draw(spriteBatch, color, location);
 
         }
 
