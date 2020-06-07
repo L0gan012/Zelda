@@ -96,60 +96,60 @@ namespace Sprint2.Factory
 			return new SpriteEnemyGel(enemySpriteContent["EnemyGel"]);
 		}
 
-		/*public ISprite CreateSpriteEnemyGoriyaWalkDown()
+		public ISprite CreateSpriteEnemyGoriyaWalkDown()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyGoriyaWalkDown(enemySpriteContent["EnemyGoriyaWalkDown"]);
 		}
 
 		public ISprite CreateSpriteEnemyGoriyaWalkLeft()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyGoriyaWalkLeft(enemySpriteContent["EnemyGoriyaWalkLeft"]);
 		}
 
 		public ISprite CreateSpriteEnemyGoriyaWalkUp()
 		{
-			//return new SpriteCandle ();
-		}*/
+			return new SpriteEnemyGoriyaWalkUp(enemySpriteContent["EnemyGoriyaWalkUp"]);
+		}
 
 		public ISprite CreateSpriteEnemyKeese()
 		{
 			return new SpriteEnemyKeese(enemySpriteContent["EnemyKeese"]);
 		}
 
-		/*public ISprite CreateSpriteEnemyRopeLeft()
+		public ISprite CreateSpriteEnemyRopeLeft()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyRopeLeft(enemySpriteContent["EnemyRopeLef"]);
 		}
 
 		public ISprite CreateSpriteEnemyRopeRight()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyRopeRight(enemySpriteContent["EnemyRopeRight"]);
 		}
 
 		public ISprite CreateSpriteEnemySpikeCross()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemySpikeCross(enemySpriteContent["EnemySpikeCross"]);
 		}
 
 		public ISprite CreateSpriteEnemyStalfos()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyStalfos(enemySpriteContent["EnemyStalfos"]);
 		}
 
 		public ISprite CreateSpriteEnemyWallmasterLeft()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyWallmasterLeft(enemySpriteContent["EnemyWallmasterLeft"]);
 		}
 
 		public ISprite CreateSpriteEnemyWallmasterRight()
 		{
-			//return new SpriteCandle ();
+			return new SpriteEnemyWallmasterRight(enemySpriteContent["EnemyWallmasterRight"]);
 		}
 
 		public ISprite CreateSpriteEnemyZol()
 		{
-			//return new SpriteCandle ();
-		}*/
+			return new SpriteEnemyZol(enemySpriteContent["EnemyZol"]);
+		}
 
 	}
 }

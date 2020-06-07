@@ -66,6 +66,9 @@
     <Compile Include="Enemy_NPC\IEnemy.cs" />
     <Compile Include="Enemy_NPC\EnemyLoadAllContent.cs" />
     <Compile Include="Enemy_NPC\Keese\Keese.cs" />
+    <Compile Include="Enemy_NPC\SpikeCross\SpikeCross.cs" />
+    <Compile Include="Enemy_NPC\Stalfos\Stalfos.cs" />
+    <Compile Include="Enemy_NPC\Zol\Zol.cs" />
     <Compile Include="Factory\EnemySpriteFactory.cs" />
     <Compile Include="Factory\BlockSpriteFactory.cs" />
     <Compile Include="Factory\ItemsSpriteFactory.cs" />

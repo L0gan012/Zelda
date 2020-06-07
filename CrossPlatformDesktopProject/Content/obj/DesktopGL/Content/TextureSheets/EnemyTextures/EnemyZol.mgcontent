@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyZol.png</SourceFile>
-  <SourceTime>2020-06-06T19:23:33.3505207-04:00</SourceTime>
-  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/EnemyTextures/EnemyZol.xnb</DestFile>
-  <DestTime>2020-06-06T19:24:14.3300939-04:00</DestTime>
+  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyZol.png</SourceFile>
+  <SourceTime>2020-06-03T21:15:00.0289294-04:00</SourceTime>
+  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/EnemyTextures/EnemyZol.xnb</DestFile>
+  <DestTime>2020-06-06T21:17:23.8594609-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

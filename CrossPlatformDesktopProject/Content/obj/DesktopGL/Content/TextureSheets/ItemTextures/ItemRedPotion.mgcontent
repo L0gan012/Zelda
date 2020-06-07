@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemRedPotion.png</SourceFile>
-  <SourceTime>2020-06-06T19:23:33.3604946-04:00</SourceTime>
-  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ItemTextures/ItemRedPotion.xnb</DestFile>
-  <DestTime>2020-06-06T19:24:14.797836-04:00</DestTime>
+  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemRedPotion.png</SourceFile>
+  <SourceTime>2020-06-03T21:15:00.0449994-04:00</SourceTime>
+  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ItemTextures/ItemRedPotion.xnb</DestFile>
+  <DestTime>2020-06-06T21:17:24.7451025-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
