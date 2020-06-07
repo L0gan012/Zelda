@@ -42,38 +42,37 @@ namespace Sprint2.Factory
 			return new SpriteItemBlueCandle(itemSpriteContent["ItemBlueCandle"]);
 		}
 
-		/*public ISprite CreateSpriteBluePotion()
+		public ISprite CreateSpriteBluePotion()
 		{
-			Texture2D texture = itemSpriteContent["ItemBluePotion"];
-			//return new SpriteCandle ();
+			return new SpriteItemBluePotion(itemSpriteContent["ItemBluePotion"]);
+			
 		}
 
-        public ISprite CreateSpriteBlueRing()
+		public ISprite CreateSpriteBlueRing()
         {
-			Texture2D texture = itemSpriteContent["ItemBlueRing"];
-            //return new SpriteCandle ();
+			return new SpriteItemBlueRing(itemSpriteContent["ItemBlueRing"]);
+
         }
 
 		public ISprite CreateSpriteBomb()
 		{
-			Texture2D texture = itemSpriteContent["ItemBomb"];
-			//return new SpriteCandle ();
+			return new SpriteItemBomb(itemSpriteContent["ItemBomb"]);
 		}
 
 		public ISprite CreateSpriteBow()
 		{
-			Texture2D texture = itemSpriteContent["ItemBow"];
-			//return new SpriteCandle ();
+			return new SpriteItemBow(itemSpriteContent["ItemBow"]);
+
 		}
 		public ISprite CreateSpriteClock()
 		{
-			Texture2D texture = itemSpriteContent["ItemClock"];
-			//return new SpriteCandle ();
+			return new SpriteItemClock(itemSpriteContent["ItemClock"]);
+
 		}
 
 		public ISprite CreateSpriteCompass()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemCompass(itemSpriteContent["ItemClock"]);
 		}
 		public ISprite CreateSpriteFairy()
 		{
@@ -82,83 +81,84 @@ namespace Sprint2.Factory
 
 		public ISprite CreateSpriteFlute()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemFlute(itemSpriteContent["ItemFlute"]);
 		}
 
 
 		public ISprite CreateSpriteHeartContainer()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemHeartContainer(itemSpriteContent["ItemHeartContainer"]);
 		}
 
-		public ISprite CreateSpriteHeartKey()
+		public ISprite CreateSpriteKey()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemKey(itemSpriteContent["ItemKey"]);
 		}
 
 
 		public ISprite CreateSpriteLadder()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemLadder(itemSpriteContent["ItemLadder"]);
 		}
 
 		public ISprite CreateSpriteMagicBoomerang()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemMagicBoomerang(itemSpriteContent["ItemMagicBoomerang"]);
 		}
 
 		public ISprite CreateSpriteMagicRod()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemMagicRod(itemSpriteContent["ItemMagicRod"]);
 		}
 
 		public ISprite CreateSpriteMagicShield()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemMagicShield(itemSpriteContent["ItemMagicShield"]);
 		}
 
 		public ISprite CreateSpriteMap()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemMap(itemSpriteContent["ItemMap"]);
 		}
 
 		public ISprite CreateSpritePotionNote()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemPotionNote(itemSpriteContent["ItemPotionNote"]);
 		}
 
 		public ISprite CreateSpritePowerBracelet()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemPowerBracelet(itemSpriteContent["ItemPowerBracelet"]);
 		}
 		public ISprite CreateSpriteRaft()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemRaft(itemSpriteContent["ItemRaft"]);
 		}
 
 		public ISprite CreateSpriteRedPotion()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemRedPotion(itemSpriteContent["ItemRedPotion"]);
 		}
 
 		public ISprite CreateSpriteRupee()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemRupee(itemSpriteContent["ItemRupee"]);
 		}
 
 		public ISprite CreateSpriteSilverArrow()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemSilverArrow(itemSpriteContent["ItemSilverArrow"]);
 		}
 
 		public ISprite CreateSpriteWhiteSword()
 		{
-			//return new SpriteCandle ();
+			return new SpriteItemWhiteSword(itemSpriteContent["ItemWhiteSword"]);
 		}
 
 		public ISprite CreateSpriteWoodenArrow()
 		{
-			//return new SpriteCandle ();
-		} */
+			return new SpriteItemWoodenArrow(itemSpriteContent["ItemWoodenArrow"]);
+
+		}
 	}
 }

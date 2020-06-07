@@ -13,5 +13,6 @@ namespace Sprint2
 
         //Draws the sprite
         void Draw(SpriteBatch spriteBatch, Color color, Vector2 position);
+        void Draw(SpriteBatch spriteBatch, Color color, object location);
     }
 }
