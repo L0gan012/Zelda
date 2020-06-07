@@ -29,7 +29,6 @@ namespace Sprint2.Sprite
         {
             if (currentFrame < totalFrames)
             {
-                //TODO:(Barry) Testing - Sloppy
                 if (currentTick >= Constant.TicksPerFrameAttackSword)
                 {
                     currentTick = 0;
@@ -59,8 +58,8 @@ namespace Sprint2.Sprite
                    sourceRectangleAvatar = new Rectangle(272, 16, 16, 16);
                    destinationRectangleAvatar = new Rectangle((int)position.X, (int)position.Y, 16 * Constant.DisplayScaleX, 16 * Constant.DisplayScaleY);
 
-                   sourceRectangleWeapon = new Rectangle(272 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 11, 8);
-                   destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 11 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
+                   sourceRectangleWeapon = new Rectangle(272 + (int)weaponOffset.X, 16 + (int)weaponOffset.Y, 16, 8);
+                   destinationRectangleWeapon = new Rectangle((int)position.X + (int)weaponOffset.X * Constant.DisplayScaleX, (int)position.Y + (int)weaponOffset.Y * Constant.DisplayScaleY, 16 * Constant.DisplayScaleX, 8 * Constant.DisplayScaleY);
 
             }
 

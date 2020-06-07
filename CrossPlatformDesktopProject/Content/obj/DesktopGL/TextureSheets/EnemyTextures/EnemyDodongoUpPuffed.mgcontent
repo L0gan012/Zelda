@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.png</SourceFile>
-  <SourceTime>2020-06-03T21:15:00.0173727-04:00</SourceTime>
-  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.xnb</DestFile>
-  <DestTime>2020-06-06T17:31:50.1557958-04:00</DestTime>
+  <SourceFile>C:/Users/bbirs/source/repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.png</SourceFile>
+  <SourceTime>2020-06-07T13:29:19.6618655-04:00</SourceTime>
+  <DestFile>C:/Users/bbirs/source/repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.xnb</DestFile>
+  <DestTime>2020-06-07T14:13:56.6809403-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -71,7 +71,9 @@
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemWoodenSword.png</File>
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkPickupItemGreen.png</File>
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkSpriteSheet.png</File>
+    <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkSpriteSheet_NoSword.png</File>
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.png</File>
+    <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkSpriteSheetNoSword_Uncut.png</File>
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkUseItemDownGreen.png</File>
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkUseItemLeftGreen.png</File>
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkUseItemRightGreen.png</File>
@@ -143,6 +145,8 @@
     <File>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

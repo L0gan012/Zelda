@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.png</SourceFile>
-  <SourceTime>2020-06-04T00:04:34.5057828-04:00</SourceTime>
-  <DestFile>C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.xnb</DestFile>
-  <DestTime>2020-06-06T17:31:55.2586201-04:00</DestTime>
+  <SourceFile>C:/Users/bbirs/source/repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.png</SourceFile>
+  <SourceTime>2020-06-07T13:29:19.7025476-04:00</SourceTime>
+  <DestFile>C:/Users/bbirs/source/repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.xnb</DestFile>
+  <DestTime>2020-06-07T14:14:00.4300238-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

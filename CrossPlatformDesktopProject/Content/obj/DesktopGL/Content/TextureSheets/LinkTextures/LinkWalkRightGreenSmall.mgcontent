@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png</SourceFile>
-  <SourceTime>2020-06-07T13:29:19.6917586-04:00</SourceTime>
+  <SourceTime>2020-05-24T20:55:20.5316577-04:00</SourceTime>
   <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.xnb</DestFile>
-  <DestTime>2020-06-07T13:30:11.6208877-04:00</DestTime>
+  <DestTime>2020-06-07T14:15:23.0479406-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

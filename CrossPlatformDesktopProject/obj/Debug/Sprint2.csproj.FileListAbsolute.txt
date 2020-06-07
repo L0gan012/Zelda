@@ -307,3 +307,5 @@ C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug
 C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CopyComplete
 C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.exe
 C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.pdb
+C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheetNoSword_Uncut.xnb
+C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheet_NoSword.xnb
