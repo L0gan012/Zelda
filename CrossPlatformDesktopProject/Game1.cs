@@ -11,6 +11,7 @@ using Sprint2.Enemy_NPC;
 
 namespace Sprint2
 {
+
     public class Game1 : Game
     {
         //Instance variables

@@ -66,12 +66,13 @@ namespace Sprint2.Controller
         public void Update()
         {
             Keys[] pressedKeys = Keyboard.GetState().GetPressedKeys();
-            Keys prev = new Keys();
+            Keys prev = Keys.X;
 
             //if nothing is pressed, set player to be in an idle state, buggy with short animations
             if (pressedKeys.Length == 0)
             {
                 idle.Execute();
+                prev = Keys.X;
             }
             else
             {
