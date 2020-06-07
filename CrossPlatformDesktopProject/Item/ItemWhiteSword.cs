@@ -13,18 +13,21 @@ namespace Sprint2.Item
     {
         //Instance variables
         private ISprite sprite;
- 
+        private Color color;
+        private Vector2 location;
 
         public ItemWhiteSword()
         {
             //Load White Sword sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteWhiteSword();
+            location = Constant.ItemStartPosition;
+            color = new Color();
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             //Draw current item
-            sprite.Draw(spriteBatch);
+            sprite.Draw(spriteBatch, color, location);
         }
 
 

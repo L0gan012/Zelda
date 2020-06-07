@@ -13,17 +13,21 @@ namespace Sprint2.Item
     {
         //Instance variables
         private ISprite sprite;
+        private Vector2 location;
+        private Color color;
 
         public ItemMagicRod()
         {
             //Load Rod sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteMagicRod();
+            location = Constant.ItemStartPosition;
+            color = new Color();
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             //Draw current item
-            sprite.Draw(spriteBatch);
+            sprite.Draw(spriteBatch, color, location);
         }
 
 
