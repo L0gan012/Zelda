@@ -1,489 +1,648 @@
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZeldaDungeonLevel_1.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_Bosses.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_DungeonEnemies.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_ItemsWeapons.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_Link.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_NPCs.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_OverworldEnemies.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\FireAnimated.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileAquamentus.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileCandle.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileFire.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileFlame.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicBoomerang.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactNE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactNW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactSE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactSW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactNE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactNW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactSE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactSW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactNE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactNW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactSE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactSW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenBoomerang.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactNE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactNW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactSE.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactSW.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\FireIdle.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCfireIdle.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPColdman.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCvendor.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCzeldaGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\OldMan.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\Vendor.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\ZeldaAnimatedGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkPickupItemGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheet.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheet_Uncut.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemDownGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemLeftGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemRightGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemUpGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkDownGreenSmall.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkLeftGreenSmall.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkRightGreenSmall.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkUpGreen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBlueCandle.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBluePotion.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBlueRing.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBomb.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBow.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemClock.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemCompass.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFairy.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFiveRupee.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFlute.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemHeart.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemHeartContainer.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemKey.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemLadder.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicBoomerang.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicRod.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicShield.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMap.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemPotionNote.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemPowerBracelet.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRaft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRedPotion.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRupee.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemSilverArrow.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemTriforcePiece.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemTriforcePieceAnimated.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWhiteSword.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenArrow.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenBoomerang.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenSword.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyAquamentus.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyAquamentusMouthOpen.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoDownPuffed.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoLeftPuffed.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoRightPuffed.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoUpPuffed.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGel.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkDown.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkUp.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyKeese.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyRopeLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyRopeRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemySpikeCross.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyStalfos.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyWallmasterLeft.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyWallmasterRight.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyZol.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\BombedOpening.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Brick.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Gap.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Ladder.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\LockedDoor.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\OpenDoor.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\ShutDoor.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Square.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Stairs.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Statue.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Wall.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\Ethan.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\Fonts\Font.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Sprint2.exe
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Sprint2.pdb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CopyComplete
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.exe
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.pdb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileAfterBomb.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBomb.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombExplosion.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombOnly.xnb
-C:\Users\Terryls PC\source\repos\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPColdManIdle.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\FireAnimated.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileFire.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\FireIdle.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\OldMan.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\Vendor.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\ZeldaAnimatedGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemTriforcePieceAnimated.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZeldaDungeonLevel_1.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_Bosses.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_DungeonEnemies.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_ItemsWeapons.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_Link.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_NPCs.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_OverworldEnemies.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileAfterBomb.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileAquamentus.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBomb.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombExplosion.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombOnly.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileCandle.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileFlame.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicBoomerang.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactNE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactNW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactSE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactSW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactNE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactNW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactSE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactSW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactNE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactNW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactSE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactSW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenBoomerang.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactNE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactNW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactSE.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactSW.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCfireIdle.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPColdman.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPColdManIdle.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCvendor.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCzeldaGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkPickupItemGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheet.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheet_Uncut.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemDownGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemLeftGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemRightGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemUpGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkDownGreenSmall.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkLeftGreenSmall.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkRightGreenSmall.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkUpGreen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBlueCandle.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBluePotion.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBlueRing.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBomb.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBow.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemClock.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemCompass.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFairy.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFiveRupee.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFlute.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemHeart.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemHeartContainer.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemKey.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemLadder.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicBoomerang.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicRod.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicShield.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMap.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemPotionNote.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemPowerBracelet.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRaft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRedPotion.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRupee.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemSilverArrow.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemTriforcePiece.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWhiteSword.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenArrow.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenBoomerang.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenSword.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyAquamentus.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyAquamentusMouthOpen.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoDownPuffed.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoLeftPuffed.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoRightPuffed.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoUpPuffed.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGel.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkDown.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkUp.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyKeese.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyRopeLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyRopeRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemySpikeCross.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyStalfos.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyWallmasterLeft.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyWallmasterRight.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyZol.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\BombedOpening.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Brick.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Gap.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Ladder.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\LockedDoor.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\OpenDoor.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\ShutDoor.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Square.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Stairs.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Statue.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Wall.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\Ethan.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\Fonts\Font.xnb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Sprint2.exe
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Sprint2.pdb
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CopyComplete
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.exe
-C:\Users\bbirs\Source\Repos\L0gan012\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.pdb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\FireAnimated.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileFire.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\FireIdle.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\OldMan.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\Vendor.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\ZeldaAnimatedGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemTriforcePieceAnimated.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\soft_oal.dll
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\libSDL2-2.0.so.0
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\libSDL2-2.0.so.0
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x86\libopenal.so.1
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\x64\libopenal.so.1
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZeldaDungeonLevel_1.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_Bosses.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_DungeonEnemies.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_ItemsWeapons.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_Link.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_NPCs.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\SpriteSourceFiles\LegendOfZelda_OverworldEnemies.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileAfterBomb.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileAquamentus.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBomb.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombExplosion.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileBombOnly.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileCandle.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileFlame.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicBoomerang.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactNE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactNW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactSE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordBeamContactSW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileMagicSwordUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSilverArrowUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactNE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactNW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactSE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordBeamContactSW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileSwordUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactNE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactNW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactSE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordBeamContactSW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWhiteSwordUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenArrowUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenBoomerang.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactNE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactNW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactSE.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordBeamContactSW.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ProjectileTextures\ProjectileWoodenSwordUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCfireIdle.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPColdman.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPColdManIdle.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCvendor.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\NPCTextures\NPCzeldaGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkPickupItemGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheet.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkSpriteSheet_Uncut.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemDownGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemLeftGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemRightGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkUseItemUpGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkDownGreenSmall.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkLeftGreenSmall.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkRightGreenSmall.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\LinkTextures\LinkWalkUpGreen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBlueCandle.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBluePotion.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBlueRing.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBomb.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemBow.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemClock.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemCompass.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFairy.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFiveRupee.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemFlute.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemHeart.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemHeartContainer.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemKey.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemLadder.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicBoomerang.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicRod.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMagicShield.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemMap.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemPotionNote.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemPowerBracelet.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRaft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRedPotion.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemRupee.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemSilverArrow.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemTriforcePiece.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWhiteSword.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenArrow.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenBoomerang.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\ItemTextures\ItemWoodenSword.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyAquamentus.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyAquamentusMouthOpen.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoDownPuffed.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoLeftPuffed.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoRightPuffed.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyDodongoUpPuffed.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGel.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkDown.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyGoriyaWalkUp.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyKeese.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyRopeLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyRopeRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemySpikeCross.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyStalfos.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyWallmasterLeft.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyWallmasterRight.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\EnemyTextures\EnemyZol.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\BombedOpening.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Brick.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Gap.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Ladder.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\LockedDoor.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\OpenDoor.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\ShutDoor.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Square.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Stairs.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Statue.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\BlockTextures\Wall.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\Fonts\Font.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Content\TextureSheets\Ethan.xnb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Sprint2.exe
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\Sprint2.pdb
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csprojAssemblyReference.cache
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CoreCompileInputs.cache
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.csproj.CopyComplete
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.exe
-C:\Users\YU\repo\Zelda\CrossPlatformDesktopProject\obj\Debug\Sprint2.pdb
+<<<<<<< Updated upstream
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CoreCompileInputs.cache
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/FireAnimated.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAquamentus.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileCandle.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFire.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFlame.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenBoomerang.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSE.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSW.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/FireIdle.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCfireIdle.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdman.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCvendor.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCzeldaGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/OldMan.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/Vendor.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/ZeldaAnimatedGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkPickupItemGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemDownGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemLeftGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemRightGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkDownGreenSmall.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkUpGreen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueCandle.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBluePotion.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueRing.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBomb.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBow.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemClock.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemCompass.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFairy.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFiveRupee.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFlute.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeart.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeartContainer.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemKey.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemLadder.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicBoomerang.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicRod.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicShield.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMap.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPotionNote.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPowerBracelet.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRaft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRedPotion.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRupee.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemSilverArrow.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePiece.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePieceAnimated.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWhiteSword.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenArrow.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenBoomerang.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenSword.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentus.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentusMouthOpen.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDownPuffed.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRightPuffed.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGel.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkDown.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkUp.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyKeese.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemySpikeCross.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyStalfos.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterLeft.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterRight.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyZol.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/BombedOpening.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Brick.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Gap.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Ladder.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/LockedDoor.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/OpenDoor.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/ShutDoor.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Square.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Stairs.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Statue.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Wall.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/Ethan.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/Fonts/Font.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/SDL2.dll
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/SDL2.dll
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/soft_oal.dll
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/soft_oal.dll
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/libSDL2-2.0.so.0
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/libSDL2-2.0.so.0
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/libopenal.so.1
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/libopenal.so.1
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libSDL2-2.0.0.dylib
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libopenal.1.dylib
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll.config
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.exe
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.pdb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CopyComplete
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.exe
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.pdb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csprojAssemblyReference.cache
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAfterBomb.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBomb.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombExplosion.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombOnly.xnb
+C:/Users/Terryls PC/source/repos/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdManIdle.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/FireAnimated.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFire.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/FireIdle.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/OldMan.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/Vendor.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/ZeldaAnimatedGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePieceAnimated.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/SDL2.dll
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/SDL2.dll
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/soft_oal.dll
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/soft_oal.dll
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/libSDL2-2.0.so.0
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/libSDL2-2.0.so.0
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/libopenal.so.1
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/libopenal.so.1
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libSDL2-2.0.0.dylib
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libopenal.1.dylib
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll.config
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAfterBomb.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAquamentus.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBomb.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombExplosion.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombOnly.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileCandle.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFlame.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenBoomerang.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSE.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSW.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCfireIdle.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdman.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdManIdle.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCvendor.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCzeldaGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkPickupItemGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemDownGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemLeftGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemRightGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkDownGreenSmall.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkUpGreen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueCandle.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBluePotion.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueRing.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBomb.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBow.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemClock.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemCompass.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFairy.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFiveRupee.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFlute.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeart.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeartContainer.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemKey.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemLadder.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicBoomerang.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicRod.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicShield.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMap.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPotionNote.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPowerBracelet.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRaft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRedPotion.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRupee.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemSilverArrow.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePiece.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWhiteSword.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenArrow.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenBoomerang.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenSword.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentus.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentusMouthOpen.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDownPuffed.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRightPuffed.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGel.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkDown.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkUp.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyKeese.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemySpikeCross.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyStalfos.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterLeft.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterRight.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyZol.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/BombedOpening.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Brick.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Gap.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Ladder.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/LockedDoor.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/OpenDoor.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/ShutDoor.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Square.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Stairs.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Statue.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Wall.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/Ethan.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/Fonts/Font.xnb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.exe
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.pdb
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csprojAssemblyReference.cache
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CoreCompileInputs.cache
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CopyComplete
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.exe
+C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.pdb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/FireAnimated.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFire.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/FireIdle.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/OldMan.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/Vendor.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/ZeldaAnimatedGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePieceAnimated.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/SDL2.dll
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/SDL2.dll
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/soft_oal.dll
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/soft_oal.dll
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/libSDL2-2.0.so.0
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/libSDL2-2.0.so.0
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x86/libopenal.so.1
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/x64/libopenal.so.1
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libSDL2-2.0.0.dylib
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libopenal.1.dylib
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll.config
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAfterBomb.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAquamentus.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBomb.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombExplosion.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombOnly.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileCandle.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFlame.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenBoomerang.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSE.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSW.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCfireIdle.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdman.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdManIdle.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCvendor.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCzeldaGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkPickupItemGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemDownGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemLeftGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemRightGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkDownGreenSmall.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkUpGreen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueCandle.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBluePotion.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueRing.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBomb.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBow.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemClock.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemCompass.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFairy.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFiveRupee.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFlute.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeart.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeartContainer.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemKey.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemLadder.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicBoomerang.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicRod.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicShield.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMap.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPotionNote.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPowerBracelet.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRaft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRedPotion.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRupee.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemSilverArrow.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePiece.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWhiteSword.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenArrow.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenBoomerang.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenSword.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentus.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentusMouthOpen.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDownPuffed.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRightPuffed.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGel.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkDown.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkUp.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyKeese.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemySpikeCross.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyStalfos.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterLeft.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterRight.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyZol.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/BombedOpening.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Brick.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Gap.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Ladder.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/LockedDoor.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/OpenDoor.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/ShutDoor.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Square.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Stairs.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Statue.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Wall.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/Fonts/Font.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/Ethan.xnb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.exe
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.pdb
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csprojAssemblyReference.cache
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CoreCompileInputs.cache
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CopyComplete
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.exe
+C:/Users/YU/repo/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.pdb
+=======
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePieceAnimated.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFire.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/FireAnimated.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/Vendor.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/ZeldaAnimatedGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/FireIdle.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/OldMan.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libSDL2-2.0.0.dylib
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/libopenal.1.dylib
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll.config
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPowerBracelet.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMap.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRaft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicRod.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemTriforcePiece.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenSword.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBluePotion.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueRing.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicShield.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemClock.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemMagicBoomerang.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenBoomerang.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBow.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBlueCandle.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemKey.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeart.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemHeartContainer.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemLadder.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemSilverArrow.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemCompass.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRupee.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFairy.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFlute.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemFiveRupee.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemPotionNote.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWoodenArrow.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemBomb.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemWhiteSword.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ItemTextures/ItemRedPotion.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/BombedOpening.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/ShutDoor.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Ladder.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/OpenDoor.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/LockedDoor.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Gap.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Statue.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Wall.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Stairs.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Brick.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/BlockTextures/Square.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAquamentus.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactSW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactNE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileFlame.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactNE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombOnly.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactSE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBombExplosion.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSilverArrowRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordBeamContactNW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordBeamContactSE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileSwordRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileAfterBomb.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNW.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordBeamContactSE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWhiteSwordBeamContactNE.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileCandle.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenSwordRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileBomb.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenBoomerang.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/ProjectileTextures/ProjectileWoodenArrowRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_DungeonEnemies.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_ItemsWeapons.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_NPCs.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Link.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_OverworldEnemies.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZelda_Bosses.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/SpriteSourceFiles/LegendOfZeldaDungeonLevel_1.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemDownGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemRightGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemUpGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkUpGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkPickupItemGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkUseItemLeftGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkRightGreenSmall.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkDownGreenSmall.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCvendor.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdman.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCfireIdle.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPColdManIdle.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/NPCTextures/NPCzeldaGreen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentus.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUpPuffed.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyKeese.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyAquamentusMouthOpen.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRightPuffed.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyRopeRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkLeft.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkUp.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGoriyaWalkRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyZol.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyStalfos.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDown.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyGel.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemySpikeCross.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoDownPuffed.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyWallmasterRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoRight.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/EnemyTextures/EnemyDodongoLeftPuffed.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/TextureSheets/Ethan.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Content/Fonts/Font.xnb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.dll
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/MonoGame.Framework.xml
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csprojAssemblyReference.cache
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CoreCompileInputs.cache
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.csproj.CopyComplete
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.exe
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/obj/Debug/Sprint2.pdb
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.exe
+/Users/smith/Downloads/OSU/3902/Zelda/CrossPlatformDesktopProject/bin/DesktopGL/AnyCPU/Debug/Sprint2.pdb
+>>>>>>> Stashed changes
