@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Map sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteMap();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

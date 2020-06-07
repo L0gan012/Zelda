@@ -21,7 +21,7 @@ namespace Sprint2.Item
            //Load heart sprite
            sprite = ItemsSpriteFactory.Instance.CreateSpriteHeartContainer();
            location = Constant.ItemStartPosition;
-           color = new Color();
+           color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

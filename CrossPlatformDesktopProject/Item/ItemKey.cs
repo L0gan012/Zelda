@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Key sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteKey();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

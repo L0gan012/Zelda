@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Raft sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteRaft();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

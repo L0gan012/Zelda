@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Compass sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteCompass();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

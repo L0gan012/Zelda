@@ -13,17 +13,21 @@ namespace Sprint2.Item
     {
         //Instance variables
         private ISprite sprite;
+        private Vector2 location;
+        private Color color;
 
         public ItemMagicBoomerang()
         {
             //Load Boomerang sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteMagicBoomerang();
+            color = Color.White;
+            location = Constant.ItemStartPosition;
         }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             //Draw current item
-            sprite.Draw(spriteBatch);
+            sprite.Draw(spriteBatch, color, location);
         }
 
 

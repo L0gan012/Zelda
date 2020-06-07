@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Silver Arrow sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteSilverArrow();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

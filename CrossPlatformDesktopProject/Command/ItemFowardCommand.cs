@@ -22,7 +22,7 @@ namespace Sprint2.Command
 
         public void Execute()
         {
-            if (this.game.ItemListPosition < this.game.ListOfItems.Count) 
+            if (this.game.ItemListPosition < this.game.ListOfItems.Count - 1) 
             { 
                 this.game.ItemListPosition++; 
             }

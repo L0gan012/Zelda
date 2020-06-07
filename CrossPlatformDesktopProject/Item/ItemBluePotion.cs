@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Blue Potion sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteBluePotion();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

@@ -22,7 +22,7 @@ namespace Sprint2.Command
 
         public void Execute()
         {
-            if (this.game.EnemyListPosition < this.game.ListOfEnemies.Count) 
+            if (this.game.EnemyListPosition < this.game.ListOfEnemies.Count - 1) 
             { 
                 this.game.EnemyListPosition++; 
             }

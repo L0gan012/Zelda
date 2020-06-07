@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Ladder sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteLadder();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

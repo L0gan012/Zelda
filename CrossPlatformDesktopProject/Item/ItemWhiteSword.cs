@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load White Sword sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteWhiteSword();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

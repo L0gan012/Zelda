@@ -19,7 +19,7 @@ namespace Sprint2.Command
 
         public void Execute()
         {
-            if (this.game.BlockListPosition < this.game.ListOfBlocks.Count)
+            if (this.game.BlockListPosition < this.game.ListOfBlocks.Count - 1)
             {
                 this.game.BlockListPosition++;
             }

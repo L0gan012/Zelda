@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Clock sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteClock();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

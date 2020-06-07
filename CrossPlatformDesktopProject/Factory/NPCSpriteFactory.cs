@@ -11,7 +11,9 @@ namespace Sprint2
 {
 	public class NPCSpriteFactory
 	{
-		private Texture2D enemySpritesheet;
+		//Instance variables
+		//Dictionary populated with TextureContent class
+		private Dictionary<string, Texture2D> npcSpriteContent;
 		private static NPCSpriteFactory instance = new NPCSpriteFactory();
 
 
@@ -25,18 +27,18 @@ namespace Sprint2
 
 		private NPCSpriteFactory()
 		{
+
 		}
 
 		public void LoadAllTextures(ContentManager content)
 		{
-			//enemySpritesheet = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/EnemyTextures");
-
+			npcSpriteContent = TextureContent.LoadListContent<Texture2D>(content, "TextureSheets/EnemyTextures");
 		}
 
-		public ISprite createNPCOldMan()
+		/*public ISprite createNPCOldMan()
         {
-			throw new NotImplementedException();
-        }
+			//return new 
+		}*/
 
 	}
 }

@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Blue Ring sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteBlueRing();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
 
         }
 

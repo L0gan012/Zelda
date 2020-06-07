@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Rupee sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteRupee();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

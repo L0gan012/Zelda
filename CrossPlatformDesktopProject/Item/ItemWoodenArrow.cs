@@ -21,7 +21,8 @@ namespace Sprint2.Item
             //Load wooden arrow sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteWoodenArrow();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = color = Color.White;
+
         }
 
         public void Draw(SpriteBatch spriteBatch)

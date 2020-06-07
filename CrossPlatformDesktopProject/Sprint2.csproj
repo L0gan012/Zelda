@@ -62,8 +62,10 @@
     <Compile Include="Enemy_NPC\Aquamentus\MouthClosedAquamentusState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\MouthOpenAquamentusState.cs" />
     <Compile Include="Enemy_NPC\Aquamentus\Aquamentus.cs" />
+    <Compile Include="Enemy_NPC\Gel\Gel.cs" />
     <Compile Include="Enemy_NPC\IEnemy.cs" />
     <Compile Include="Enemy_NPC\EnemyLoadAllContent.cs" />
+    <Compile Include="Enemy_NPC\Keese\Keese.cs" />
     <Compile Include="Factory\EnemySpriteFactory.cs" />
     <Compile Include="Factory\BlockSpriteFactory.cs" />
     <Compile Include="Factory\ItemsSpriteFactory.cs" />

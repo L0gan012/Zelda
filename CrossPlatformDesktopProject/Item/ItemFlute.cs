@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load flute sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpriteFlute();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

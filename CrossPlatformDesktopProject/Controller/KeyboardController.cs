@@ -50,8 +50,8 @@ namespace Sprint2.Controller
             commandDictionary.Add(Keys.U, new ItemBackCommand(game));
 
             //enemy and npc commands
-            commandDictionary.Add(Keys.O, new EnemyFowardCommand(game));
-            commandDictionary.Add(Keys.P, new EnemyBackCommand(game));
+            commandDictionary.Add(Keys.P, new EnemyFowardCommand(game));
+            commandDictionary.Add(Keys.O, new EnemyBackCommand(game));
 
             //block commands
             commandDictionary.Add(Keys.T, new BlockBackCommand(game));

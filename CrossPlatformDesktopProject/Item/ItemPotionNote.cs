@@ -21,7 +21,7 @@ namespace Sprint2.Item
             //Load Potion Note sprite
             sprite = ItemsSpriteFactory.Instance.CreateSpritePotionNote();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

@@ -16,13 +16,11 @@ namespace Sprint2.Item
         private Vector2 location;
         private Color color;
 
-
-
         public ItemBlueCandle()
         {
             sprite = ItemsSpriteFactory.Instance.CreateSpriteBlueCandle();
             location = Constant.ItemStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Draw(SpriteBatch spriteBatch)

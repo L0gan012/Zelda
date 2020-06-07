@@ -12,9 +12,9 @@ namespace Sprint2.Enemy
 
         public OldMan()
         {
-            sprite = NPCSpriteFactory.Instance.createNPCOldMan();
+            //sprite = NPCSpriteFactory.Instance.createNPCOldMan();
             location = Constant.EnemyStartPosition;
-            color = new Color();
+            color = Color.White;
         }
 
         public void Update()
