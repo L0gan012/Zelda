@@ -65,7 +65,7 @@ namespace Sprint2.Factory
 
 		public ISprite CreateMovingDownLinkGreenSprite()
 		{
-			return new SpriteLinkGetItem(linkSpritesheet);
+			return new SpriteLinkWalkDownGreen(linkSpritesheet);
 		}
 
 		public ISprite CreateAttackingLeftLinkGreenSprite()
