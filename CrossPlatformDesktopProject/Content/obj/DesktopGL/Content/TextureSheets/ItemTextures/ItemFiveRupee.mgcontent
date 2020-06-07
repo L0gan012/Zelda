@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemFiveRupee.png</SourceFile>
-  <SourceTime>2020-06-07T13:04:01.876641-04:00</SourceTime>
-  <DestFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ItemTextures/ItemFiveRupee.xnb</DestFile>
-  <DestTime>2020-06-07T13:05:14.200266-04:00</DestTime>
+  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ItemTextures/ItemFiveRupee.png</SourceFile>
+  <SourceTime>2020-06-07T13:29:19.6756226-04:00</SourceTime>
+  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ItemTextures/ItemFiveRupee.xnb</DestFile>
+  <DestTime>2020-06-07T13:30:09.2238304-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

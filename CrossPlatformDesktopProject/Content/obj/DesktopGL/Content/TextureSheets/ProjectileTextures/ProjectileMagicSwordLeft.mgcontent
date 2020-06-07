@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.png</SourceFile>
-  <SourceTime>2020-06-07T13:04:01.8955907-04:00</SourceTime>
-  <DestFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.xnb</DestFile>
-  <DestTime>2020-06-07T13:05:16.2456265-04:00</DestTime>
+  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.png</SourceFile>
+  <SourceTime>2020-06-07T13:29:19.7006788-04:00</SourceTime>
+  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ProjectileTextures/ProjectileMagicSwordLeft.xnb</DestFile>
+  <DestTime>2020-06-07T13:30:12.1798205-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
