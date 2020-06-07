@@ -22,6 +22,10 @@ namespace Sprint2
         //Updates the State
         public void Update()
         {
+            if (link.Position.X < Constant.ScreenWidth)
+            {
+                link.Position = new Vector2(link.Position.X + 1, link.Position.Y);
+            }
             sprite.Update();
         }
 
