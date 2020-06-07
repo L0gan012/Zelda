@@ -10,7 +10,7 @@ namespace Sprint2
         private static Game1 game;
         private static ILinkState state;
         private IItem item;
-        private static Vector2 position;
+        public Vector2 Position { get; set; }
         private static Color color;
 
         //Properties
@@ -26,18 +26,13 @@ namespace Sprint2
             set { item = value; }
         }
 
-        public Vector2 Position
-        {
-            get { return position; }
-            set { position = value; }
-        }
 
         //No parameter constructor, initializes Link to the down idle state
         public Link(Game1 game)
         {
             //Can change starting position later
             Link.game = game;
-            position = Constant.LinkStartPosition;
+            Position = Constant.LinkStartPosition;
 
             state = new IdleLinkDownState(this);
             color = Color.White;
@@ -82,10 +77,7 @@ namespace Sprint2
         {
             state.MoveLinkLeft();
 
-            while (position.X > 0)
-            {
-                position.X--;
-            }
+            
         }
 
         //Moves Link right
@@ -93,10 +85,6 @@ namespace Sprint2
         {
             state.MoveLinkRight();
 
-            while (position.X < Constant.ScreenWidth)
-            {
-                position.X++;
-            }
         }
 
         //Moves Link up
@@ -104,10 +92,6 @@ namespace Sprint2
         {
             state.MoveLinkUp();
 
-            while (position.Y > 0)
-            {
-                position.Y--;
-            }
         }
 
         //Moves Link down
@@ -115,10 +99,6 @@ namespace Sprint2
         {
             state.MoveLinkDown();
 
-            while (position.Y < Constant.ScreenHeight)
-            {
-                position.Y++;
-            }
         }
     }
 }
