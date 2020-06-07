@@ -75,6 +75,22 @@ namespace Sprint2
             //Loads sprite content for link
             LinkSpriteFactory.Instance.LoadAllTextures(Content);
 
+            //Initializes items objects
+            Items = new List<IItem>();
+            ItemLoader = new ItemLoadAllContent(this);
+
+            //Initializes enemy and npc objects
+            Enemies = new List<INPC>();
+            EnemyLoader = new EnemyLoadAllContent(this);
+
+            //Initializes blocks object
+            Blocks = new List<IBlock>();
+            BlockLoader = new BlockLoadAllContent(this);
+
+            //Initializes player object
+            Link = new Link(this);
+
+            //Initializes list position
             ICommand reset = new ResetCommand(this);
             reset.Execute();
             
