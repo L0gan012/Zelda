@@ -11,12 +11,14 @@ namespace Sprint2.Controller
         private Dictionary<Keys, ICommand> commandDictionary;
         private ICommand idle;
         private Game1 game;
+        private Keys prev;
 
         //Constructor with game instance parameter
         public KeyboardController(Game1 game)
         {
             commandDictionary = new Dictionary<Keys, ICommand>();
             this.game = game;
+            prev = Keys.X;
         }
 
         /// <summary>
@@ -66,7 +68,7 @@ namespace Sprint2.Controller
         public void Update()
         {
             Keys[] pressedKeys = Keyboard.GetState().GetPressedKeys();
-            Keys prev = Keys.X;
+            
 
             //if nothing is pressed, set player to be in an idle state, buggy with short animations
             if (pressedKeys.Length == 0)
