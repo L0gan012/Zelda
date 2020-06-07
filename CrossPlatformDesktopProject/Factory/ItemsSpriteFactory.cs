@@ -72,7 +72,7 @@ namespace Sprint2.Factory
 
 		public ISprite CreateSpriteCompass()
 		{
-			return new SpriteItemCompass(itemSpriteContent["ItemClock"]);
+			return new SpriteItemCompass(itemSpriteContent["ItemCompass"]);
 		}
 		public ISprite CreateSpriteFairy()
 		{
