@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Content"
+    "\\CrossPlatformDesktopProject\\Factory",
+    "\\CrossPlatformDesktopProject\\Link States",
+    "\\CrossPlatformDesktopProject\\Sprite"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Content\\obj",
   "PreviewInSolutionExplorer": false
 }

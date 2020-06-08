@@ -20,6 +20,9 @@ namespace Sprint2
         //Exits the game
         public void Execute()
         {
+            //Initializes player object
+            game.Link = new Link(game);
+
             this.game.ItemListPosition = 0;
 
             this.game.EnemyListPosition = 0;

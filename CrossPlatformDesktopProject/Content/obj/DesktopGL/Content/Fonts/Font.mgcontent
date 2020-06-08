@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</SourceFile>
-  <SourceTime>2020-06-07T13:04:01.8606832-04:00</SourceTime>
-  <DestFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/Fonts/Font.xnb</DestFile>
-  <DestTime>2020-06-07T13:05:13.5323897-04:00</DestTime>
+  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/Fonts/Font.spritefont</SourceFile>
+  <SourceTime>2020-06-07T13:29:19.6489843-04:00</SourceTime>
+  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/Fonts/Font.xnb</DestFile>
+  <DestTime>2020-06-07T13:30:07.5033916-04:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

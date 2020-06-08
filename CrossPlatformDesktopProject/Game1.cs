@@ -87,8 +87,7 @@ namespace Sprint2
             Blocks = new List<IBlock>();
             BlockLoader = new BlockLoadAllContent(this);
 
-            //Initializes player object
-            Link = new Link(this);
+           
 
             //Initializes list position
             ICommand reset = new ResetCommand(this);

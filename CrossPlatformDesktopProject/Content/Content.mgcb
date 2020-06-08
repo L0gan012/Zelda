@@ -800,6 +800,18 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkPickupItemGreen.png
 
+#begin TextureSheets/LinkTextures/LinkPickupItemGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkPickupItemGreen.png
+
 #begin TextureSheets/LinkTextures/LinkSpriteSheet.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -812,6 +824,30 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkSpriteSheet.png
 
+#begin TextureSheets/LinkTextures/LinkSpriteSheet.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkSpriteSheet.png
+
+#begin TextureSheets/LinkTextures/LinkSpriteSheet_NoSword.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkSpriteSheet_NoSword.png
+
 #begin TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -823,6 +859,42 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.png
+
+#begin TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkSpriteSheet_Uncut.png
+
+#begin TextureSheets/LinkTextures/LinkSpriteSheetNoSword_Uncut.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkSpriteSheetNoSword_Uncut.png
+
+#begin TextureSheets/LinkTextures/LinkUseItemDownGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkUseItemDownGreen.png
 
 #begin TextureSheets/LinkTextures/LinkUseItemDownGreen.png
 /importer:TextureImporter
@@ -848,6 +920,18 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkUseItemLeftGreen.png
 
+#begin TextureSheets/LinkTextures/LinkUseItemLeftGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkUseItemLeftGreen.png
+
 #begin TextureSheets/LinkTextures/LinkUseItemRightGreen.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -859,6 +943,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkUseItemRightGreen.png
+
+#begin TextureSheets/LinkTextures/LinkUseItemRightGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkUseItemRightGreen.png
+
+#begin TextureSheets/LinkTextures/LinkUseItemUpGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkUseItemUpGreen.png
 
 #begin TextureSheets/LinkTextures/LinkUseItemUpGreen.png
 /importer:TextureImporter
@@ -884,6 +992,30 @@
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkWalkDownGreenSmall.png
 
+#begin TextureSheets/LinkTextures/LinkWalkDownGreenSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkDownGreenSmall.png
+
+#begin TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.png
+
 #begin TextureSheets/LinkTextures/LinkWalkLeftGreenSmall.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -907,6 +1039,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png
+
+#begin TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkRightGreenSmall.png
+
+#begin TextureSheets/LinkTextures/LinkWalkUpGreen.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:TextureSheets/LinkTextures/LinkWalkUpGreen.png
 
 #begin TextureSheets/LinkTextures/LinkWalkUpGreen.png
 /importer:TextureImporter

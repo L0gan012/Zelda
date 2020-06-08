@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.png</SourceFile>
-  <SourceTime>2020-06-07T13:04:01.8935956-04:00</SourceTime>
-  <DestFile>C:/Users/Logan/Source/Repos/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.xnb</DestFile>
-  <DestTime>2020-06-07T13:05:16.1478808-04:00</DestTime>
+  <SourceFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.png</SourceFile>
+  <SourceTime>2020-06-07T13:29:19.6985584-04:00</SourceTime>
+  <DestFile>C:/Users/bbirs/Source/Repos/L0gan012/Zelda/CrossPlatformDesktopProject/Content/bin/DesktopGL/Content/TextureSheets/ProjectileTextures/ProjectileMagicBoomerang.xnb</DestFile>
+  <DestTime>2020-06-07T13:30:12.0134755-04:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
