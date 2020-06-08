@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\CrossPlatformDesktopProject",
-    "\\CrossPlatformDesktopProject\\Factory",
-    "\\CrossPlatformDesktopProject\\Link States",
-    "\\CrossPlatformDesktopProject\\Sprite"
+    "\\CrossPlatformDesktopProject\\Content"
   ],
-  "SelectedNode": "\\CrossPlatformDesktopProject\\Sprite\\SpriteProjectileWoodenArrowLeft.cs",
+  "SelectedNode": "\\CrossPlatformDesktopProject\\Content\\obj",
   "PreviewInSolutionExplorer": false
 }
