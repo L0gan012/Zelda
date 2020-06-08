@@ -29,7 +29,7 @@ namespace Sprint2.Sprite
         {
             if (currentFrame < totalFrames)
             {
-                //TODO:(Barry) Testing - Sloppy
+
                 if (currentTick >= Constant.TicksPerFrameAttackSword)
                 {
                     currentTick = 0;
@@ -49,8 +49,6 @@ namespace Sprint2.Sprite
             Rectangle destinationRectangleAvatar;
             Rectangle sourceRectangleWeapon;
             Rectangle destinationRectangleWeapon;
-            //Rectangle sourceRectangleProjectile;
-            //Rectangle destinationRectangleProjectile;
 
 
 
