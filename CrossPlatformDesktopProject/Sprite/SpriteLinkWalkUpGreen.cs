@@ -55,7 +55,7 @@ namespace Sprint2.Sprite
             }
 
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, Color.White);
+            spriteBatch.Draw(texture, destinationRectangle, sourceRectangle, color);
             spriteBatch.End();
 
 

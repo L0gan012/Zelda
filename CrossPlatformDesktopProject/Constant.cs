@@ -25,7 +25,7 @@ namespace Sprint2
         public static readonly int DisplayScaleY = 3;
 
         //Link Damaged time
-        public static readonly int DamagedTime = 1000;
+        public static readonly int DamagedTime = 25;
 
         //random number generator
         public static readonly Random RNG = new Random();
