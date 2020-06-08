@@ -43,6 +43,11 @@ namespace Sprint2.Controller
             commandDictionary.Add(Keys.A, new MoveLeftCommand(game));
             commandDictionary.Add(Keys.D, new MoveRightCommand(game));
 
+            //use differnt item command
+            commandDictionary.Add(Keys.D1, new UseItemCommand(game));
+            commandDictionary.Add(Keys.D2, new UseItemCommand(game));
+            commandDictionary.Add(Keys.D3, new UseItemCommand(game));
+
             //attack commands
             commandDictionary.Add(Keys.Z, new AttackCommand(game));
             commandDictionary.Add(Keys.N, new AttackCommand(game));
@@ -59,6 +64,7 @@ namespace Sprint2.Controller
             commandDictionary.Add(Keys.T, new BlockBackCommand(game));
             commandDictionary.Add(Keys.Y, new BlockFowardCommand(game));
 
+            //damage link command
             commandDictionary.Add(Keys.E, new DamageCommand(game));
 
             this.idle = new SetIdleCommand(game);

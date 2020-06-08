@@ -106,6 +106,9 @@ namespace Sprint2
             //Loads sprite content for items
             ItemsSpriteFactory.Instance.LoadAllTextures(Content);
 
+            //Load sprite content for projectiles
+            ProjectileSpriteFactory.Instance.LoadAllTextures(Content);
+
             //Enemy sprite content for items
             EnemySpriteFactory.Instance.LoadAllTextures(Content);
 
@@ -156,6 +159,9 @@ namespace Sprint2
             //Set background color
             GraphicsDevice.Clear(Color.White);
 
+            //Draws link
+            link.Draw(spriteBatch);
+
             //Draws Items
             Items[ItemListPosition].Draw(spriteBatch);
 
@@ -164,9 +170,6 @@ namespace Sprint2
 
             //Draw blocks
             Blocks[BlockListPosition].Draw(spriteBatch, new Vector2(100, 100));
-
-            //Draws link
-            link.Draw(spriteBatch);
 
             base.Draw(gameTime);
         }

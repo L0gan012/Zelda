@@ -1,0 +1,20 @@
+Author of the code review
+	Terryl Rumph
+Date of the code review
+	06/07/19
+Sprint number
+	2
+Name of the .cs file being reviewed
+	DamageLink.cs
+Author of the .cs file being reviewed
+	Logan Sauer
+Number of minutes taken to complete the review
+	10
+Specific comments on what is readable and what is not
+	What is readable: Every thing is very readable. There are enough comments to indicate what is happening with the code.
+The fields/method are uniquely named in order to under what that method/fields are doing.
+Name conventations match the standards of c#. 
+	What is not readable: Most of everything is readable. Although I would have like if a switch case was used in the update method
+I probably would have also like if some of the code could be factored out. It looks like it may be doing two different things
+that are similar but not as much. I think seperating the code for identifing the "Color" into another method would 
+give the method high cohesion.
